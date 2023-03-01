@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º Periodo.`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Educação financeira e as consequências causadas por falta dela. Por falta de uma educação financeira adequada, acaba levando a uma série de problemas como endividamento, falta de planejamento financeiro e consumos desenfreados, afentando as pessoas a todo momento.
 
 ## Integrantes
 
