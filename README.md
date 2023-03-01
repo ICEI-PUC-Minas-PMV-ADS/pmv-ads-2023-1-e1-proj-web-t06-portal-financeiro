@@ -13,7 +13,7 @@ Educação financeira e as consequências causadas por falta dela. Por falta de 
 * Fernando Anísio Goulart Pereira
 * Luiz Nader Arruda Junior
 * Lucy
-* Nome completo do aluno 4
+* Gleyston Guimarães Silva
 
 ## Orientador
 
