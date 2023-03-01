@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Fernando Anísio Goulart Pereira
 * Luiz Nader Arruda Junior
-* Nome completo do aluno 3
+* Lucy
 * Nome completo do aluno 4
 
 ## Orientador
