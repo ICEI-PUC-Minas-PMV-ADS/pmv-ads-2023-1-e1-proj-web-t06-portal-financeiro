@@ -10,6 +10,7 @@ Educação financeira e as consequências causadas por falta dela. Por falta de 
 
 ## Integrantes
 
+*George Lucas Sales De Matos
 * Fernando Anísio Goulart Pereira
 * Luiz Nader Arruda Junior
 * Lucy
