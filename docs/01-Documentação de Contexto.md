@@ -49,7 +49,7 @@ A falta de controle financeiro tem causado cada vez mais o aumento da taxa de en
  Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para pessoas de diversas rendas, principalmente as que recebem menos de 3 salários-mínimos, o que cria a necessidade de um portal acessível.
 
 
-> **Referência*:
+> **Referência**:
 > - [Endividamento em 2022 chega a nível histórico e atinge 77,9% da população](https://www.em.com.br/app/noticia/economia/2023/01/19/internas_economia,1446752/endividamento-em-2022-chega-a-nivel-historico-e-atinge-77-9-da-populacao.shtml)
 > - [Famílias de baixa e de alta renda entram em 2023 mais endividadas, diz CNC](https://www.infomoney.com.br/minhas-financas/familias-de-baixa-e-de-alta-renda-entram-em-2023-mais-endividadas-diz-cnc/)
 
