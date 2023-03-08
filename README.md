@@ -1,12 +1,12 @@
 # PORTAL FINANCEIRO
 
-`CURSO: Analise e Desenvolvimento de Sistemas.`
+>`CURSO: Analise e Desenvolvimento de Sistemas.`
 
-`DISCIPLINA: Desenvolvimento de Aplicação Web Front-End.`
+>`DISCIPLINA: Desenvolvimento de Aplicação Web Front-End.`
 
-`SEMESTRE: 1º Periodo.`
+>`SEMESTRE: 1º Periodo.`
 
-Educação financeira e as consequências causadas por falta dela. Por falta de uma educação financeira adequada, acaba levando a uma série de problemas como endividamento, falta de planejamento financeiro e consumos desenfreados, afentando as pessoas a todo momento.
+Educação financeira e as consequências causadas por falta dela. Pela carência de uma educação financeira adequada, acaba levando a uma série de problemas como endividamento, falta de planejamento financeiro e consumos desenfreados, afentando as pessoas a todo momento.
 
 ## Integrantes
 
@@ -26,7 +26,7 @@ Educação financeira e as consequências causadas por falta dela. Por falta de 
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-# Documentação
+## Documentação
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
