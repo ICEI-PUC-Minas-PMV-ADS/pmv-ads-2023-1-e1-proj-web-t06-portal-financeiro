@@ -55,7 +55,7 @@ A falta de controle financeiro tem causado cada vez mais o aumento da taxa de en
 
 ## Público-Alvo
 
-O público-alvo deste projeto são pessoas interessadas em adquirir um produto que as auxilie de forma simples a gerenciar suas finanças e (...)
+O público-alvo deste projeto são pessoas interessadas em adquirir um produto que as auxilie de forma simples a gerenciar suas finanças e tomar decisões mais informadas sobre seus investimentos, gastos e economias.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
