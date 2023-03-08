@@ -8,7 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<img align="left" width="180px" style="margin:-5px 1em 0 auto" src="https://cdn.discordapp.com/attachments/1033185850672038010/1082853239684345966/persona1_2.png">  Carolina Silva, recém-formada no ensino médio aos 18 anos, conseguiu um emprego como jovem aprendiz com uma remuneração de R$ 700 por mês. Ela decidiu iniciar um curso técnico de enfermagem na cidade do Rio de Janeiro, onde mora com seus avós. Carolina adora ir ao shopping com as amigas para fazer compras e mexer no celular.
+
+No primeiro mês do curso técnico, ela atrasou o pagamento da mensalidade, gerando multa e precisando pedir dinheiro emprestado aos avôs. Por conta disso, Carolina começou a fazer bicos como atendente de restaurante aos domingos para devolver o dinheiro emprestado. Preocupada com seus gastos, conversou com seu avô, que recomendou que ela anotasse seus gastos em um caderno. No primeiro mês, ela conseguiu seguir a dica, mas no mês seguinte acabou esquecendo e gastando mais do que deveria, novamente atrasando a mensalidade.
+
+Diante disso, Carolina percebeu que tinha muita dificuldade em lembrar de anotar em seu caderno e precisou procurar uma maneira de manter constante seu controle de gastos. Portanto, um site de controle de gastos poderia ajudá-la a suprir sua necessidade.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
