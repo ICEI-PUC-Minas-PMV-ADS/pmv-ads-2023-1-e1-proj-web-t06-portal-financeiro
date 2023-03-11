@@ -4,7 +4,7 @@
 
 >`DISCIPLINA: Desenvolvimento de Aplicação Web Front-End.`
 
->`SEMESTRE: 1º Periodo`
+>`SEMESTRE: 1º Periodo.`
 
 Educação financeira e as consequências causadas por falta dela. Pela carência de uma educação financeira adequada, acaba levando a uma série de problemas como endividamento, falta de planejamento financeiro e consumos desenfreados, afentando as pessoas a todo momento.
 
