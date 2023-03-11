@@ -13,7 +13,7 @@ A educação financeira não se trata apenas de economizar dinheiro, mas de gara
 
 ## Problema
 
-Considerando que a grande maioria das pessoas não tiveram acesso a conteúdos de educação financeira e as consequências negativas causada por isso, o que se busca alcançar com este projeto é auxiliar de forma acessível e simples as pessoas a gerenciar suas finanças.
+Considerando que a grande maioria das pessoas não teve acesso a uma educação financeira adequada em suas vidas, muitas consequências negativas são causadas pela falta de acesso a informações e auxílios de forma simples e acessível, como por exemplo o super endividamento, consumo desenfreado e a ausência de investimentos, principalmente por jovens menores de 21 anos que têm acesso a linhas de credito maiores do que podem pagar.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
