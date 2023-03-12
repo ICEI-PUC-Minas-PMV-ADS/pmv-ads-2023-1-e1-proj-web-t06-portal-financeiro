@@ -8,23 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-<img align="left" width="180px" style="margin:-5px 1em 0 auto" src="https://cdn.discordapp.com/attachments/1033185850672038010/1082853239684345966/persona1_2.png">  Carolina Silva, recém-formada no ensino médio aos 18 anos, conseguiu um emprego como jovem aprendiz com uma remuneração de R$ 700 por mês. Ela decidiu iniciar um curso técnico de enfermagem na cidade do Rio de Janeiro, onde mora com seus avós. Carolina adora ir ao shopping com as amigas para fazer compras e mexer no celular.
+| **Carolina Silva** |      |      |
+|------------------------------|------|------|
+|![persona1](img/persona1.png) | **Idade:** 18 anos  | **Ocupação:** Estudante do curso técnico em enfermagem |
+| **Motivações:** Carolina Silva é motivada pelo desejo de ajudar o próximo através de trabalhos voluntários e pelo amor por sua famlía | **Frustrações:** Atrasar a mensalidade do curso e esquecer de anotar seus gastos na agenda | **Hobbies, História:** Estudar, passear com as amigas no shopping, passar horas navegando no computador|
 
-No primeiro mês do curso técnico, ela atrasou o pagamento da mensalidade, gerando multa e precisando pedir dinheiro emprestado aos avôs. Por conta disso, Carolina começou a fazer bicos como atendente de restaurante aos domingos para devolver o dinheiro emprestado. Preocupada com seus gastos, conversou com seu avô, que recomendou que ela anotasse seus gastos em um caderno. No primeiro mês, ela conseguiu seguir a dica, mas no mês seguinte acabou esquecendo e gastando mais do que deveria, novamente atrasando a mensalidade.
 
-Diante disso, Carolina percebeu que tinha muita dificuldade em lembrar de anotar em seu caderno e precisou procurar uma maneira de manter constante seu controle de gastos. Portanto, um site de controle de gastos poderia ajudá-la a suprir sua necessidade.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -32,8 +21,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Carolina Silva  | Registrar meus gastos pessoais          | Ter controle do meu salário              |
+|Carolina Silva      |      Notificação para atualizar meus gastos            | Não esquecer de anotar |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
