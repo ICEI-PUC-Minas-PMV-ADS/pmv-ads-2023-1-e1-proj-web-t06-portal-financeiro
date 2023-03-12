@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | **Carolina Silva** |      |      |
 |------------------------------|------|------|
-|![persona1]([img/persona1.jpg](https://cdn.discordapp.com/attachments/1033185850672038010/1082853239684345966/persona1_2.png)) | **Idade:** 18 anos  | **Ocupação:** Estudante do curso técnico em enfermagem |
+|![persona1]((https://cdn.discordapp.com/attachments/1033185850672038010/1082853239684345966/persona1_2.png) | **Idade:** 18 anos  | **Ocupação:** Estudante do curso técnico em enfermagem |
 | **Motivações:** Carolina Silva é motivada pelo desejo de ajudar o próximo através de trabalhos voluntários e pelo amor por sua famlía | **Frustrações:** Atrasar a mensalidade do curso e esquecer de anotar seus gastos na agenda | **Hobbies, História:** Estudar, passear com as amigas no shopping, passar horas navegando no computador|
 
 
