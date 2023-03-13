@@ -41,7 +41,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Cadastro de us | ALTA | 
+|RF-001| Área de cadastro de usuário | ALTA | 
 |RF-002| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-003| Emitir um relatório de tarefas no mês   | MÉDIA |
 |RF-004| Calcular gastos fixos do usuário e retornar quanto sobra para gastos variáveis  | MÉDIA |
