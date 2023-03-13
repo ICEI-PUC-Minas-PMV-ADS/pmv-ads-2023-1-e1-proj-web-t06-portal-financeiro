@@ -41,11 +41,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Calcular gastos fixos do usuário e retornar quanto sobra para gastos variáveis  | MÉDIA |
-|RF-004| Resumo dos gastos mensais em forma de gráfico de pizza   | BAIXA |
-|RF-005| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês na hora   | MÉDIA |
+|RF-001| Cadastro de us | ALTA | 
+|RF-002| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-003| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-004| Calcular gastos fixos do usuário e retornar quanto sobra para gastos variáveis  | MÉDIA |
+|RF-005| Resumo dos gastos mensais em forma de gráfico de pizza   | BAIXA |
+|RF-006| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês na hora   | MÉDIA |
 
 
 ### Requisitos não Funcionais
