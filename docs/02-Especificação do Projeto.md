@@ -13,7 +13,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |![persona1](img/persona1.png) | **Idade:** 18 anos  | **Ocupação:** Estudante do curso técnico em enfermagem |
 | **Motivações:** Carolina Silva é motivada pelo desejo de ajudar o próximo através de trabalhos voluntários e pelo amor por sua famlía | **Frustrações:** Atrasar a mensalidade do curso e esquecer de anotar seus gastos na agenda | **Hobbies, História:** Estudar, passear com as amigas no shopping, passar horas navegando no computador|
 
+| **João Alves** |      |      |
+|------------------------------|------|------|
+|![persona2](img/persona2.png) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
+| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta|
 
+| **Maria Clara** |      |      |
+|------------------------------|------|------|
+|![persona3](img/persona3.png) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
+| **Motivações:** Precisa de ajuda para cuidar de suas finanças sozinha, deseja ensinar seus filhos a importância da educação financeira. | **Frustrações:** Está lutando para pagar contas mensais básicas, tem dívidas de cartão de crédito e não sabe como economizar dinheiro com um orçamento apertado. | **Hobbies, História:** Leitura, caminhada, voluntariado|
 
 ## Histórias de Usuários
 
@@ -41,12 +49,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Área de cadastro de usuário | ALTA | 
-|RF-002| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-003| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-004| Calcular gastos fixos do usuário e retornar quanto sobra para gastos variáveis  | MÉDIA |
-|RF-005| Resumo dos gastos mensais em forma de gráfico de pizza   | BAIXA |
-|RF-006| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês na hora   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -54,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em tempo real |  ALTA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -77,6 +81,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O projeto deverá ser entregue no final do semestre letivo, data limite: 25/06/2023|
-|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não pode ser desenvolvido um módulo de backend        |
 
+
+Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+
+> **Links Úteis**:
+> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
