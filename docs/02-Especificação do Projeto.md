@@ -15,12 +15,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | **João Alves** |      |      |
 |------------------------------|------|------|
-|![persona2](img/persona2.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
+|![persona2](img/persona2.png) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
 | **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta|
 
 | **Maria Clara** |      |      |
 |------------------------------|------|------|
-|![persona3](img/persona3.jpeg) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
+|![persona3](img/persona3.png) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
 | **Motivações:** Precisa de ajuda para cuidar de suas finanças sozinha, deseja ensinar seus filhos a importância da educação financeira. | **Frustrações:** Está lutando para pagar contas mensais básicas, tem dívidas de cartão de crédito e não sabe como economizar dinheiro com um orçamento apertado. | **Hobbies, História:** Leitura, caminhada, voluntariado|
 
 ## Histórias de Usuários
@@ -57,8 +57,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Responsividade - O site deve ser responsivo e adaptável a diferentes dispositivos, como celulares, tablets e desktops. | MÉDIA | 
+|RNF-002| Usabilidade - O site deve ser fácil de usar e navegar, com uma interface intuitiva e organizada. |  ALTA | 
+|RNF-003| Desempenho - O site deve ser rápido e eficiente, garantindo uma experiência de usuário satisfatória. |  ALTA | 
+|RNF-004| Segurança - O site deve ser seguro e proteger as informações pessoais dos usuários. |  ALTA | 
+|RNF-005| Conteúdo de qualidade - O site deve ter conteúdo de qualidade e atualizado sobre educação financeira. |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
