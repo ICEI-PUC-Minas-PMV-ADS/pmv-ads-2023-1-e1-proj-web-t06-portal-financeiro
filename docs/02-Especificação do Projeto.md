@@ -49,19 +49,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Área de cadastro de usuário | ALTA | 
+|RF-002| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-003| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-004| Resumo dos gastos mensais em forma de gráfico de pizza | MÉDIA |
+|RF-005| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês na hora | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Responsividade - O site deve ser responsivo e adaptável a diferentes dispositivos, como celulares, tablets e desktops. | MÉDIA | 
-|RNF-002| Usabilidade - O site deve ser fácil de usar e navegar, com uma interface intuitiva e organizada. |  ALTA | 
-|RNF-003| Desempenho - O site deve ser rápido e eficiente, garantindo uma experiência de usuário satisfatória. |  ALTA | 
-|RNF-004| Segurança - O site deve ser seguro e proteger as informações pessoais dos usuários. |  ALTA | 
-|RNF-005| Conteúdo de qualidade - O site deve ter conteúdo de qualidade e atualizado sobre educação financeira. |  MÉDIA | 
+|RNF-001| O site deve ser responsivo e adaptável a diferentes dispositivos, como celulares, tablets e desktops | MÉDIA | 
+|RNF-002| O site deve ser fácil de usar e navegar, com uma interface intuitiva e organizada |  ALTA | 
+|RNF-003| O site deve ser rápido e eficiente, garantindo uma experiência de usuário satisfatória |  ALTA | 
+|RNF-004| O site deve ser seguro e proteger as informações pessoais dos usuários |  ALTA | 
+|RNF-005| O site deve ter conteúdo de qualidade e atualizado sobre educação financeira |  MÉDIA | 
+|RNF-006| O site deve atualizar em tempo real os dados lançados pelo usuário |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
