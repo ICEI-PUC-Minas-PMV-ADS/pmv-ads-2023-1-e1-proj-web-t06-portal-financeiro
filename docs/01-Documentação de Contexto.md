@@ -33,7 +33,9 @@ O objetivo geral deste projeto é criar um portal voltado a finanças, com diver
 
  • Disponibilizar notificações e informativos de controle financeiro, afim de organizar o controle de gastos do invíduo.
  
- • Desenvolver uma área teórica para aprofundamento em investimentos de forma simples para auxiliar tanto quem já tem afinidade com o assunto, quanto para que gostaria de iniciar no mundo dos investimentos. 
+ • Desenvolver uma área teórica para aprofundamento em investimentos de forma simples para auxiliar tanto quem já tem afinidade com o assunto, quanto para que gostaria de iniciar no mundo dos investimentos.
+ 
+ • Auxiliar a cada um a encontrar seu perfil de investimento e onde vale a pena investir de acordo com sua disponibilidade financeira, taxa de risco e rentabilidade.
  
 ## Justificativa
 
