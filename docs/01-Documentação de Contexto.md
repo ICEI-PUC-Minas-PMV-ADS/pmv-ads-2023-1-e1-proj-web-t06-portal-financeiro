@@ -47,10 +47,12 @@ A falta de controle financeiro tem causado cada vez mais o aumento da taxa de en
 
 ## Público-Alvo
 
-O público-alvo deste projeto são pessoas interessadas em adquirir um produto que as auxilie de forma simples a gerenciar suas finanças e tomar decisões mais informadas sobre seus investimentos, gastos e economias.
+O público-alvo deste projeto são pessoas interessadas em administrar suas finanças de forma eficaz e alcançar seus objetivos financeiros independentemente de sua idade ou situação financeira. Como por exemplo:
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> - Jovens adultos que estão iniciando suas carreiras profissionais e tomando decisões financeiras importantes, como comprar sua primeira casa ou investir em um plano de aposentadoria.
+
+> - Pais e responsáveis que desejam ensinar seus filhos a gerenciar suas finanças pessoais e se tornar financeiramente independentes.
+
+> - Aposentados que desejam gerenciar suas economias e planejar uma aposentadoria financeira segura.
+
+> - Estudantes que estão entrando na faculdade e precisam aprender a administrar suas financias e sair da dívida.
