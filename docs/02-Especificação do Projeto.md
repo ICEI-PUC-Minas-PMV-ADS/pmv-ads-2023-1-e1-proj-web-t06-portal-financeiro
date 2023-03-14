@@ -15,12 +15,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | **João Alves** |      |      |
 |------------------------------|------|------|
-|![persona2](img/persona2.png) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
-| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta|
+|![persona3](img/persona3.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
+| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta| 
 
 | **Maria Clara** |      |      |
 |------------------------------|------|------|
-|![persona3](img/persona3.png) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
+|![persona2](img/persona2.jpeg) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
 | **Motivações:** Precisa de ajuda para cuidar de suas finanças sozinha, deseja ensinar seus filhos a importância da educação financeira. | **Frustrações:** Está lutando para pagar contas mensais básicas, tem dívidas de cartão de crédito e não sabe como economizar dinheiro com um orçamento apertado. | **Hobbies, História:** Leitura, caminhada, voluntariado|
 
 ## Histórias de Usuários
@@ -29,17 +29,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Carolina Silva  | Registrar meus gastos pessoais          | Ter controle do meu salário              |
-|Carolina Silva      |      Notificação para atualizar meus gastos            | Não esquecer de anotar |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Carolina Silva   | Registrar meus gastos diários                            | Ter controle da minha renda                     |
+|Carolina Silva   | Notificação diária para atualizar meus gastos            | Manter a frequência nos registros de gastos     |
+|João Alves       | Visualizar meus gastos de maneira organizada             | Poder analisar de forma prática                 |
+|João Alves       | Utilizar tags para cada tipo de gasto                    | Manter organizado meu perfil                    |
+|Maria Clara      | De praticidade ao registrar meus gastos                  | Ter facilidade no dia a dia                     |
+|Maria Clara      | Um relátorio detalhado sobre meus gastos no fim do mês   | Poder comparar com os relátorios de outros meses|
 
 ## Requisitos
 
@@ -55,6 +50,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Resumo dos gastos mensais em forma de gráfico de pizza | BAIXA |
 |RF-005| Calcular os gastos fixos e notificar o usuário sobre quanto ele tem para gastos variáveis | MÉDIA |
 |RF-006| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês em tempo real | MÉDIA |
+|RF-007| Permitir que o usuário utilize tags em diferentes tipos de registros | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -67,20 +63,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| O site deve ter conteúdo de qualidade e atualizado sobre educação financeira |  MÉDIA | 
 |RNF-006| O site deve atualizar em tempo real os dados lançados pelo usuário |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -88,12 +70,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, data limite: 25/06/2023|
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
