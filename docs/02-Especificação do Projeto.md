@@ -15,12 +15,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | **João Alves** |      |      |
 |------------------------------|------|------|
-|![persona2](img/persona2.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
-| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta|
+|![persona3](img/persona3.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
+| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta| 
 
 | **Maria Clara** |      |      |
 |------------------------------|------|------|
-|![persona3](img/persona3.jpeg) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
+|![persona2](img/persona2.jpeg) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
 | **Motivações:** Precisa de ajuda para cuidar de suas finanças sozinha, deseja ensinar seus filhos a importância da educação financeira. | **Frustrações:** Está lutando para pagar contas mensais básicas, tem dívidas de cartão de crédito e não sabe como economizar dinheiro com um orçamento apertado. | **Hobbies, História:** Leitura, caminhada, voluntariado|
 
 ## Histórias de Usuários
@@ -71,4 +71,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, data limite: 25/06/2023|
-|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, deve ser desenvolvido apenas pelo grupo de alunos |
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
