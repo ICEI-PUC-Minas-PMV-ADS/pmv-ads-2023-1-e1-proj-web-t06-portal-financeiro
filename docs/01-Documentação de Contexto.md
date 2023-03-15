@@ -15,17 +15,10 @@ A educação financeira não se trata apenas de economizar dinheiro, mas de gara
 
 Considerando que a grande maioria das pessoas não teve acesso a uma educação financeira adequada em suas vidas, muitas consequências negativas são causadas pela falta de acesso a informações e auxílios de forma simples e acessível, como por exemplo o super endividamento, consumo desenfreado e a ausência de investimentos, principalmente por jovens menores de 21 anos que têm acesso a linhas de credito maiores do que podem pagar.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste projeto é criar um portal voltado a finanças, com diversos segmentos. O portal buscará atender demandas diversas de controle de gastos, informativos de controle financeiro, gestão de gastos e investimentos, de forma simples e acessível.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
  
 ## Objetivos específicos 
 
@@ -40,10 +33,18 @@ A falta de controle financeiro tem causado cada vez mais o aumento da taxa de en
   As famílias que ganham até 3 salários-mínimos estavam proporcionalmente mais endividadas em janeiro (79,2% do total, contra 76,5% há um ano), assim como as que ganham mais de 10 salários-mínimos (74,4%, contra 71,2% em janeiro de 2022). 
   Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para pessoas de diversas rendas, principalmente as que recebem menos de 3 salários-mínimos, o que cria a necessidade de um portal acessível.
 
+## Trabalhos relacionados
 
-> **Referência**:
-> - [Endividamento em 2022 chega a nível histórico e atinge 77,9% da população](https://www.em.com.br/app/noticia/economia/2023/01/19/internas_economia,1446752/endividamento-em-2022-chega-a-nivel-historico-e-atinge-77-9-da-populacao.shtml)
-> - [Famílias de baixa e de alta renda entram em 2023 mais endividadas, diz CNC](https://www.infomoney.com.br/minhas-financas/familias-de-baixa-e-de-alta-renda-entram-em-2023-mais-endividadas-diz-cnc/)
+**Mobills:** O aplicativo Mobills é uma plataforma de gerenciamento financeiro, disponível para dispositivos mobile e desktop. Sua principal premissa de funcionamento é agregar as informações das contas bancárias e de uso de cartões de crédito e débito dos seus usuários, a fim de criar uma base de dados. Esses arquivos, posteriormente, são utilizados para elaborar um controle mais eficiente das finanças, identificando os principais gastos e ganhos do indivíduo e ajudando no gerenciamento do dinheiro.
+
+**Orçamento Fácil:** No Orçamento Fácil, você tem muitas ferramentas para gerenciar melhor o seu dinheiro, como vários tipos de gráficos ou um útil calendário, sendo possível também sincronizar os seus dados entre dispositivos e ligar as suas contas bancárias, lançando automaticamente as suas transações e com isso podendo checar as suas despesas diárias ajudando você a melhorar as suas economias.
+
+**Organizze:** Fornece uma visão rápida de como está a sua situação financeira. O serviço apresenta todas as contas que devem ser pagas futuramente, bem como as receitas que serão contabilizadas, assim como o saldo atual, que considera toda a movimentação financeira do mês para dizer se o usuário está no vermelho ou não.
+
+**Minhas Economias:** É um aplicativo para organizar suas finanças e controlar seus gastos. O programa permite que você gerencie melhor suas transações financeiras, pois lista todas as suas receitas e despesas. O aplicativo também divide suas despesas e receitas em categorias, algumas como alimentação, transporte, casa, entre outras que já vêm pré-estabelecidas. Podendo o usuário alterá-las e até mesmo adicionar novas categorias e contas.
+
+ **Money Lover:**  É um app para controle de gastos disponível para celulares Android e iPhone (iOS) e também na versão web. Nele é possível registrar entradas e saídas de dinheiro e acompanhar as receitas e despesas do mês. A ferramenta de gerenciamento ainda exibe relatórios que trazem uma visão detalhada da vida financeira do usuário e ajudam a rastrear custos.
+
 
 ## Público-Alvo
 
