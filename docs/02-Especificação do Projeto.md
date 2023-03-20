@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O sistema deve ter um tempo de resposta rápido para permitir que o usuário atualize as informações de gastos do dia a dia em tempo real. |  ALTA | 
 |RNF-003| O sistema deve ser seguro e proteger as informações financeiras do usuário. |  ALTA | 
 |RNF-004| O sistema deve ser capaz de armazenar grandes quantidades de dados de despesas do dia a dia sem afetar a sua performance. |  ALTA | 
-|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  MÉDIA | 
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  | ALTA | 
 
 
 
