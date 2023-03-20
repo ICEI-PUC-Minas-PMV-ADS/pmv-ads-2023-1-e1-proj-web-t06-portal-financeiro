@@ -8,10 +8,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-| **Carolina Silva** |      |      |
-|------------------------------|------|------|
-|![persona1](img/persona1.png) | **Idade:** 18 anos  | **Ocupação:** Estudante do curso técnico em enfermagem |
-| **Motivações:** Carolina Silva é motivada pelo desejo de ajudar o próximo através de trabalhos voluntários e pelo amor por sua famlía | **Frustrações:** Atrasar a mensalidade do curso e esquecer de anotar seus gastos na agenda | **Hobbies, História:** Estudar, passear com as amigas no shopping, passar horas navegando no computador|
 
 | **João Alves** |      |      |
 |------------------------------|------|------|
@@ -29,8 +25,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Carolina Silva   | Registrar meus gastos diários                            | Ter controle da minha renda                     |
-|Carolina Silva   | Notificação diária para atualizar meus gastos            | Manter a frequência nos registros de gastos     |
+
 |João Alves       | Visualizar meus gastos de maneira organizada             | Poder analisar de forma prática                 |
 |João Alves       | Utilizar tags para cada tipo de gasto                    | Manter organizado meu perfil                    |
 |Maria Clara      | De praticidade ao registrar meus gastos                  | Ter facilidade no dia a dia                     |
@@ -44,24 +39,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Área de cadastro de usuário | ALTA | 
-|RF-002| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-003| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-004| Resumo dos gastos mensais em forma de gráfico de pizza | BAIXA |
-|RF-005| Calcular os gastos fixos e notificar o usuário sobre quanto ele tem para gastos variáveis | MÉDIA |
-|RF-006| Permitir lançar gastos variáveis a qualquer momento, recebendo o feedback de como isso afeta seu mês em tempo real | MÉDIA |
-|RF-007| Permitir que o usuário utilize tags em diferentes tipos de registros | MÉDIA |
+|RF-001| permitir que o usuário crie um orçamento diário ou semanal para controlar seus gastos. | MÉDIA-ALTA | 
+|RF-002| permitir que o usuário insira e classifique despesas do dia a dia, como alimentação, transporte e compras. | ALTA | 
+|RF-003| permitir que o usuário defina limites de gastos para cada categoria de despesas.  | MÉDIA-ALTA |
+|RF-004| permitir que o usuário visualize um resumo diário ou semanal de seus gastos do dia a dia em forma de gráfico de pizza | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser responsivo e adaptável a diferentes dispositivos, como celulares, tablets e desktops | MÉDIA | 
-|RNF-002| O site deve ser fácil de usar e navegar, com uma interface intuitiva e organizada |  ALTA | 
-|RNF-003| O site deve ser rápido e eficiente, garantindo uma experiência de usuário satisfatória |  ALTA | 
-|RNF-004| O site deve ser seguro e proteger as informações pessoais dos usuários |  ALTA | 
-|RNF-005| O site deve ter conteúdo de qualidade e atualizado sobre educação financeira |  MÉDIA | 
-|RNF-006| O site deve atualizar em tempo real os dados lançados pelo usuário |  ALTA | 
+|RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final. | ALTA | 
+|RNF-002| O sistema deve ter um tempo de resposta rápido para permitir que o usuário atualize as informações de gastos do dia a dia em tempo real. |  ALTA | 
+|RNF-003| O sistema deve ser seguro e proteger as informações financeiras do usuário. |  ALTA | 
+|RNF-004| O sistema deve ser capaz de armazenar grandes quantidades de dados de despesas do dia a dia sem afetar a sua performance. |  ALTA | 
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  MÉDIA | 
+
 
 
 ## Restrições
