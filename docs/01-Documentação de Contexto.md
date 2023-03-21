@@ -17,14 +17,16 @@ Considerando que a grande maioria das pessoas não teve acesso a uma educação 
 
 ## Objetivos
 
-O objetivo geral deste projeto é criar um portal voltado a finanças, com diversos segmentos. O portal buscará atender demandas diversas de controle de gastos, informativos de controle financeiro, gestão de gastos e investimentos, de forma simples e acessível.
+O objetivo geral deste projeto é desenvolver um sistema ou método que permita às pessoas gerenciar melhor suas finanças pessoais, controlando seus gastos e evitando despesas desnecessárias
  
  
 ## Objetivos específicos 
 
-• Gerar uma área específica de controle de gastos, onde deve-se dividir o salário em 50% dos gastos são com as contas fixas, como por exemplo energia, água, internet e faculdade. 30% são gastos com as contas flexíveis como por exemplo assinaturas em canais de streaming e lazer. Por último, 20% do salário deve ser poupado ou investido. 
+• Desenvolver uma plataforma online que permita aos usuários registrarem seus gastos diários de forma fácil e intuitiva.
 
- • Disponibilizar notificações e informativos de controle financeiro, afim de organizar o controle de gastos do invíduo.
+• Criar uma base de dados para armazenar e categorizar os gastos dos usuários, permitindo uma análise mais detalhada das despesas.
+
+• Fornecer alertas ou notificações aos usuários quando estiverem se aproximando ou ultrapassando seus limites de gastos em determinadas categorias.
  
 ## Justificativa
 
