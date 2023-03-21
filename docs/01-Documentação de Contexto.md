@@ -51,10 +51,7 @@ Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para 
 
 O público-alvo deste projeto são pessoas interessadas em administrar suas finanças de forma eficaz e alcançar seus objetivos financeiros independentemente de sua idade ou situação financeira. Como por exemplo:
 
-> - Jovens adultos que estão iniciando suas carreiras profissionais e tomando decisões financeiras importantes, como comprar sua primeira casa ou investir em um plano de aposentadoria.
-
-> - Pais e responsáveis que desejam ensinar seus filhos a gerenciar suas finanças pessoais e se tornar financeiramente independentes.
-
-> - Aposentados que desejam gerenciar suas economias e planejar uma aposentadoria financeira segura.
-
-> - Estudantes que estão entrando na faculdade e precisam aprender a administrar suas financias e sair da dívida.
+- Jovens adultos que estão iniciando suas carreiras profissionais e tomando decisões financeiras importantes, como comprar sua primeira casa ou investir em um plano de aposentadoria.
+- Pais e responsáveis que desejam ensinar seus filhos a gerenciar suas finanças pessoais e se tornar financeiramente independentes.
+- Aposentados que desejam gerenciar suas economias e planejar uma aposentadoria financeira segura.
+- Estudantes que estão entrando na faculdade e precisam aprender a administrar suas financias e sair da dívida.
