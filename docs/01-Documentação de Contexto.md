@@ -30,10 +30,11 @@ O objetivo geral deste projeto é desenvolver um sistema ou método que permita 
  
 ## Justificativa
 
-A falta de controle financeiro tem causado cada vez mais o aumento da taxa de endividamento. De acordo com a CNC (Confederação Nacional do Comércio de bens, Serviços e Turismo) taxa de endividamento ao final de 2021 foi de 70,9 %, já no final do ano de 2022 a taxa aumentou em 7%. 
+A falta de controle financeiro tem causado cada vez mais o aumento da taxa de endividamento. De acordo com a CNC (Confederação Nacional do Comércio de bens, Serviços e Turismo), a taxa de endividamento ao final de 2021 foi de 70,9 % e, no final do ano de 2022, essa taxa aumentou em 7% (BETHONICO, 2023). 
 
-  As famílias que ganham até 3 salários-mínimos estavam proporcionalmente mais endividadas em janeiro (79,2% do total, contra 76,5% há um ano), assim como as que ganham mais de 10 salários-mínimos (74,4%, contra 71,2% em janeiro de 2022). 
-  Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para pessoas de diversas rendas, principalmente as que recebem menos de 3 salários-mínimos, o que cria a necessidade de um portal acessível.
+As famílias que ganham até 3 salários-mínimos estavam proporcionalmente mais endividadas em janeiro (79,2% do total, contra 76,5% há um ano), assim como as que ganham mais de 10 salários-mínimos (74,4%, contra 71,2% em janeiro de 2022) (ESTADAO, 2023). 
+
+Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para pessoas de diversas rendas, principalmente as que recebem menos de 3 salários-mínimos, o que cria a necessidade de um portal acessível.
 
 ## Trabalhos relacionados
 
@@ -52,10 +53,7 @@ A falta de controle financeiro tem causado cada vez mais o aumento da taxa de en
 
 O público-alvo deste projeto são pessoas interessadas em administrar suas finanças de forma eficaz e alcançar seus objetivos financeiros independentemente de sua idade ou situação financeira. Como por exemplo:
 
-> - Jovens adultos que estão iniciando suas carreiras profissionais e tomando decisões financeiras importantes, como comprar sua primeira casa ou investir em um plano de aposentadoria.
-
-> - Pais e responsáveis que desejam ensinar seus filhos a gerenciar suas finanças pessoais e se tornar financeiramente independentes.
-
-> - Aposentados que desejam gerenciar suas economias e planejar uma aposentadoria financeira segura.
-
-> - Estudantes que estão entrando na faculdade e precisam aprender a administrar suas financias e sair da dívida.
+- Jovens adultos que estão iniciando suas carreiras profissionais e tomando decisões financeiras importantes, como comprar sua primeira casa ou investir em um plano de aposentadoria.
+- Pais e responsáveis que desejam ensinar seus filhos a gerenciar suas finanças pessoais e se tornar financeiramente independentes.
+- Aposentados que desejam gerenciar suas economias e planejar uma aposentadoria financeira segura.
+- Estudantes que estão entrando na faculdade e precisam aprender a administrar suas financias e sair da dívida.
