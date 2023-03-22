@@ -8,7 +8,7 @@ Por isso, é fundamental que a educação financeira seja incluída na formaçã
 
 Além disso, é importante que as instituições de crédito aceitem produtos e serviços que incentivem a educação financeira. Planos de investimento de longo prazo, cartões de crédito com limites conscientes e taxas de juros justas são algumas das formas de estimular uma cultura de responsabilidade financeira. 
 
-A educação financeira não se trata apenas de economizar dinheiro, mas de garantir um futuro sustentável. É necessário compreender a importância de cada centavo e como cada escolha pode impactar a vida financeira. Dessa forma, é possível construir um futuro mais próspero e equilibrado, com menos estresse financeiro e mais segurança.
+A educação financeira não trata apenas de economizar dinheiro, mas de garantir um futuro sustentável. É necessário compreender a importância de cada centavo e como cada escolha pode impactar a vida financeira. Dessa forma, é possível construir um futuro mais próspero e equilibrado, com menos estresse financeiro e mais segurança.
 
 
 ## Problema
