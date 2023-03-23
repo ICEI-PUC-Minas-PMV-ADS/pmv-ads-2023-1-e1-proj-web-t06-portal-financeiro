@@ -12,7 +12,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 | **João Alves** |      |      |
 |------------------------------|------|------|
 |![persona3](img/persona3.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
-| **Motivações:** Quer aprender a gerenciar melhor o dinheiro para economizar e investir em seus hobbies e interesses. | **Frustrações:** Não sabe por onde começar a planejar suas finanças, tem dificuldades em controlar seus gastos e fica ansioso com a dívida do empréstimo estudantil. | **Hobbies, História:** Jogos de computador, assistir séries e filmes, andar de bicicleta| 
+| teste| 
 
 | **Maria Clara** |      |      |
 |------------------------------|------|------|
