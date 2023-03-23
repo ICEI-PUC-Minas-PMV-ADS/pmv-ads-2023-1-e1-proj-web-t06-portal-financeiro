@@ -25,10 +25,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| João Alves | Visualizar meus gastos de maneira organizada | Poder analisar de forma prática |
-| João Alves | Utilizar tags para cada tipo de gasto | Manter organizado meu perfil  |
+| João Alves | Visualizar meus gastos de maneira organizada | Compreender de que forma o dinheiro está sendo gasto  |
+| João Alves | Categorizar meus gastos por tipo | Organizar as despesas  |
 | Maria Clara| De praticidade ao registrar meus gastos | Ter facilidade no dia a dia |
-|Maria Clara | Um relátorio detalhado sobre meus gastos no fim do mês | Poder comparar com os relátorios de outros meses |
+| Maria Clara | Entender a distribuição de despesas no final do mês. | Poder economizar |
 
 ## Requisitos
 
