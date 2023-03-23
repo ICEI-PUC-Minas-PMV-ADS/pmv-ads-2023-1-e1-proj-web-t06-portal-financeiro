@@ -6,19 +6,53 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
+ <br /> 
+
 ## Personas
 
 
-| **João Alves** |      |      |
-|------------------------------|------|------|
-|![persona3](img/persona3.jpeg) | **Idade:** 20 anos  | **Ocupação:** Estudante Universitário |
-| teste| 
+ **<h3 align="center" >João Alves da Silva</h3 >**
+ 
+ <img align="left" width="180px" height="190px" style="margin:-5px 1em 0 auto" src="img/persona3.jpeg"> **Biografia**: Meu nome é João Alves da Silva, tenho 20 anos e sou um estudante universitário de direito que mora em São Paulo, SP. No momento, minha renda depende dos bicos que eu faço ao longo do mês para conseguir pagar as minhas despesas.
 
-| **Maria Clara** |      |      |
-|------------------------------|------|------|
-|![persona2](img/persona2.jpeg) | **Idade:** 26 anos  | **Ocupação:** Mãe Solteira |
-| **Motivações:** Precisa de ajuda para cuidar de suas finanças sozinha, deseja ensinar seus filhos a importância da educação financeira. | **Frustrações:** Está lutando para pagar contas mensais básicas, tem dívidas de cartão de crédito e não sabe como economizar dinheiro com um orçamento apertado. | **Hobbies, História:** Leitura, caminhada, voluntariado|
+**Metas**:
+Controlar melhor meus gastos para não ficar sem dinheiro antes do fim do mês.
 
+**Motivação**:
+Sou motivado a controlar melhor minhas finanças para ter mais estabilidade financeira e conseguir alcançar meus objetivos pessoais e profissionais. Quero ter mais segurança para lidar com imprevistos.
+
+
+**Frustrações**:
+Esta sendo muito difícil controlar meus gastos e economizar dinheiro enquanto tento equilibrar minha vida acadêmica e minhas atividades extracurriculares.
+
+**Bloqueadores**:
+Os principais bloqueadores para alcançar minhas metas financeiras são:
+* A falta de tempo para gerenciar minhas finanças; 
+* Dificuldade em manter um orçamento equilibrado diante das flutuações de renda.
+ <br /> 
+ 
+##
+
+ **<h3 align="center" >Maria Clara Pereira </h3 >**
+ 
+<img align="left" width="180px" height="190px" style="margin:-5px 1em 0 auto" src="img/persona2.jpeg"> **Biografia**: Meu nome é Maria Clara Pereira, tenho 26 anos e moro em Belo Horizonte, MG. Sou mãe solteira de três filhos e possuo formação de nível médio. Atualmente, trabalho como manicure e cabeleireira em meu próprio salão de beleza no bairro.
+
+**Metas**: Conseguir economizar dinheiro para poder dar uma vida melhor para meus filhos.
+
+**Motivação**:
+Eu quero ser capaz de pagar minhas contas mensais e ter dinheiro suficiente para aproveitar as pequenas coisas da vida. Além disso, quero ser um bom exemplo para meus filhos quando se trata de finanças e ensiná-los a administrar seu dinheiro de forma responsável.
+
+
+**Frustrações**:
+Estou lutando para pagar minhas contas mensais e muitas vezes sinto que não tenho dinheiro suficiente para tudo o que preciso. Também estou preocupada com minhas dívidas de cartão de crédito e me sinto sobrecarregada com a pressão financeira. 
+
+**Bloqueadores**:
+Meus principais bloqueadores incluem ter um orçamento apertado, não saber como economizar dinheiro e não ter muita educação financeira. Eu também sinto que não tenho muito tempo ou recursos para aprender sobre finanças pessoais, já que trabalho em tempo integral no meu salão de beleza e tenho três filhos para cuidar.
+
+
+ <br />         
+ 
+ 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -29,6 +63,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | João Alves | Categorizar meus gastos por tipo | Organizar as despesas  |
 | Maria Clara| De praticidade ao registrar meus gastos | Ter facilidade no dia a dia |
 | Maria Clara | Entender a distribuição de despesas no final do mês. | Poder economizar |
+
+ <br /> 
+ 
+ 
 
 ## Requisitos
 
@@ -54,6 +92,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O sistema deve ser responsivo para proporcionar a melhor experiência ao usuário em qualquer dispositivo. |  ALTA | 
 
 
+ <br /> 
+ 
+ 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
