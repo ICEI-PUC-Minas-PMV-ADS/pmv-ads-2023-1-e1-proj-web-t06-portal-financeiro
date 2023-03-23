@@ -40,8 +40,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| permitir que o usuário crie um orçamento diário ou semanal para controlar seus gastos. | MÉDIA-ALTA | 
 |RF-002| permitir que o usuário insira e classifique despesas do dia a dia, como alimentação, transporte e compras. | ALTA | 
-|RF-003| permitir que o usuário defina limites de gastos para cada categoria de despesas.  | MÉDIA-ALTA |
-|RF-004| permitir que o usuário visualize um resumo diário ou semanal de seus gastos do dia a dia em forma de gráfico de pizza | MÉDIA |
+|RF-003| permitir que o usuário defina limites de gastos para cada categoria de despesas. | MÉDIA-ALTA |
+|RF-004| permitir que o usuário visualize um resumo diário ou semanal de seus gastos. | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -51,9 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final. | ALTA | 
 |RNF-002| O sistema deve ter um tempo de resposta rápido para permitir que o usuário atualize as informações de gastos do dia a dia em tempo real. |  ALTA | 
 |RNF-003| O sistema deve ser seguro e proteger as informações financeiras do usuário. |  ALTA | 
-|RNF-004| O sistema deve ser capaz de armazenar grandes quantidades de dados de despesas do dia a dia sem afetar a sua performance. |  ALTA | 
-|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  | ALTA | 
-
+|RNF-004| O sistema deve ser responsivo para proporcionar a melhor experiência ao usuário em qualquer dispositivo. |  ALTA | 
 
 
 ## Restrições
@@ -66,3 +64,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
 |RE-03| O projeto deve ser publicado no GitHub |
 |RE-04| As stacks utilizadas devem ser: HTML, CSS e JavaScript |
+|RE-05| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |
