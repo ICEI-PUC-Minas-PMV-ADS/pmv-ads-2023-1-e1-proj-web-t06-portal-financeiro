@@ -64,3 +64,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, data limite: 25/06/2023|
 |RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
+|RE-03| O projeto deve ser publicado no GitHub |
+|RE-04| As stacks utilizadas devem ser: HTML, CSS e JavaScript |
