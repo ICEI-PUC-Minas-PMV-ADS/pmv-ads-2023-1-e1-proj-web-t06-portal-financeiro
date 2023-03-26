@@ -89,7 +89,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final. | ALTA | 
 |RNF-002| O sistema deve ter um tempo de resposta rápido para permitir que o usuário atualize as informações de gastos do dia a dia em tempo real. |  ALTA | 
 |RNF-003| O sistema deve ser seguro e proteger as informações financeiras do usuário. |  ALTA | 
-|RNF-004| O sistema deve ser responsivo para proporcionar a melhor experiência ao usuário em qualquer dispositivo. |  ALTA | 
+|RNF-004| O sistema deve ser responsivo para proporcionar a melhor experiência ao usuário em qualquer dispositivo. |  ALTA |
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
 
 
  <br /> 
@@ -105,4 +106,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho, devendo ser desenvolvido apenas pelo grupo de alunos |
 |RE-03| O projeto deve ser publicado no GitHub |
 |RE-04| As tecnologias utilizadas neste projeto devem ser: HTML, CSS e JavaScript.|
-|RE-05| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |
