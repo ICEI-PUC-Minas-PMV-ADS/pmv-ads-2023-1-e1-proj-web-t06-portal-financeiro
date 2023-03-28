@@ -59,10 +59,10 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| João Alves | Visualizar meus gastos de maneira organizada | Compreender de que forma o dinheiro está sendo gasto  |
-| João Alves | Categorizar meus gastos por tipo | Organizar as despesas  |
-| Maria Clara| De praticidade ao registrar meus gastos | Ter facilidade no dia a dia |
-| Maria Clara | Entender a distribuição de despesas no final do mês. | Poder economizar |
+| João Alves / Maria Clara | Visualizar meus gastos de maneira organizada | Compreender de que forma o dinheiro está sendo gasto  |
+| João Alves / Maria Clara | Categorizar meus gastos por tipo | Organizar as despesas  |
+| João Alves / Maria Clara | Registrar meus gastos com praticidade | Ter facilidade no dia a dia |
+| João Alves / Maria Clara | Planejar o uso de meu dinheiro com as despesas durante o mês. | Poder economizar |
 
  <br /> 
  
