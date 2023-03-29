@@ -38,16 +38,21 @@ Ante o exposto, fica claro a necessidade de auxílio de gestão financeira para 
 
 ## Trabalhos relacionados
 
-**Mobills:** O aplicativo Mobills é uma plataforma de gerenciamento financeiro, disponível para dispositivos mobile e desktop. Sua principal premissa de funcionamento é agregar as informações das contas bancárias e de uso de cartões de crédito e débito dos seus usuários, a fim de criar uma base de dados. Esses arquivos, posteriormente, são utilizados para elaborar um controle mais eficiente das finanças, identificando os principais gastos e ganhos do indivíduo e ajudando no gerenciamento do dinheiro.
+- **Mobills**[1^]. - O aplicativo Mobills é uma plataforma de gerenciamento financeiro, disponível para dispositivos mobile e desktop. Sua principal premissa de funcionamento é agregar as informações das contas bancárias e de uso de cartões de crédito e débito dos seus usuários, a fim de criar uma base de dados. Esses arquivos, posteriormente, são utilizados para elaborar um controle mais eficiente das finanças, identificando os principais gastos e ganhos do indivíduo e ajudando no gerenciamento do dinheiro.
 
-**Orçamento Fácil:** No Orçamento Fácil, você tem muitas ferramentas para gerenciar melhor o seu dinheiro, como vários tipos de gráficos ou um útil calendário, sendo possível também sincronizar os seus dados entre dispositivos e ligar as suas contas bancárias, lançando automaticamente as suas transações e com isso podendo checar as suas despesas diárias ajudando você a melhorar as suas economias.
+- **Orçamento Fácil**[2^]. - No Orçamento Fácil, você tem muitas ferramentas para gerenciar melhor o seu dinheiro, como vários tipos de gráficos ou um útil calendário, sendo possível também sincronizar os seus dados entre dispositivos e ligar as suas contas bancárias, lançando automaticamente as suas transações e com isso podendo checar as suas despesas diárias ajudando você a melhorar as suas economias.
 
-**Organizze:** Fornece uma visão rápida de como está a sua situação financeira. O serviço apresenta todas as contas que devem ser pagas futuramente, bem como as receitas que serão contabilizadas, assim como o saldo atual, que considera toda a movimentação financeira do mês para dizer se o usuário está no vermelho ou não.
+- **Organizze**[3^]. - Fornece uma visão rápida de como está a sua situação financeira. O serviço apresenta todas as contas que devem ser pagas futuramente, bem como as receitas que serão contabilizadas, assim como o saldo atual, que considera toda a movimentação financeira do mês para dizer se o usuário está no vermelho ou não.
 
-**Minhas Economias:** É um aplicativo para organizar suas finanças e controlar seus gastos. O programa permite que você gerencie melhor suas transações financeiras, pois lista todas as suas receitas e despesas. O aplicativo também divide suas despesas e receitas em categorias, algumas como alimentação, transporte, casa, entre outras que já vêm pré-estabelecidas. Podendo o usuário alterá-las e até mesmo adicionar novas categorias e contas.
+- **Minhas Economias**[4^]. - É um aplicativo para organizar suas finanças e controlar seus gastos. O programa permite que você gerencie melhor suas transações financeiras, pois lista todas as suas receitas e despesas. O aplicativo também divide suas despesas e receitas em categorias, algumas como alimentação, transporte, casa, entre outras que já vêm pré-estabelecidas. Podendo o usuário alterá-las e até mesmo adicionar novas categorias e contas.
 
- **Money Lover:**  É um app para controle de gastos disponível para celulares Android e iPhone (iOS) e também na versão web. Nele é possível registrar entradas e saídas de dinheiro e acompanhar as receitas e despesas do mês. A ferramenta de gerenciamento ainda exibe relatórios que trazem uma visão detalhada da vida financeira do usuário e ajudam a rastrear custos.
+ - **Money Lover**[5^]. -  É um app para controle de gastos disponível para celulares Android e iPhone (iOS) e também na versão web. Nele é possível registrar entradas e saídas de dinheiro e acompanhar as receitas e despesas do mês. A ferramenta de gerenciamento ainda exibe relatórios que trazem uma visão detalhada da vida financeira do usuário e ajudam a rastrear custos.
 
+[1^]: https://www.mobills.com.br/
+[2^]: https://fastbudget.app/localized/pt/web-app
+[3^]: https://organizze.com.br/
+[4^]: https://minhaseconomias.com.br/
+[5^]: https://moneylover.me/
 
 ## Público-Alvo
 
