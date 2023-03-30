@@ -6,7 +6,7 @@ Nesta seção do documento, será abordada a especificação do projeto de contr
 
 O diagrama de personas será criado com o objetivo de entender as necessidades e expectativas dos usuários do sistema de controle financeiro. As histórias de usuários serão utilizadas para descrever as atividades que os usuários desejam realizar no sistema, e os requisitos funcionais e não funcionais serão estabelecidos para definir as funcionalidades e características que o sistema deve possuir.
 
-Além disso, serão consideradas as restrições do projeto, como o prazo de entrega e as tecnologias que ser, a fim de garantir a viabilidade do projeto. Com essas informações, será possível definir uma solução adequada e satisfatória para os usuários, levando em conta suas necessidades e expectativas em relação ao sistema de controle financeiro.
+Além disso, serão consideradas as restrições do projeto, como o prazo de entrega e as tecnologias que serão utilizadas, a fim de garantir a viabilidade do projeto. Com essas informações, será possível definir uma solução adequada e satisfatória para os usuários, levando em conta suas necessidades e expectativas em relação ao sistema de controle financeiro.
 
  <br /> 
 
