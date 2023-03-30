@@ -1,6 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 Nesta seção do documento, será abordada a especificação do projeto de controle financeiro, a partir da perspectiva do usuário. Serão utilizadas técnicas e ferramentas como a criação do diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, bem como as restrições do projeto.
 
