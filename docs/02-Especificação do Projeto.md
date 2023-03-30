@@ -2,9 +2,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nesta seção do documento, será abordada a especificação do projeto de controle financeiro, a partir da perspectiva do usuário. Serão utilizadas técnicas e ferramentas como a criação do diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, bem como as restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O diagrama de personas será criado com o objetivo de entender as necessidades e expectativas dos usuários do sistema de controle financeiro. As histórias de usuários serão utilizadas para descrever as atividades que os usuários desejam realizar no sistema, e os requisitos funcionais e não funcionais serão estabelecidos para definir as funcionalidades e características que o sistema deve possuir.
+
+Além disso, serão consideradas as restrições do projeto, como o prazo de entrega e as tecnologias que ser, a fim de garantir a viabilidade do projeto. Com essas informações, será possível definir uma solução adequada e satisfatória para os usuários, levando em conta suas necessidades e expectativas em relação ao sistema de controle financeiro.
 
  <br /> 
 
