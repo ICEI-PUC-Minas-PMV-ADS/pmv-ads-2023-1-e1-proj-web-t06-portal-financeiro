@@ -63,14 +63,17 @@ A equipe está organizada da seguinte forma:
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
 
 ● Fazer: Esta coluna mantém as listas de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada lista contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis);
+
 ● Em andamento: Escola coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
+
 ● Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
+
 ● Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
 
 O quadro kanban do grupo no GitHub pode ser visualizado no link:
 https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333
 
-![Kanban](img/Kanban.png)
+![Kanban](img/kanban.png)
 
 ### Processo
 
