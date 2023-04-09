@@ -37,7 +37,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-----------|---------------------|-------------------|
 |Repositório de código fonte| GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro  | 
 |Documentos do Projeto| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/tree/main/docs |
-|Projeto de Interface e Wireframes| Figma | https://www.figma.com/ |
+|Projeto de Interface e Wireframes| Figma | https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy |
 |Gerenciamento de Projeto| GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333 |
 
 
@@ -90,11 +90,9 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 Os componentes do nosso projeto são produzidos a partir de uma variedade de plataformas, cada uma com um propósito específico. Abaixo, apresentamos a relação entre os ambientes e suas respectivas funções no contexto do projeto.
 
-* **Repositório de código fonte**: [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro)
 * **Editor de código:** Visual Studio Code.
 * **Ferramentas de comunicação:** Whatsapp, Teams.
 * **Ferramentas de desenho de tela:** [Figma](https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy)
-* **Gerenciamento do Projeto**: [GitHub Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333/views/1)
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
