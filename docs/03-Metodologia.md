@@ -1,9 +1,9 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Apresentamos a seguir a metodologia adotada pelo grupo para enfrentar o desafio proposto. Destacamos também as ferramentas e ambientes de trabalho utilizados pela equipe para o desenvolvimento do projeto. Isso inclui a descrição dos diferentes ambientes utilizados, bem como a estrutura para gerenciamento do código-fonte. Além disso, abordamos o processo e as ferramentas utilizadas para organizar e gerenciar o time.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+<br>
 
 ## Controle de Versão
 
@@ -28,6 +28,7 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
+<br>
 
 ## Relação de Ambientes de Trabalho
 
@@ -37,16 +38,17 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-----------|---------------------|-------------------|
 |Repositório de código fonte| GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro  | 
 |Documentos do Projeto| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/tree/main/docs |
-|Projeto de Interface e Wireframes| Figma | https://www.figma.com/ |
+|Projeto de Interface e Wireframes| Figma | https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy |
 |Gerenciamento de Projeto| GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333 |
 
+<br>
 
 ## Gerenciamento de Projeto
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte forma:
 
-**Scrum Master:** Lucy Elaine Quispe Suxo
+**Scrum Master:** Lucy Suxo
 
 **Product Owner:** Gleyston Guimarães Silva
 
@@ -55,7 +57,7 @@ A equipe está organizada da seguinte forma:
 - Fernando Anísio Goulart Pereira
 - George Lucas Sales De Matos
 - Gleyston Guimarães Silva
-- Lucy Elaine Quispe Suxo
+- Lucy Suxo
 - Luiz Nader Arruda Junior
 
 **Equipe de Design:**
@@ -63,7 +65,7 @@ A equipe está organizada da seguinte forma:
 - Fernando Anísio Goulart Pereira
 - George Lucas Sales De Matos
 - Gleyston Guimarães Silva
-- Lucy Elaine Quispe Suxo
+- Lucy Suxo
 - Luiz Nader Arruda Junior
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
@@ -88,11 +90,11 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
  
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Os componentes do nosso projeto são produzidos a partir de uma variedade de plataformas, cada uma com um propósito específico. Abaixo, apresentamos a relação entre os ambientes e suas respectivas funções no contexto do projeto.
 
-- **Editor de código:** Visual Studio Code.
-- **Ferramentas de comunicação:** Whatsapp, Teams.
-- **Ferramentas de desenho de tela:** Figma.
+* **Editor de código:** Visual Studio Code.
+* **Ferramentas de comunicação:** Whatsapp, Teams.
+* **Ferramentas de desenho de tela:** [Figma](https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy)
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
