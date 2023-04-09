@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Apresentamos a seguir a metodologia adotada pelo grupo para enfrentar o desafio proposto. Destacamos também as ferramentas e ambientes de trabalho utilizados pela equipe para o desenvolvimento do projeto. Isso inclui a descrição dos diferentes ambientes utilizados, bem como a estrutura para gerenciamento do código-fonte. Além disso, abordamos o processo e as ferramentas utilizadas para organizar e gerenciar o time.
+Apresentamos a seguir a metodologia adotada pelo grupo para desenvolvedor o sistema de controle financeiro. Destacamos também as ferramentas e ambientes de trabalho utilizados pela equipe para o desenvolvimento do projeto. Isso inclui a descrição dos diferentes ambientes utilizados, bem como a estrutura para gerenciamento do código-fonte. Além disso, abordamos o processo e as ferramentas utilizadas para organizar e gerenciar o time.
 
 <br>
 
