@@ -46,7 +46,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte forma:
 
-**Scrum Master:** Lucy Elaine Quispe Suxo
+**Scrum Master:** Lucy Suxo
 
 **Product Owner:** Gleyston Guimarães Silva
 
@@ -55,7 +55,7 @@ A equipe está organizada da seguinte forma:
 - Fernando Anísio Goulart Pereira
 - George Lucas Sales De Matos
 - Gleyston Guimarães Silva
-- Lucy Elaine Quispe Suxo
+- Lucy Suxo
 - Luiz Nader Arruda Junior
 
 **Equipe de Design:**
@@ -63,7 +63,7 @@ A equipe está organizada da seguinte forma:
 - Fernando Anísio Goulart Pereira
 - George Lucas Sales De Matos
 - Gleyston Guimarães Silva
-- Lucy Elaine Quispe Suxo
+- Lucy Suxo
 - Luiz Nader Arruda Junior
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
@@ -88,11 +88,13 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
  
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Os componentes do nosso projeto são produzidos a partir de uma variedade de plataformas, cada uma com um propósito específico. Abaixo, apresentamos a relação entre os ambientes e suas respectivas funções no contexto do projeto.
 
-- **Editor de código:** Visual Studio Code.
-- **Ferramentas de comunicação:** Whatsapp, Teams.
-- **Ferramentas de desenho de tela:** Figma.
+* **Repositório de código fonte**: [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro)
+* **Editor de código:** Visual Studio Code.
+* **Ferramentas de comunicação:** Whatsapp, Teams.
+* **Ferramentas de desenho de tela:** [Figma](https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy)
+* **Gerenciamento do Projeto**: [GitHub Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333/views/1)
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
