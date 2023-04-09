@@ -3,6 +3,8 @@
 
 Apresentamos a seguir a metodologia adotada pelo grupo para enfrentar o desafio proposto. Destacamos também as ferramentas e ambientes de trabalho utilizados pela equipe para o desenvolvimento do projeto. Isso inclui a descrição dos diferentes ambientes utilizados, bem como a estrutura para gerenciamento do código-fonte. Além disso, abordamos o processo e as ferramentas utilizadas para organizar e gerenciar o time.
 
+<br>
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -26,6 +28,7 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
+<br>
 
 ## Relação de Ambientes de Trabalho
 
@@ -38,6 +41,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e Wireframes| Figma | https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy |
 |Gerenciamento de Projeto| GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333 |
 
+<br>
 
 ## Gerenciamento de Projeto
 
