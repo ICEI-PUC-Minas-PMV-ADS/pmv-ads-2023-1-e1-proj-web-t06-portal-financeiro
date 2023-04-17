@@ -9,7 +9,7 @@ Apresentação das principais interfaces da plataforma, demonstrando como elas f
 
 ## User Flow
 
-![User flow](img/userflow.jpg)
+![User flow](<img width="2532" alt="userflowatt" src="https://user-images.githubusercontent.com/66649959/232633406-90c63664-ba3a-45b8-bd3e-7933258eade3.png">)
 
 <br>
 
