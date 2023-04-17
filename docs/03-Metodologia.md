@@ -44,26 +44,77 @@ A equipe está organizada da seguinte forma:
 - Lucy Suxo
 - Luiz Nader Arruda Junior
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
-
-● Fazer: Esta coluna mantém as listas de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada lista contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis);
-
-● Em andamento: Escola coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
-
-● Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
-
-● Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
-
-O quadro kanban do grupo no GitHub pode ser visualizado no link:
-https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333
-
-![Kanban](img/kanban.png)
-
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
- 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
+
+**● Product Backlog:** Esta coluna mantém as listas de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada lista contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis);
+
+**● Em andamento:** Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
+
+**● Revisar:** Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
+
+**● Feito:** Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
+
+**● Etapa 1**
+
+**Planejamento:** Foram elaborados dois documentos:
+|Documentação de contexto:|  Especificação do Projeto:|
+|-----------|---------------------|
+|Introdução ;| Personas
+Problema;| História de usuários
+Objetivos;| Requisitos
+Justificativa;| Requisitos não funcionais
+Trabalhos relacionados| Restrições
+Público alvo.|
+
+**Execução:** Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas.
+
+**Evidências:**
+
+![Aulas-Online](img/aulas-online1.png)
+
+**● Etapa 2**
+
+**Planejamento:** Foram elaborados dois documentos:
+|Metodologia:| Projeto de interface:|
+|-----------|---------------------|
+|Relação de Ambientes de Trabalho|Fluxo do usuário|
+|Gerenciamento de Projeto|Estruturas de arame|
+|processo| |
+|ferramentas| |
+
+
+**Execução:** Foram criadas as Issues e o Project adicionando suas tarefas a serem executas, fazendo também as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design), designando quais ferramentas serão utilizadas ao decorrer do projeto para sua execução.
+
+**Evidências:**
+
+![Kanban](img/Kanban1.png)
+
+**● Etapa 3**
+
+**Planejamento:**
+
+**Execução:**
+
+**Evidências:**
+
+**●Etapa 4**
+
+**Planejamento:**
+
+**Execução:**
+
+**Evidências:**
+
+**●Etapa 5**
+
+**Planejamento:**
+
+**Execução:**
+
+**Evidências:**
+
 ### Ferramentas
 
 Os componentes do nosso projeto são produzidos a partir de uma variedade de plataformas, cada uma com um propósito específico. Abaixo, apresentamos a relação entre os ambientes e suas respectivas funções no contexto do projeto.
