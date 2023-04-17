@@ -55,7 +55,7 @@ escolher salvar ou deletar o post. Em ambos os casos o status é
 notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+<img width="2532" alt="userflowatt" src="https://user-images.githubusercontent.com/66649959/232633406-90c63664-ba3a-45b8-bd3e-7933258eade3.png">
 
 
 ## Tecnologias Utilizadas
