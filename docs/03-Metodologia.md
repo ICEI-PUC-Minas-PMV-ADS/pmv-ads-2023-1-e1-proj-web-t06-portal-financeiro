@@ -73,7 +73,7 @@ Público alvo | Juvenil
 
 ###Documento: 
 <ol>
-#### README.md
+#### README
 <li><a href="/README.md"> README.md</a></li>
  No documento contem a informações iniciais identificando o projeto, integrantes, orientador, instruções de utilização, descrição da documentação e todos os links relacionados direcionando para os documentos mencionados. Hospedagem neste caso será relacionado o link onde a aplicação será publicado e por fim os links de armazenamento do código-fonte e apresentação do projeto.
 
