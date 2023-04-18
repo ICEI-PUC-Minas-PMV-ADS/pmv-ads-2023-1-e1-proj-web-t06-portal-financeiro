@@ -71,9 +71,9 @@ Público alvo | Juvenil
 
 **Execução:** Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas. Dentro desta perspectiva, foram desenvolvidos na primeira etapa as seguinte entregas:
 
-###Documento: 
+Documentos: 
 <ol>
-#### README
+README.md
 <li><a href="/README.md"> README.md</a></li>
  No documento contem a informações iniciais identificando o projeto, integrantes, orientador, instruções de utilização, descrição da documentação e todos os links relacionados direcionando para os documentos mencionados. Hospedagem neste caso será relacionado o link onde a aplicação será publicado e por fim os links de armazenamento do código-fonte e apresentação do projeto.
 
