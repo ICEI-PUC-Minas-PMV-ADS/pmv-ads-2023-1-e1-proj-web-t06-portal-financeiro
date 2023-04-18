@@ -25,7 +25,7 @@ Apresentação das principais interfaces da plataforma, demonstrando como elas f
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Wireframe](https://user-images.githubusercontent.com/66649959/232902547-03e1e2f9-05ae-4593-9aba-ada690c84c12.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
