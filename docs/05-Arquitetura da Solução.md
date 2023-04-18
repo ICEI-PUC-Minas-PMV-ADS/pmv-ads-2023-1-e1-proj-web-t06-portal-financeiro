@@ -29,32 +29,19 @@ A solução implementada conta com os seguintes módulos:
 >
 > - [Whimsical](https://whimsical.com/)
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 1) onde ele pode fazer login ou se cadastrar.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte por seguir pelo primeiro caminho (cadastro), ele é
+redirecionado para a tela cadastro (Tela 2), onde ele pode inserir seus dados e 
+se cadastrar,caso esteja tudo correto, ele será redirecionado para a tela de login (Tela 3).
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Caso o usuário opte seguir pelo segundo caminho (login) ele
+é redirecionado para a (Tela 3), onde ele vai inserir seus dados e efetuar o login,
+caso os dados estejam corretos ele será redirecionado para sua tela de relatório de gastos (Tela 4).
 
+Na tela do relatório existem três opções, cadastrar uma categoria, na aba de categorias (Tela 5), e após isso lançar um gasto na aba de gastos (Tela 6), o sistema verifica seus dados e atualiza seu relatório te redirecionando para a (Tela 4) caso tudo esteja correto, caso esteja errado o sistema te redireciona para a aba de gastos (Tela 6).O usuário pode também ir direto para a tela de gastos (Tela 6) apenas para lançar um gasto sem mexer em suas categorias.Na tela de relatório o usuário também pode fazer logout (Tela 7).
 <img width="2532" alt="userflowatt" src="https://user-images.githubusercontent.com/66649959/232633406-90c63664-ba3a-45b8-bd3e-7933258eade3.png">
 
 
