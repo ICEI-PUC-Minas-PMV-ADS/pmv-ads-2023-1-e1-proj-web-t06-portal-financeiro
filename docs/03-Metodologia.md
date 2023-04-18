@@ -75,19 +75,19 @@ Público alvo | Juvenil
 <ol>
 ##### README.md
 <li><a href="/README.md"> README.md</a></li>
-> No documento contem a informações iniciais identificando o projeto, integrantes, orientador, instruções de >utilização, descrição da documentação e todos os links relacionados direcionando para os documentos >mencionados. Hospedagem neste caso será relacionado o link onde a aplicação será publicado e por fim os links >de armazenamento do código-fonte e apresentação do projeto.
+ No documento contem a informações iniciais identificando o projeto, integrantes, orientador, instruções de utilização, descrição da documentação e todos os links relacionados direcionando para os documentos mencionados. Hospedagem neste caso será relacionado o link onde a aplicação será publicado e por fim os links de armazenamento do código-fonte e apresentação do projeto.
 
-#####  Documentação de Contexto
+####  Documentação de Contexto
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-> No processo de desenvolvimento deste documento, foram incluidas introdução, problema que o projeto visa >atender, objetivos, objetivos específicos do projeto, justificativa, trabalhos relacionados sobre o tema e >público-avlo, ou seja, no documento irá conter um texto disseminando os temas mencianados anteriormente. 
+ No processo de desenvolvimento deste documento, foram incluidas introdução, problema que o projeto visa atender, objetivos, objetivos específicos do projeto, justificativa, trabalhos relacionados sobre o tema e público-avlo, ou seja, no documento irá conter um texto disseminando os temas mencianados anteriormente. 
  
-##### Especificação do Projeto
+#### Especificação do Projeto
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-> A especificação do projeto conduziu-se com um texto esclarecendo primeiramente sobre a especificação do >projeto e em seguida as personas descrevendo biografia, metas, aspirações e dificuldades de cada persona, >logo após a históra de usuários definindo funcionalidades e motivo, por fim os requisitos(funcionais e não >funcionais) e restrições do projeto.
+ A especificação do projeto conduziu-se com um texto esclarecendo primeiramente sobre a especificação do projeto e em seguida as personas descrevendo biografia, metas, aspirações e dificuldades de cada persona, logo após a históra de usuários definindo funcionalidades e motivo, por fim os requisitos(funcionais e não funcionais) e restrições do projeto.
  
- ##### Metodologia
+ #### Metodologia
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-> Neste documento, como padrão de boas práticas em projetos o documento a seguir visa registrar e relatar a >pesquisa realiza, os conteudo obtido através do estudo realizado, tratamento e analise de dados e assim >evidenciar todo o processo de desenvolvimento do projeto. Nesta concepção o documento será utilizado até a >última etapa.
+ Neste documento, como padrão de boas práticas em projetos o documento a seguir visa registrar e relatar a pesquisa realiza, os conteudo obtido através do estudo realizado, tratamento e analise de dados e assim evidenciar todo o processo de desenvolvimento do projeto. Nesta concepção o documento será utilizado até a última etapa.
  
 **Evidências:**
 
