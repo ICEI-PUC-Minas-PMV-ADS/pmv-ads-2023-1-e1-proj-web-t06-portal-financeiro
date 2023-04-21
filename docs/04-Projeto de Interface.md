@@ -18,22 +18,82 @@ Apresentação das principais interfaces da plataforma, demonstrando como elas f
 * **Vermelho:** Início e fim do user flow
 * **Verde:** Páginas do sistema que o usuário terá acesso
 * **Amarelo:** Página de menu do sistema
-* **Roxo:** Página com cálculo
 * **Laranja:** Decisão
 
 <br>
 
 ## Wireframes
 
-![Wireframe](https://user-images.githubusercontent.com/127357656/232928187-57e3dbea-6267-4d66-8e9b-9e954e4e19c6.png)
+As telas descritas são parte de um sistema de controle financeiro, que permite ao usuário gerenciar seus gastos de forma organizada e eficiente.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
+<div align="center">
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+<h3><ins> Tela de Apresentação </ins></h3>
+ 
+![Screen de informações](img/screen-informacoes.jpg)
+
+</div>
+
+* **Tela de Apresentação:** Nesta tela, você encontrará informações detalhadas sobre o produto, incluindo os principais recursos e funcionalidades. Isso permitirá que você entenda o que o projeto pode oferecer para ajudá-lo a controlar suas finanças de maneira eficaz.
+
+<br>
+
+<div align="center">
+ 
+<h3><ins> Tela de Login </ins></h3>
+ 
+![Screen de login](img/screen-login.jpg)
+
+</div>
+
+* **Tela de Login:** Criamos uma interface de login simples, onde você poderá inserir suas informações de acesso de maneira fácil e segura. Assim, você poderá acessar as funcionalidades do projeto de forma rápida e segura.
+
+<br>
+
+<div align="center">
+ 
+<h3><ins> Tela de Cadastro </ins></h3>
+ 
+![Screen de cadastro](img/cadastrar.jpg)
+
+</div>
+
+* **Tela de Cadastro:** O usuário tem a opção de se cadastrar no sistema, fornecendo informações pessoais que serão utilizadas para identificá-lo posteriormente. Essa etapa é fundamental para que o usuário possa ter acesso às funcionalidades do sistema.
+
+<br>
+
+<div align="center">
+ 
+<h3><ins> Tela de Menu </ins></h3>
+ 
+![Screen de Menu](img/screen-menu.jpg)
+
+</div>
+
+* **Tela de Cadastro:** O usuário terá acesso ao menu com o relatório dos gastos do mês e um gráfico que mostra de forma visual as suas despesas. Isso permite que o usuário tenha uma visão geral de como está gastando o seu dinheiro e possa identificar possíveis áreas em que ele pode economizar.
+
+<br>
+
+<div align="center">
+ 
+<h3><ins> Tela de Gastos </ins></h3>
+ 
+![Screen de Gastos](img/screen-gastos.jpg)
+
+</div>
+
+* **Tela de Gastos:** O usuário poderá adicionar todos os seus gastos, informando a data, a descrição, o valor e a categoria de cada despesa. Além disso, o usuário terá a opção de editar ou excluir as despesas já cadastradas, e também de adicionar novos gastos que não foram previstos.
+
+
+<br>
+
+<div align="center">
+ 
+<h3><ins> Tela de Categorias </ins></h3>
+ 
+![Screen de Categorias](img/screen-categorias.jpg)
+
+</div>
+
+* **Tela de Categorias:** O usuário poderá inserir novas categorias de gastos e definir limites para cada uma delas. Isso permite que o usuário tenha um controle mais específico sobre suas despesas e possa identificar onde está gastando mais dinheiro. Além disso, o usuário também poderá editar ou excluir as categorias já cadastradas.
