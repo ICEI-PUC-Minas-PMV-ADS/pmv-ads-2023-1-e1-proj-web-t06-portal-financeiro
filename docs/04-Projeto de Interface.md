@@ -17,7 +17,7 @@ Apresentação das principais interfaces da plataforma, demonstrando como elas f
  
 * **Vermelho:** Início e fim do user flow
 * **Verde:** Páginas do sistema que o usuário terá acesso
-* **Amarelo:** Página de menu do sistema
+* **Amarelo:** Página de Menu
 * **Laranja:** Decisão
 
 <br>
