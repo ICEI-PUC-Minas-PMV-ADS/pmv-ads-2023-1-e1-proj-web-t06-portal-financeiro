@@ -92,7 +92,7 @@ As telas descritas são parte de um sistema de controle financeiro, que permite 
  
 <h3><ins> Tela de Categorias </ins></h3>
  
-![Screen de Categorias](img/screen-categorias.jpg)
+![Screen de Categorias](img/categorias.jpg)
 
 </div>
 
