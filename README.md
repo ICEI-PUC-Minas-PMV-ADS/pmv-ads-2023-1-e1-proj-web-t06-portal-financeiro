@@ -14,7 +14,7 @@ Educação financeira e as consequências causadas por falta dela. Pela carênci
 * Fernando Anísio Goulart Pereira
 * George Lucas Sales De Matos
 * Gleyston Guimarães Silva
-* Lucy Elaine Quispe Suxo
+* Lucy Suxo
 * Luiz Nader Arruda Junior
 
 
