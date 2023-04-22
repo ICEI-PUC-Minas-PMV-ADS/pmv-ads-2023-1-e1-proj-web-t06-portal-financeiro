@@ -17,7 +17,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e Wireframes| Figma | https://www.figma.com/team_invite/redeem/m2iPoeeV0mD8wRWqAdBlXy |
 |Gerenciamento de Projeto| GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/333 |
 |Comunicação entre Stakeholders | WhatsApp e Teams |  https://teams.microsoft.com  |
-
+|Editor de código | Visual Studio Code| https://vscode.dev/ |
 <br>
 
 ## Gerenciamento de Projeto
@@ -49,7 +49,20 @@ A equipe está organizada da seguinte forma:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas:
 
-**● Product Backlog:** Esta coluna mantém as listas de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada lista contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis);
+**● Product Backlog:** 
+|     |     |      |
+|----------|-----------|--------------|
+| E1- |Documentação de contexto|problema, objetivos, justificativa, trabalhos relacionados, público alvo|
+| E1- |Especificação do projeto|personas, histórias de usuários, requisitos, restrições|
+| E2- |Metodologia|ferramentas, gerenciamento de projeto|
+| E2- |Projeto de interface|fluxo de usuários, wireframes|
+| E3- |Template padrão do site|  |
+| E3- |Programação de Funcionalidades|Tela X ou Funcionalidade X|
+| E4- |Programação de Funcionalidades| |
+| E4- |Plano de Testes de Software|Ferramentas de Testes (Opcional)|
+| E4- |Registro de Testes de Software:|Avaliação|
+| E5- |Apresentação| |
+| E5- |Material de Apoio sobre a Apresentação de um Produto| Título do Projeto, Identidade Visual (Marca, Design), Conjunto de Slides (Estrutura)|
 
 **● Em andamento:** Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
 
@@ -59,7 +72,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 **● Etapa 1**
 
-**Planejamento:** Foram elaborados dois documentos:
+**Planejamento:** Foram planejados dois documentos:
 |Documentação de contexto:|  Especificação do Projeto:|
 |-----------|---------------------|
 |Introdução | Personas
@@ -69,33 +82,16 @@ Justificativa | Requisitos não funcionais
 Trabalhos relacionados| Restrições
 Público alvo | Juvenil
 
-**Execução:** Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas. Dentro desta perspectiva, foram desenvolvidos na primeira etapa as seguinte entregas:
+**Execução:** Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas.
 
-Documentos: 
-<ol>
-README.md
-<li><a href="/README.md"> README.md</a></li>
- No documento contem a informações iniciais identificando o projeto, integrantes, orientador, instruções de utilização, descrição da documentação e todos os links relacionados direcionando para os documentos mencionados. Hospedagem neste caso será relacionado o link onde a aplicação será publicado e por fim os links de armazenamento do código-fonte e apresentação do projeto.
 
-####  Documentação de Contexto
-<li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
- No processo de desenvolvimento deste documento, foram incluidas introdução, problema que o projeto visa atender, objetivos, objetivos específicos do projeto, justificativa, trabalhos relacionados sobre o tema e público-avlo, ou seja, no documento irá conter um texto disseminando os temas mencianados anteriormente. 
- 
-#### Especificação do Projeto
-<li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
- A especificação do projeto conduziu-se com um texto esclarecendo primeiramente sobre a especificação do projeto e em seguida as personas descrevendo biografia, metas, aspirações e dificuldades de cada persona, logo após a históra de usuários definindo funcionalidades e motivo, por fim os requisitos(funcionais e não funcionais) e restrições do projeto.
- 
- #### Metodologia
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
- Neste documento, como padrão de boas práticas em projetos o documento a seguir visa registrar e relatar a pesquisa realiza, os conteudo obtido através do estudo realizado, tratamento e analise de dados e assim evidenciar todo o processo de desenvolvimento do projeto. Nesta concepção o documento será utilizado até a última etapa.
- 
-**Evidências:**
+**Evidências:** Foram feitos os documentos : Documentação de contexto (Introdução, Problemas, Objetios, Justificativa, Trabalhos relacionados e Público alvo ) e, Especificação do Projeto (Personas, História de usuários, Requisitos, Requisitos não funcionais, Restrições ), com o acompanhamento do professor.
 
 ![Aulas-Online](img/aulas-online1.png)
 
 **● Etapa 2**
 
-**Planejamento:** Foram elaborados dois documentos:
+**Planejamento:** Foram planejados dois documentos:
 |Metodologia:| Projeto de interface:|
 |-----------|---------------------|
 |Relação de Ambientes de Trabalho|Fluxo do usuário|
@@ -106,7 +102,7 @@ README.md
 
 **Execução:** Foram criadas as Issues e o Project adicionando suas tarefas a serem executas, fazendo também as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design), designando quais ferramentas serão utilizadas ao decorrer do projeto para sua execução.
 
-**Evidências:**
+**Evidências:** Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
 
 ![Kanban](img/Kanban1.png)
 
