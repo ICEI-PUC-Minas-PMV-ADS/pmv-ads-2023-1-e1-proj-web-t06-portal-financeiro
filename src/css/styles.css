@@ -13,7 +13,7 @@
 
 body {
 
-    background-color: paleturquoise;
+    /*background-color: paleturquoise;*/
     background-image: url('../img/FundoVerde.jpg') ;
     background-size: cover;
     /*background-position-y: -200px; */
@@ -22,7 +22,7 @@ body {
 textarea:focus, input:focus {
 outline: none;
 }
-
+/* tamanho da letra esqueceu a senha*/
 a {
 font-size: 0.8rem; /*16 * .8 =  */
 font-size: 15px;
@@ -34,7 +34,7 @@ a:hover {
     color: #ffc222;
     
 } 
-
+/* Logo bolso feliz*/
 #logo {
     
     margin-top: -8%;
@@ -59,12 +59,12 @@ a:hover {
 }
 
 /* formulário*/
-
+/* distancia da logo com o LOGIN*/
 form {
 margin-top: 10px;
 margin-bottom: 30px;
 }
-
+/* configurações do olho na senha */
 form i {
     margin-left: 135px;
     margin-top: -55px;
@@ -74,13 +74,13 @@ form i {
     color: #ffc745;
    
     }
-
+/* tamanho do retangulo onde coloca login e senha*/
 label, input {
     display: block;
     width: 100%;
     text-align: left;
 }
-
+/* escrita de login e senha*/
 label {
 font-weight: bold;
 }
@@ -94,11 +94,10 @@ input {
 }
 
 
-
 input:focus {
     border-bottom: 2px solid #ffc222;
 }
-
+/* distancia e tamanho de "Esqueceu a senha "*/
 #forgot-pass {
 margin-left: 200px;
 margin-top: -12px;
@@ -108,7 +107,7 @@ display: block;
 
 }
 
-
+/* LOGIN */
 input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
@@ -151,6 +150,34 @@ input[type="submit"]:hover {
 }
 
 
+/* Site recuperar senha */
 
-/*<i class="bi bi-facebook"></i>
-<i class="bi bi-browser-chrome"></i */
+#recuperar-senha {
+
+    background-color: #008578;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    margin-top: 20vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cabeçalho {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#informação {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+#enviar {
+    margin-top: -20px;
+    
+}
