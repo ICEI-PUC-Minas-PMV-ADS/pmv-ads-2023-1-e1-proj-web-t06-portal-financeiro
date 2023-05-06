@@ -1,0 +1,104 @@
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #ffc745;
+    border: none;
+}
+
+body {
+   
+    font-size: 100%;
+    background-color: paleturquoise;
+    background-image: url('../img/FundoVerde.svg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 45px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+
+
+header {
+    margin: auto;
+    padding: auto;
+    font-family: Helvetica;
+    color: #ffc745;
+    border: none;
+    
+}
+
+
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #008578;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+table thead {
+    background-color: #008578;
+    color: #fff;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:last-child {
+    border-bottom: none;
+    background-color: #008578;
+}
+
+table tbody button {
+
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size:large;
+    color: #ffc745;
+    border: none;
+    background-color: #008578; 
+}
+
+button#adicionar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffc745;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button#adicionar:hover {
+    background-color: #ffc222;
+    transition: .5s;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
