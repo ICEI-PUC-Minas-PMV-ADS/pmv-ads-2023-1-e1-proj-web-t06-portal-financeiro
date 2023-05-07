@@ -1,0 +1,30 @@
+#recuperar-senha {
+
+    background-color: #008578;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    margin-top: 20vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cabeçalho {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#informação {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+#enviar {
+    margin-top: -20px;
+    
+}
+

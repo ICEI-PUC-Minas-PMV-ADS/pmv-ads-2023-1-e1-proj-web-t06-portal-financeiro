@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
    <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
 </head>
 <body>
@@ -15,17 +14,26 @@
     <div id="login-container">
         <img id="logo" src="img/logo.bolsofeliz.png" alt="">
         
-     <form action="#">
-        <label for="Login">Login</label>
-        <input type="Login" name="Login" id="Login" placeholder="Digite seu Login" autocomplete="off">
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+     <form action="">
 
-            <i class ="bi bi-eye-fill"></i> 
+        
+        <label for="email" id="usuario">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="off" >
+
+       
+        <label for="password" id="senha">Senha</label>
+        <input type="password" name="password" id="password" placeholder="Digite a sua senha" >
+        
+        <span class="mostrar-senha" onclick="toggleSenha()"> <i class="bi bi-eye-fill"></i> </span>
 
         <a href="pass-recovery.html" target="_blank" id="forgot-pass">Esqueceu a senha?</a>
-        <input type="submit" value="Login">
+
+
+        <button onclick="entrar(); return false" type="submit">Entrar</button>
+        <div id="msgError"></div>
+
      </form>
+
      <div id="social-container">
         <p>Ou entre pelas suas redes sociais:</p>
 
@@ -40,7 +48,7 @@
 
     </div>
     
+    <script src="./js/login.js"></script>
+
 </body>
 </html>
-
-

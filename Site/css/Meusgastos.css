@@ -13,7 +13,7 @@ body {
    
     font-size: 100%;
     background-color: paleturquoise;
-    background-image: url('../img/FundoVerde.svg');
+    background-image: url('../img/FundoVerde.jpg');
     background-size: cover;
     background-position-y: -200px;
 }

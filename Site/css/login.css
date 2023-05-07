@@ -1,0 +1,162 @@
+
+/* geral*/
+
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #ffc745;
+    border: none;
+}
+
+
+body {
+
+    background-image: url('../img/FundoVerde.jpg') ;
+    background-size: cover;
+
+}
+
+textarea:focus, input:focus {
+outline: none;
+}
+/* tamanho da letra esqueceu a senha*/
+a {
+font-size: 0.8rem; /*16 * .8 =  */
+font-size: 15px;
+
+}
+
+/* esqueceu senha ( cor )*/
+a:hover {
+    color: #ffc222;
+    
+} 
+/* Logo bolso feliz*/
+#logo {
+    
+    margin-top: -8%;
+    margin-left: -15%;
+    width: 400px;
+    height: 150px;
+ }
+
+/* container loin (pagina central)*/
+
+
+#login-container {
+
+    background-color: #008578;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* formulário*/
+/* distancia da logo com o LOGIN*/
+form {
+margin-top: 10px;
+margin-bottom: 30px;
+}
+/* configurações do olho na senha */
+form i {
+    margin-left: 19rem;
+    margin-top: -55px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    color: #ffc745;
+   
+    }
+/* tamanho do retangulo onde coloca login e senha*/
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+/* escrita de login e senha*/
+label {
+font-weight: bold;
+}
+
+/* Barra onde coloca senha e email*/
+input {
+    border-bottom: 2px solid #ffc222; 
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+input:focus {
+    border-bottom: 2px solid #ffc222;
+}
+/* distancia e tamnho de "Esqueceu a senha "*/
+#forgot-pass {
+margin-left: 200px;
+margin-top: -12px;
+position: absolute;
+text-align: right;
+display: block;
+
+}
+
+/* LOGIN */
+button[type="submit"] {
+    
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #ffc745;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffc222;
+    transition: .5s;
+
+}
+
+
+/* Redes Sociais */
+
+#social-container, #social-container p {
+    margin-bottom: 15px;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 55%;
+    line-height: 20px;
+    color: #ffc745;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#register-container p {
+    margin-bottom: 10px;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
