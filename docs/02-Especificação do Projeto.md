@@ -77,10 +77,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| permitir que o usuário crie um orçamento diário ou semanal para controlar seus gastos. | MÉDIA-ALTA | 
+|RF-001| permitir que o usuário crie um orçamento mensal para controlar seus gastos. | MÉDIA-ALTA | 
 |RF-002| permitir que o usuário insira e classifique despesas do dia a dia, como alimentação, transporte e compras. | ALTA | 
 |RF-003| permitir que o usuário defina limites de gastos para cada categoria de despesas. | MÉDIA-ALTA |
-|RF-004| permitir que o usuário visualize um resumo diário ou semanal de seus gastos. | MÉDIA |
+|RF-004| permitir que o usuário visualize um resumo mensal de seus gastos. | MÉDIA |
 
 
 ### Requisitos não Funcionais

@@ -22,9 +22,9 @@ O objetivo geral deste projeto é desenvolver um sistema ou método que permita 
  
 ## Objetivos específicos 
 
-• Desenvolver uma plataforma online que permita aos usuários registrarem seus gastos diários de forma fácil e intuitiva.
+• Permitir aos usuários registrarem seus gastos diários de forma fácil e intuitiva.
 
-• Criar uma base de dados para armazenar e categorizar os gastos dos usuários, permitindo uma análise mais detalhada das despesas.
+• Permitr armazenar e categorizar os gastos dos usuários, permitindo uma análise mais detalhada das despesas.
 
 • Fornecer alertas ou notificações aos usuários quando estiverem se aproximando ou ultrapassando seus limites de gastos em determinadas categorias.
  
