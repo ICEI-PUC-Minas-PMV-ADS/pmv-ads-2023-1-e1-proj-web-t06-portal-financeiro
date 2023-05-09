@@ -1,0 +1,117 @@
+/* Tela Cadastro*/
+
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #ffc745;
+    border: none;
+}
+
+
+body {
+
+    background-image: url('../img/FundoVerde.jpg') ;
+    background-size: cover;
+
+}
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a:hover {
+    color: #ffc222;
+ 
+} 
+
+/* Logo bolso feliz*/
+#logo {
+    
+    margin-top: -8%;
+    margin-left: -15%;
+    width: 400px;
+    height: 150px;
+ }
+
+/* container cadastro*/
+
+
+#cadastro-container {
+
+    background-color: #008578;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* formulário cadastro distancia logo */
+
+form {
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+/* configurações ver senha */
+form i {
+    margin-left: 19rem;
+    margin-top: -55px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    color: #ffc745;
+   
+    }
+form is {
+    margin-left: 8.5rem;
+    margin-top: -55px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    color: #ffc745;
+   
+    }
+
+/* Tamanho dos campos de preenchimento*/
+label, input {
+    display: block;
+    width: 340px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Barras de preenchimento*/
+input {
+    border-bottom: 2px solid #ffc222; 
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #ffc222;
+}
+
+/* Botões VOLTAR e CADASTRAR */
+    button[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #ffc745;
+    cursor: pointer;
+
+#register-container p {
+    margin-bottom: 10px;
+}
