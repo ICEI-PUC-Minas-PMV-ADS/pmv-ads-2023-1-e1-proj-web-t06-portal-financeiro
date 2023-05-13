@@ -64,11 +64,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 | E5- |Apresentação| |
 | E5- |Material de Apoio sobre a Apresentação de um Produto| Título do Projeto, Identidade Visual (Marca, Design), Conjunto de Slides (Estrutura)|
 
-**● Em andamento:** Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
+● Em andamento: Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
 
-**● Revisar:** Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
+● Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
 
-**● Feito:** Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
+● Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
 
 **● Etapa 1**
 
@@ -100,15 +100,27 @@ Público alvo | Juvenil
 |ferramentas| |
 
 
-**Execução:** Foram criadas as Issues e o Project adicionando suas tarefas a serem executas, fazendo também as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design), designando quais ferramentas serão utilizadas ao decorrer do projeto para sua execução.
+**Execução:**
+● Foram criadas as Issues e o Project adicionando suas tarefas a serem executas;
+
+● Foram feitas as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design);
+
+● A criação do Fluxo de Usuários e WireFrames foram feitas com a colaboração dos integrantes do grupo em uma reunião utilizando a plataforma FIGMA.
+
+● Designamos quais ferramentas serão utilizadas ao decorrer do projeto para sua execução com a possibilidade de adiconar mais ferramentas ou atualizá-las.
 
 **Evidências:** Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
 
 ![Kanban](img/Kanban1.png)
+![Gerenciamento do Projeto](img/gerenciamento-do-projeto.png)
+![Fluxo de Usuários](img/fluxo-de-usuario.png)
+![WireFrames](img/wireframe.png)
+![Ferramentas](img/relacao-de-ambiente-de-trabalho.png)
 
 **● Etapa 3**
 
 **Planejamento:**
+
 
 **Execução:**
 
