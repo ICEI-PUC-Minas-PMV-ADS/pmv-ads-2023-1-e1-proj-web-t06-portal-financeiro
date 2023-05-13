@@ -112,18 +112,23 @@ Público alvo | Juvenil
 **Evidências:** Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
 
 ● Kanban:
+
 ![Kanban](img/Kanban1.png)
 
 ● Gerenciamento do Projeto:
+
 ![Gerenciamento do Projeto](img/gerenciamento-do-projeto.png)
 
 ● Fluxo de Usuário:
+
 ![Fluxo de Usuários](img/fluxo-de-usuario.png)
 
 ● WireFrames:
+
 ![WireFrames](img/wireframe.png)
 
 ● Ferramentas:
+
 ![Ferramentas](img/relacao-de-ambiente-de-trabalho.png)
 
 
