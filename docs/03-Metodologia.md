@@ -134,12 +134,42 @@ Público alvo | Juvenil
 
 **● Etapa 3**
 
-**Planejamento:**
+**Planejamento:**Foram planejados dois documentos:
 
+|Modelo padrão do Site:| Programação de Funcionalidades:| Metodologia |
+|-----------|---------------------|------------|
 
-**Execução:**
+**Execução:** 
+
+● Foram adicionadas novas Issues ao projeto para essa terceira etapa.
+
+● Realizamos algumas reuniões entre os integrantes do grupo no Teams e entre conversas diárias pelo WhatsApp decidindo como seria o modelo padrão de nosso site, o ícone que iriamos utilizar e a logo de nossas páginas.
+
+● Resolvemos entre os integrantes do grupo em dividir as páginas do site entre os membros e com essa divisão cada membro seria responsável por uma página. Sendo elas: (Login, Cadastro, Cadastro de Gastos, Gastos e Relatório de Gastos).
+
 
 **Evidências:**
+
+Criação de novas Issues:
+
+
+![Kanban etapa 3](img/Kanban-Etapa-3.png)
+
+
+Modelo padrão do site com ícone e logo:
+
+
+![Login](img/login1.png)
+
+
+Algumas páginas de nosso projeto que já estão sendo feitas:
+
+
+![Página de Login e códigos utilizados](img/login-site.png)
+
+
+
+![Página de cadastro e códigos utilizados](img/cadastro.png)
 
 **●Etapa 4**
 
