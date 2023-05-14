@@ -6,41 +6,53 @@
     <meta name="description" content="Meus Gastos">
     <title>Meus Gastos</title>
     <link rel="stylesheet" href="css/Meusgastos.css">
-    <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="img/logobolsofeliz.svg" type="image/x-icon">
     <script src="../js/scripts.js"></script>
 </head>
 <body>
-    <header>
-        <img id="logo" src="img/logo.bolsofeliz.png" alt="Logo">
-        <nav class="menu">
-            <a><strong>Início</strong></a>
-            <a><strong>Relatório</strong></a>
-            <a><strong>Categoria</strong></a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <table class="table">
-                <thead class="table-thead">
-                    <tr>
-                        <th>Data</th>
-                        <th>Descrição</th>
-                        <th>Categoria</th>
-                        <th>Valor</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <tbody id="tabela-gastos" class="table">
-                    <!-- Aqui vamos inserir as linhas da tabela com os dados do usuário codigo javascript que liga com cadastro de novas informações -->
-                </tbody>
-            </table>
-            <button id="adicionar">Adicionar</button>
-        </section>
-        <section>
+    <div id="back-container">
+        <header>
+            <div class="divisoria-hidden"></div>
+            <div class="container-log">
+                <img class="logo" id="logo" src="img/logobolsofeliz.svg" alt="Logo">
+            </div>
+            <div class="divisoria-hidden"></div>
+            <nav class="menu">
+                <a><strong>Início</strong></a>
+                <a><strong>Relatório</strong></a>
+                <a><strong>Categoria</strong></a>
+            </nav>
+            <div class="divisoria-hidden"></div>
+        </header>
+        <main>
+            <section>
+                <table class="table" id="table">
+                    <thead class="table-thead">
+                        <tr>
+                            <th>Data</th>
+                            <th>Descrição</th>
+                            <th>Categoria</th>
+                            <th>Valor</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table" class="table-texto">
+                        <td class="actions">
+                            <button class="edit-button" onclick="editRow(this)">
+                              <img src="img/pencil.svg" alt="Editar">
+                            </button>
+                            <button class="delete-button" onclick="deleteRow(this)">
+                              <img src="img/trash.svg" alt="Excluir">
+                            </button>
+                          </td>                            
+                    </tbody>
+                </table>
+                <button id="adicionar">Adicionar</button>
+            </section>
+            <section>
 
-        </section>
-    </main>
+            </section>
+        </main>
     <footer>
         <p>Desenvolvido por Bolso Feliz</p>
     </footer>
