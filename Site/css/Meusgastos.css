@@ -9,11 +9,43 @@
     border: none;
 }
 
+#logo {
+    
+    margin-top: -8%;
+    margin-left: -15%;
+    width: 600px;
+    height: 150px;
+}
+
+#back-container {
+
+    background-color: #008578;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.divisoria {
+    border-top: 1px solid #ffc745;
+    margin: 20px 0;
+
+}
+
+.divisoria-hidden {
+    border-top: 0px;
+    margin: 20px 0;
+
+}
+
 body {
    
     font-size: 100%;
     background-color: paleturquoise;
-    background-image: url('../img/FundoVerde.jpg');
+    background-image: url('../img/FundoVerde.svg');
     background-size: cover;
     background-position-y: -200px;
 }
@@ -26,7 +58,7 @@ body {
     padding: 0px;
     gap: 45px;
     font-weight: 400;
-    font-size: 40px;
+    font-size: large;
     line-height: 48px;
     font-family: Helvetica;
     font-style: normal;
@@ -44,12 +76,38 @@ header {
 }
 
 
+.edit-button,
+.delete-button {
+  background-color: #008578;
+  border: none;
+  padding: 0;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #fff;
+  fill: #fff;
+}
+
+.edit-button img,
+.delete-button img {
+  width: 16px;
+  height: 16px;
+  fill: #fff; /* Altere para a cor desejada, neste caso, preto */
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
 
 table {
-    margin: 50px auto;
+    margin: 5% 0;
     border-collapse: collapse;
     background-color: #008578;
     box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.table-texto {
+    color: #fff;
 }
 
 table thead {
@@ -58,18 +116,28 @@ table thead {
     text-align: left;
 }
 
-table th, table td {
+table th  {
     padding: 12px 15px;
     border: 1px solid #ddd;
+    
+}
+
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    color: #fff;
+
 }
 
 table tbody tr {
     border-bottom: 1px solid #ddd;
+    color:#fff;
 }
 
 table tbody tr:last-child {
     border-bottom: none;
     background-color: #008578;
+    color: #fff;
 }
 
 table tbody button {
@@ -77,7 +145,7 @@ table tbody button {
     box-sizing: border-box;
     font-family: Helvetica;
     font-size:large;
-    color: #ffc745;
+    color: #fff;
     border: none;
     background-color: #008578; 
 }
