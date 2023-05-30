@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/cadastro.css">
+    <script defer src="./js/cadastro.js"></script>
    <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
 </head>
 <body>
@@ -17,45 +18,35 @@
      <form action="">
 
         
-        <label for="nomecompleto" id="nome">Nome Completo</label>
-        <input type="text" name="nome" id="nome">
-
-       
-        <label for="cpf" id="campo_cpf">CPF</label>
-        <input type="text" id="campo_cpf" placeholder="Apenas Números"/ required>
+        <label id="LabelNome" for="nome">Nome Completo</label>
+        <input type="text"name="nome" id="nome" required>
 
 
-        <label for="rg" id="campo_rg">RG</label>
-        <input type="text" id="campo_rg" placeholder="Apenas Números"/ required>
+        <label for="email" id="LabelEmail">E-MAIL</label>
+        <input type="email" id="email" placeholder="Digite um E-mail Válido" autocomplete="off" required >
 
 
-        <label for="e-mail" id="campo_email">E-MAIL</label>
-        <input type="email" id="campo_email" placeholder="Digite um E-mail Válido"/ required>
+        <label for="celular" id="LabelCelular">Celular</label>
+        <input type="tel" id="celular" placeholder="Apenas Números"autocomplete="off" required>
 
 
-        <label for="celular" id="campo_celular">Celular</label>
-        <input type="number" id="campo_celular" placeholder="Apenas Números"/ required>
+        <label for="senha"id="LabelSenha">Senha</label>
+        <input type="password" name="password" id="senha" placeholder="Cadastre sua senha"autocomplete="off" required>
 
 
-        <label for="password" id="senha">Senha</label>
-        <input type="password" name="password" id="password" placeholder="Cadastre sua senha" >
-        <span class="mostrar-senha" onclick="toggleSenha()"> <is class="bi bi-eye-fill"></is> </span>
+        <span class="mostrar-senha"><i id="mostrarSenhaIcon" class="bi bi-eye-fill"></i></span>
 
 
-        <label for="digitenovamente" id="campo_digitenovamente">Digite Novamente</label>
-        <input type="password" name="password" id="password" placeholder="Repita sua senha"/ required>
-        <span class="mostrar-senha" onclick="toggleDigite Novamente()"> <i class="bi bi-eye-fill"></i> </span>
+        <label for="confirmSenha" id="LabelConfirmSenha">Digite Novamente</label>
+        <input type="password" name="password" id="confirmSenha" placeholder="Repita sua senha"autocomplete="off"required>                                                
 
+        <span class="senhaConfirm"><i id="mostrarConfirmSenhaIcon" class="bi bi-eye-fill"></i></span>
+
+
+        <button type="submit" onclick="cadastrar()">CADASTRAR</button>
                 
-        <button onclick="voltar(); return false" type="submit">VOLTAR</button>
+        <button type="submit" onclick="voltar()">VOLTAR</button>
 
-        <button onclick="cadastrar(); return false" type="submit">CADASTRAR</button>
-        
-
-
-
-         
-    <script src="./js/cadastro.js"></script>
 
 </body>
 </html>
