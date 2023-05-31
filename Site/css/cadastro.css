@@ -59,8 +59,8 @@ margin-bottom: 30px;
 }
 
 /* configurações ver senha */
-form i {
-    margin-left: 19rem;
+.mostrar-senha {
+    margin-left: 8.5rem;
     margin-top: -55px;
     font-size: 25px;
     cursor: pointer;
@@ -68,8 +68,8 @@ form i {
     color: #ffc745;
    
     }
-form is {
-    margin-left: 8.5rem;
+.senhaConfirm {
+    margin-left: 19rem;
     margin-top: -55px;
     font-size: 25px;
     cursor: pointer;
@@ -99,7 +99,7 @@ input:focus {
 }
 
 /* Botões VOLTAR e CADASTRAR */
-    button[type="submit"] {
+    button {
     text-align: center;
     text-transform: uppercase;
     width: 100%;
@@ -111,7 +111,7 @@ input:focus {
     color: #fff;
     background-color: #ffc745;
     cursor: pointer;
-
+    }
 #register-container p {
     margin-bottom: 10px;
 }

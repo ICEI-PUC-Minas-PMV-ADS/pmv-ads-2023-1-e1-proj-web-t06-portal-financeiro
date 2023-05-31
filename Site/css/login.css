@@ -108,7 +108,7 @@ display: block;
 }
 
 /* LOGIN */
-button[type="submit"] {
+button {
     
     text-align: center;
     text-transform: uppercase;
@@ -123,7 +123,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button:hover {
     background-color: #ffc222;
     transition: .5s;
 
@@ -152,11 +152,3 @@ button[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
-#msgError {
-    text-align: center;
-    color: #ff0000;
-    background-color: #ffbbbb;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
