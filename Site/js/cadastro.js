@@ -50,6 +50,12 @@ function cadastrar() {
   var senha = document.getElementById("senha").value;
   var confirmSenha = document.getElementById("confirmSenha").value;
 
+    // Verifica se todos os campos foram preenchidos
+    if (nome === "" || email === "" || celular === "" || senha === "" || confirmSenha === "") {
+      alert("Por favor, preencha todos os campos.");
+      return;
+    }
+
   // Verifica se a senha e a confirmação de senha são iguais
   if (senha !== confirmSenha) {
     alert("A senha e a confirmação de senha não correspondem.");
@@ -68,9 +74,11 @@ function cadastrar() {
   var dadosString = JSON.stringify(dados);
 
   // Armazena os dados no LocalStorage
-  localStorage.setItem("dados", dadosString);
+  localStorage.setItem(email, dadosString);
 
   alert("Dados salvos com sucesso!");
+
+  window.location.href = "./login.html";
 }
   
 
