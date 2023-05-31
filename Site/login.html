@@ -7,6 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/login.css">
+    <script defer src="./js/login.js"></script>
    <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
 </head>
 <body>
@@ -17,38 +18,42 @@
      <form action="">
 
         
-        <label for="email" id="usuario">E-mail</label>
-        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="off" >
+        <label for="email" id="LabelEmail">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="on" >
 
        
-        <label for="password" id="senha">Senha</label>
-        <input type="password" name="password" id="password" placeholder="Digite a sua senha" >
+        <label for="senha" id="LabelSenha">Senha</label>
+        <input type="password" name="password" id="senha" placeholder="Digite a sua senha" >
         
-        <span class="mostrar-senha" onclick="toggleSenha()"> <i class="bi bi-eye-fill"></i> </span>
+        <span class="mostrar-senha"> <i id="mostrarSenhaIcon" class="bi bi-eye-fill"></i> </span>
 
         <a href="pass-recovery.html" target="_blank" id="forgot-pass">Esqueceu a senha?</a>
 
 
-        <button onclick="entrar(); return false" type="submit">Entrar</button>
-        <div id="msgError"></div>
+        <button type="button" onclick="entrar()">Entrar</button>
 
      </form>
+
+   
 
      <div id="social-container">
         <p>Ou entre pelas suas redes sociais:</p>
 
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-browser-chrome"></i>
+        <a href="#"><i class="bi bi-facebook"  id="facebook"></i></a>
+
+        <a href="#" id="chrome"><i class="bi bi-browser-chrome"></i></a>
+
+     
 
     </div>
      <div id="register-container">
         <p>Ainda não tem uma conta?</p>
-        <a href="#">Registrar</a>
+        <a href="cadastro.html">Registrar</a>
      </div>
 
     </div>
     
-    <script src="./js/login.js"></script>
+    
 
 </body>
 </html>
