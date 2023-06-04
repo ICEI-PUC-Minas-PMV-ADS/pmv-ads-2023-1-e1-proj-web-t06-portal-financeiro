@@ -77,10 +77,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| permitir que o usuário crie um orçamento mensal para controlar seus gastos. | MÉDIA-ALTA | 
-|RF-002| permitir que o usuário insira e classifique despesas do dia a dia, como alimentação, transporte e compras. | ALTA | 
-|RF-003| permitir que o usuário defina limites de gastos para cada categoria de despesas. | MÉDIA-ALTA |
-|RF-004| permitir que o usuário visualize um resumo mensal de seus gastos. | MÉDIA |
+|RF-001| fornecer um formulário de cadastro no qual os usuários possam inserir as informações necessárias para criar uma conta.  | ALTA |
+|RF-002| O sistema deve autenticar corretamente os usuários, verificando se as credenciais fornecidas (e-mail e senha) correspondem a um usuário válido.| ALTA |
+|RF-003| fornecer uma funcionalidade de recuperação de senha que permita aos usuários redefinir suas senhas em caso de esquecimento. | ALTA |
+|RF-004| permitir que o usuário crie um orçamento mensal para controlar seus gastos. | MÉDIA-ALTA | 
+|RF-005| permitir que o usuário insira e classifique despesas do dia a dia, como alimentação, transporte e compras. | ALTA | 
+|RF-006| permitir que o usuário defina limites de gastos para cada categoria de despesas. | MÉDIA-ALTA |
+|RF-007| permitir que o usuário visualize um resumo mensal de seus gastos. | MÉDIA |
 
 
 ### Requisitos não Funcionais
