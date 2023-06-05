@@ -1,0 +1,206 @@
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #ffc745;
+    border: none;
+}
+
+body {
+   
+    font-size: 100%;
+    background-color: paleturquoise;
+    background-image: url('../img/FundoVerde.svg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.divisoria-hidden {
+    border-top: 0px;
+    margin: 20px 0;
+
+}
+
+#logo {
+    
+    margin-top: -4%;
+    margin-left: -15%;
+    width: 600px;
+    height: 160px;
+}
+
+#back-container {
+
+    background-color: #008578;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 20px;
+    text-align: center;
+} 
+ 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  }  
+ .parent {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  transform: translate(150px);
+}
+
+.div1 {grid-area: 2 / 3 / 4 / 5;
+       margin-bottom: 10px;
+}
+
+.div2 {grid-area: 4 / 3 / 6 / 5;}
+
+.shared-style {
+  position: relative;
+  font-weight: bold;
+  width: 220px;
+  height: 28px;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.shared-style::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffc222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {width: 220px;}
+
+.input-container input {
+  width: 100%;
+  height: 28px;
+  box-sizing: border-box;
+  padding-left: 5px;
+}
+
+::placeholder {
+  font-weight: bold;
+}
+
+.bnt-add {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #ffc745;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.bnt-add:hover {cursor: pointer;}
+
+h1 {margin-left: -20px;}
+
+.div1 input,
+.div2 input {
+  color: black;
+}
+
+#element-container {
+  margin-top: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: auto;
+  top: 310px;
+  left: 105px;
+}
+
+ .edit-btn {
+    background-image: url("../img/pencil.svg");
+    width: 16px;
+    height: 16px;
+ }
+ .delete-btn {
+    background-image: url("../img/trash.svg");
+    width: 16px;
+    height: 16px;
+ }
+
+ .button-container {
+  position: absolute;
+  display: flex;
+  top: -12px;
+  left: 230px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.button-container .edit-btn,
+.button-container .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.button-container .edit-btn {
+  background-image: url("../img/pencil.svg");
+}
+
+.button-container .delete-btn {
+  background-image: url("../img/trash.svg");
+}
+
+.element {
+  position:absolute;
+  display:flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  width: 240px;
+  height: 23px;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  background-color: #fff;
+  padding-right: 5px;
+}
+
+.element::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffc222;
+}
