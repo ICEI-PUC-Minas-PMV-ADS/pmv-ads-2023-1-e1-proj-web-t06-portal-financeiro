@@ -1,7 +1,4 @@
-/* Tela Cadastro*/
-
 * {
- 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,108 +7,98 @@
     border: none;
 }
 
-
 body {
-
-    background-image: url('../img/FundoVerde.jpg') ;
+    background-image: url('../img/FundoVerde.jpg');
     background-size: cover;
-
 }
 
-textarea:focus, input:focus {
-outline: none;
+textarea:focus,
+input:focus {
+    outline: none;
 }
 
 a:hover {
     color: #ffc222;
- 
-} 
+}
 
 /* Logo bolso feliz*/
 #logo {
-    
     margin-top: -8%;
     margin-left: -15%;
     width: 400px;
     height: 150px;
- }
-
-/* container cadastro*/
+}
 
 
 #cadastro-container {
-
     background-color: #008578;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 7vh;
+    margin-top: 3vh;
     border-radius: 20px;
     text-align: center;
 }
 
-/* formulário cadastro distancia logo */
-
-form {
-margin-top: 10px;
-margin-bottom: 30px;
-}
-
 /* configurações ver senha */
 .mostrar-senha {
-    margin-left: 8.5rem;
-    margin-top: -55px;
-    font-size: 25px;
+    margin-left: 8.9rem;
+    margin-top: -42px;
+    font-size: 20px;
     cursor: pointer;
     position: absolute;
     color: #ffc745;
-   
-    }
-.senhaConfirm {
-    margin-left: 19rem;
-    margin-top: -55px;
-    font-size: 25px;
-    cursor: pointer;
-    position: absolute;
-    color: #ffc745;
-   
-    }
+}
 
-/* Tamanho dos campos de preenchimento*/
-label, input {
+.senhaConfirm {
+    margin-left: 19.5rem;
+    margin-top: -42px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    color: #ffc745;
+}
+
+
+
+label,
+input {
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom:1px ;
     display: block;
     width: 340px;
     text-align: left;
     font-weight: bold;
 }
 
-/* Barras de preenchimento*/
 input {
-    border-bottom: 2px solid #ffc222; 
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
+    border-bottom: 2px solid #ffc222;
+    padding: 8px;
+    font-size: .7rem;
+    margin-bottom: 15px;
 }
 
-input:focus {
-    border-bottom: 2px solid #ffc222;
-}
 
 /* Botões VOLTAR e CADASTRAR */
-    button {
+button {
     text-align: center;
     text-transform: uppercase;
     width: 100%;
     font-weight: bold;
     border: none;
-    height: 40px;
+    height: 25px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #fff;
     background-color: #ffc745;
     cursor: pointer;
-    }
-#register-container p {
-    margin-bottom: 10px;
 }
+
+button:hover {
+    background-color: #ffc222;
+    transition: .5s;
+
+}
+
