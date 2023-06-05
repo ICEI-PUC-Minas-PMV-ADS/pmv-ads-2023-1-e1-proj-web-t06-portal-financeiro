@@ -130,13 +130,14 @@ h1 {margin-left: -20px;}
 
 #element-container {
   margin-top: 10px;
-  position: absolute;
+  position: left;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 250px;
   height: auto;
-  top: 310px;
+  top: -490px;
+  transform: translate(0, -490px);
   left: 105px;
 }
 
