@@ -131,14 +131,13 @@ h1 {margin-left: -20px;}
 #element-container {
   margin-top: 10px;
   position: absolute;
-  float: left;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 250px;
   height: auto;
-   left: -160px;
-   top: 15px;
+  top: 310px;
+  left: 105px;
 }
 
  .edit-btn {
@@ -187,6 +186,7 @@ h1 {margin-left: -20px;}
   margin-bottom: 10px;
   width: 100%;
   font-weight: bold;
+  color: black;
   width: 240px;
   height: 23px;
   border: 1px solid #fff;
@@ -204,6 +204,3 @@ h1 {margin-left: -20px;}
   height: 2px;
   background-color: #ffc222;
 }
-
-
-
