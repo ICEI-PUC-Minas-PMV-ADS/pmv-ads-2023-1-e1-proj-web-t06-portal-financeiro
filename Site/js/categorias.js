@@ -31,7 +31,7 @@ btnAdd.addEventListener('click', function() {
      
   var elementContainer = document.getElementById('element-container');
   novaDiv.style.marginTop = posicaoVertical + 'px';
-  posicaoVertical += 55;
+  posicaoVertical += 58;
   elementContainer.appendChild(novaDiv);
   document.getElementById('textInput').value = '';
   document.getElementById('NumberInput').value = '';
@@ -47,6 +47,6 @@ function organizarCategorias() {
     var categorias = elementContainer.querySelectorAll('.element');
     
     categorias.forEach(function(categoria, index) {
-      categoria.style.marginTop = index * 50 + 'px';
+      categoria.style.marginTop = index * 58 + 'px';
     });
   }
