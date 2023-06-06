@@ -1,52 +1,125 @@
+var editando = "";
+var elementContainer = document.getElementById('element-container');
 var posicaoVertical = 0;
+var dadoscategoria = []
 var btnAdd = document.querySelector('.bnt-add');
-btnAdd.addEventListener('click', function() {
-  var novaCategoria = document.getElementById('textInput').value;
-  var limiteGasto = document.getElementById('NumberInput').value;
-  var novaDiv = document.createElement('div');
-  novaDiv.classList.add('element');
-     novaDiv.textContent = novaCategoria + ' Limite:R$' + limiteGasto;
 
-     var buttonContainer = document.createElement('div');
-     buttonContainer.classList.add('button-container');
-     buttonContainer.style.marginTop = '14px';
+function addcategoria() {
+  var nome = document.getElementById('textInput').value;
+  var limite = document.getElementById('NumberInput').value;
 
-     var editButton = document.createElement('button');
-     editButton.classList.add('edit-btn');
-     editButton.addEventListener('click', function() {
-       //editar a categoria, não faço ideia to pensando XD//
-     });
-   
-     var deleteButton = document.createElement('button');
-     deleteButton.classList.add('delete-btn');
-     deleteButton.addEventListener('click', function() {
-        novaDiv.remove();
-        organizarCategorias();
-     });
-   
-     buttonContainer.appendChild(editButton);
-     buttonContainer.appendChild(deleteButton);
-   
-     novaDiv.appendChild(buttonContainer);
-     
-  var elementContainer = document.getElementById('element-container');
-  novaDiv.style.marginTop = posicaoVertical + 'px';
-  posicaoVertical += 58;
-  elementContainer.appendChild(novaDiv);
-  document.getElementById('textInput').value = '';
-  document.getElementById('NumberInput').value = '';
+  if (validarCamposVazios(nome, limite) == false) {
+    if (validar(nome) == false) {
+      var nova = {
+        nome: nome, limite: limite
+      }
+      dadoscategoria.push(nova)
+      load()
+    }
+  }
+}
+btnAdd.addEventListener('click', addcategoria);
 
-  organizarCategorias();
+function limpar(nome) {
+  dadoscategoria.forEach((categoria, index) => {
+    if (categoria.nome == nome) {
+      dadoscategoria.splice(index, 1)
+      load()
+    }
+  });
+}
 
+function editar() {
+  var nomenovo = document.getElementById('nomenovo').value;
+  var valornovo = document.getElementById('valornovo').value;
+  if (validarCamposVazios(nomenovo, valornovo) == false) {
+    if (nomenovo == editando || validar(nomenovo) == false) {
+      dadoscategoria.forEach((categoria, index) => {
+        if (categoria.nome == editando) {
+          categoria.nome = nomenovo
+          categoria.limite = valornovo
+          load()
+        }
+      });
+      popup();
+      document.getElementById('nomenovo').value = '';
+      document.getElementById('valornovo').value = '';
+    }
+  }
+}
 
+function abrirpopup(categoria) {
+  document.getElementById('nomenovo').value = categoria.nome;
+  document.getElementById('valornovo').value = categoria.limite;
+  var popup = document.getElementById("popup");
+  popup.classList.toggle("active");
+}
 
-});
+function popup() {
+  var popup = document.getElementById("popup");
+  popup.classList.toggle("active");
+}
+
+function load() {
+  elementContainer.innerHTML = "";
+  dadoscategoria.forEach(categoria => {
+    var novaDiv = document.createElement('div');
+    novaDiv.classList.add('element');
+    novaDiv.textContent = categoria.nome + ' Limite:R$' + categoria.limite;
+
+    var buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('button-container');
+    buttonContainer.style.marginTop = '14px';
+
+    var editButton = document.createElement('button');
+    editButton.classList.add('edit-btn');
+    editButton.addEventListener('click', function () {
+      abrirpopup(categoria);
+      editando = categoria.nome;
+    });
+
+    var deleteButton = document.createElement('button');
+    deleteButton.classList.add('delete-btn');
+    deleteButton.addEventListener('click', function () {
+      limpar(categoria.nome);
+    });
+
+    buttonContainer.appendChild(editButton);
+    buttonContainer.appendChild(deleteButton);
+
+    novaDiv.appendChild(buttonContainer);
+
+    novaDiv.style.marginTop = posicaoVertical + 'px';
+    posicaoVertical += 58;
+    elementContainer.appendChild(novaDiv);
+    document.getElementById('textInput').value = '';
+    document.getElementById('NumberInput').value = '';
+
+    organizarCategorias();
+
+  });
+}
 
 function organizarCategorias() {
-    var elementContainer = document.getElementById('element-container');
-    var categorias = elementContainer.querySelectorAll('.element');
-    
-    categorias.forEach(function(categoria, index) {
-      categoria.style.marginTop = index * 58 + 'px';
-    });
-  }
+  var categorias = elementContainer.querySelectorAll('.element');
+
+  categorias.forEach(function (categoria, index) {
+    categoria.style.marginTop = index * 58 + 'px';
+  });
+}
+
+function validarCamposVazios(nome, limite) {
+  var error = false;
+  if (nome == "" || limite == "") { error = true }
+  return error;
+};
+
+function validar(nome) {
+  var error = false;
+  dadoscategoria.forEach(function (element) {
+    if (element.nome == nome) {
+      error = true;
+    }
+  });
+  return error;
+};
