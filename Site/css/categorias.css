@@ -183,19 +183,6 @@ h1 {margin-left: -20px;}
   padding-top: 5px;
 }
 
-#editar-elemento {
-z-index:666;
-position: left;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-min-height: 25vh;
-max-width: 40vh;
-transform: translate(370px, -450px);
-background-color: red;
-}
-
 .popup {
   position: fixed;
   top: 0;
@@ -206,7 +193,7 @@ background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 666;
   visibility: hidden;
 }
 
