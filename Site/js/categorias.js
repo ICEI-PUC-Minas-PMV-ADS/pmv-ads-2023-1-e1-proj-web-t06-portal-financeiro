@@ -15,7 +15,7 @@ function addcategoria() {
   if (validarCamposVazios(nome, limite) == false) {
     if (validar(nome) == false) {
       var nova = {
-        nome: nome, limite: limite
+        nome: PrimeiraLetraMaiusc(nome), limite: limite
       }
       dadoscategoria.push(nova);
       save();
@@ -27,7 +27,7 @@ btnAdd.addEventListener('click', addcategoria);
 
 function limpar(nome) {
   dadoscategoria.forEach((categoria, index) => {
-    if (categoria.nome == nome) {
+    if (categoria.nome.toLowerCase() === nome.toLowerCase()) {
       dadoscategoria.splice(index, 1)
       load()
       save()
@@ -44,6 +44,7 @@ function editar() {
         if (categoria.nome == editando) {
           categoria.nome = nomenovo
           categoria.limite = valornovo
+          categoria.nome = PrimeiraLetraMaiusc(nomenovo);
           load()
           save()
         }
@@ -114,9 +115,13 @@ function validarCamposVazios(nome, limite) {
 function validar(nome) {
   var error = false;
   dadoscategoria.forEach(function (element) {
-    if (element.nome == nome) {
+    if (element.nome.toLowerCase() === nome.toLowerCase()) {
       error = true;
     }
   });
   return error;
 };
+
+function PrimeiraLetraMaiusc(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
