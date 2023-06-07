@@ -1,8 +1,12 @@
 var editando = "";
 var elementContainer = document.getElementById('element-container');
 var posicaoVertical = 0;
-var dadoscategoria = []
+var dadoscategoria = JSON.parse(localStorage.getItem('categorias')) || [];
 var btnAdd = document.querySelector('.bnt-add');
+
+function save() {
+  localStorage.setItem('categorias', JSON.stringify(dadoscategoria)); 
+}
 
 function addcategoria() {
   var nome = document.getElementById('textInput').value;
@@ -13,8 +17,9 @@ function addcategoria() {
       var nova = {
         nome: nome, limite: limite
       }
-      dadoscategoria.push(nova)
-      load()
+      dadoscategoria.push(nova);
+      save();
+      load();
     }
   }
 }
@@ -25,6 +30,7 @@ function limpar(nome) {
     if (categoria.nome == nome) {
       dadoscategoria.splice(index, 1)
       load()
+      save()
     }
   });
 }
@@ -39,6 +45,7 @@ function editar() {
           categoria.nome = nomenovo
           categoria.limite = valornovo
           load()
+          save()
         }
       });
       popup();
