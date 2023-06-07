@@ -1,6 +1,5 @@
 var editando = "";
 var elementContainer = document.getElementById('element-container');
-var posicaoVertical = 0;
 var dadoscategoria = JSON.parse(localStorage.getItem('categorias')) || [];
 var btnAdd = document.querySelector('.bnt-add');
 load();
@@ -79,7 +78,6 @@ function load() {
 
     var buttonContainer = document.createElement('div');
     buttonContainer.classList.add('button-container');
-    // buttonContainer.style.marginTop = '14px';
 
     var editButton = document.createElement('button');
     editButton.classList.add('edit-btn');
@@ -100,22 +98,10 @@ function load() {
     novaDiv.appendChild(textDiv);
     novaDiv.appendChild(buttonContainer);
 
-    // novaDiv.style.marginTop = posicaoVertical + 'px';
-    posicaoVertical += 58;
     elementContainer.appendChild(novaDiv);
     document.getElementById('textInput').value = '';
     document.getElementById('NumberInput').value = '';
 
-    // organizarCategorias();
-
-  });
-}
-
-function organizarCategorias() {
-  var categorias = elementContainer.querySelectorAll('.element');
-
-  categorias.forEach(function (categoria, index) {
-    categoria.style.marginTop = index * 58 + 'px';
   });
 }
 
