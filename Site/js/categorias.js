@@ -73,7 +73,9 @@ function load() {
   dadoscategoria.forEach(categoria => {
     var novaDiv = document.createElement('div');
     novaDiv.classList.add('element');
-    novaDiv.textContent = categoria.nome + ' Limite:R$' + categoria.limite;
+    var textDiv = document.createElement('div');
+    textDiv.classList.add('element-text');
+    textDiv.textContent = categoria.nome + ' Limite:R$' + categoria.limite;
 
     var buttonContainer = document.createElement('div');
     buttonContainer.classList.add('button-container');
@@ -95,6 +97,7 @@ function load() {
     buttonContainer.appendChild(editButton);
     buttonContainer.appendChild(deleteButton);
 
+    novaDiv.appendChild(textDiv);
     novaDiv.appendChild(buttonContainer);
 
     // novaDiv.style.marginTop = posicaoVertical + 'px';
