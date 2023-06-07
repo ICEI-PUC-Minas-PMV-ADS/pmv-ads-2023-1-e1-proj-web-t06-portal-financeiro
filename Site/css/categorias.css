@@ -124,7 +124,7 @@ h1 {margin-left: -20px;}
   align-items: center;
   width: 320px;
   height: auto;
-  transform: translate(0, -495px);
+  transform: translate(0, -515px);
   left: 105px;
 }
 
@@ -177,6 +177,7 @@ h1 {margin-left: -20px;}
   height: auto;
   padding-right: 5px;
   padding-top: 5px;
+  margin-bottom: 2px;
 }
 
 .element-text {
