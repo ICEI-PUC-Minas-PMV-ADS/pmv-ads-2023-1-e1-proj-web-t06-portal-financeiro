@@ -3,6 +3,7 @@ var elementContainer = document.getElementById('element-container');
 var posicaoVertical = 0;
 var dadoscategoria = JSON.parse(localStorage.getItem('categorias')) || [];
 var btnAdd = document.querySelector('.bnt-add');
+load();
 
 function save() {
   localStorage.setItem('categorias', JSON.stringify(dadoscategoria)); 
