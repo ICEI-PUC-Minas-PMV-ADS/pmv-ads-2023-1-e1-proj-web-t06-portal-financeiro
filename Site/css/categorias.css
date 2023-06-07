@@ -119,9 +119,10 @@ h1 {margin-left: -20px;}
   margin-top: 10px;
   position: left;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 320px;
   height: auto;
   transform: translate(0, -495px);
   left: 105px;
@@ -139,10 +140,10 @@ h1 {margin-left: -20px;}
  }
 
  .button-container {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
-  top: -12px;
-  left: 230px;
+  /* top: -12px; */
+  /* left: 230px; */
   margin-left: 10px;
   margin-right: 5px;
 }
@@ -167,22 +168,33 @@ h1 {margin-left: -20px;}
 }
 
 .element {
-  position:absolute;
+  /* position:absolute; */
   display:flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  text-align: left;
   margin-bottom: 10px;
-  width: 100%;
+  width: 320px;
   font-weight: bold;
   color: black;
   width: 240px;
   /* height: 25px; */
   border: 1px solid #fff;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding-right: 5px;
-  border-bottom: 2px solid #ffc222;
   padding-top: 5px;
 }
 
+.element-text {
+   border-bottom: 2px solid #ffc222;
+   width: 240px;
+   flex: 1;
+   background-color: white;
+   min-height: 25px;
+}
+ 
 .popup {
   position: fixed;
   top: 0;
