@@ -175,7 +175,7 @@ h1 {margin-left: -20px;}
   font-weight: bold;
   color: black;
   width: 240px;
-  height: 25px;
+  /* height: 25px; */
   border: 1px solid #fff;
   background-color: #fff;
   padding-right: 5px;
