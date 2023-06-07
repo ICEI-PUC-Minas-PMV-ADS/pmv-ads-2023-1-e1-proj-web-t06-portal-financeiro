@@ -179,9 +179,9 @@ h1 {margin-left: -20px;}
   width: 320px;
   font-weight: bold;
   color: black;
-  width: 240px;
+  /* width: 240px; */
   /* height: 25px; */
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   /* background-color: #fff; */
   padding-right: 5px;
   padding-top: 5px;
