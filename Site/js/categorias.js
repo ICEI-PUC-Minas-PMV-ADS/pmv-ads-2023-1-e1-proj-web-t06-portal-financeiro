@@ -5,7 +5,7 @@ var btnAdd = document.querySelector('.bnt-add');
 load();
 
 function save() {
-  localStorage.setItem('categorias', JSON.stringify(dadoscategoria)); 
+  localStorage.setItem('categorias', JSON.stringify(dadoscategoria));
 }
 
 function addcategoria() {
@@ -124,4 +124,8 @@ function validar(nome) {
 
 function PrimeiraLetraMaiusc(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function voltarPagina() {
+  window.location.href = "../Site/MeusGastos.html";
 }
