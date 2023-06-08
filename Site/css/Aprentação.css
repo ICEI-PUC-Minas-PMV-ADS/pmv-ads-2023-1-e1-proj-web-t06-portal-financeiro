@@ -1,7 +1,18 @@
 *{
+    margin: 2;
+    padding: 0;
     font-size: 30px;
-    color: #ffc222;
+    color: #ffc745;
+    font-family: Helvetica;
+}
 
+body {
+   
+    font-size: 100%;
+    background-color: paleturquoise;
+    background-image: url(Imagens/FundoVerde.svg);
+    background-size: cover;
+    background-position-y: -200px;
 }
 
 #logo{
@@ -24,13 +35,13 @@
 }
 
 #pr01{
-    margin-top: 2%;
-    margin-left: 2%;
-    text-align: center;
+    
+    text-align:center;
 
 }
 
 button{
+    border: none;
     border-radius: 15px;
     background-color: #093633;
     margin-left: 45%;
