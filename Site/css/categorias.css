@@ -1,57 +1,58 @@
 * {
- 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica;
-    text-decoration: none;
-    color: #ffc745;
-    border: none;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  text-decoration: none;
+  color: #ffc745;
+  border: none;
 }
 
 body {
-   
-    font-size: 100%;
-    background-color: paleturquoise;
-    background-image: url('../img/FundoVerde.svg');
-    background-size: cover;
-    background-position-y: -200px;
+
+  font-size: 100%;
+  background-color: paleturquoise;
+  background-image: url('../img/FundoVerde.svg');
+  background-size: cover;
+  background-position-y: -200px;
 }
 
 .divisoria-hidden {
-    border-top: 0px;
-    margin: 20px 0;
+  border-top: 0px;
+  margin: 20px 0;
 
 }
 
 #logo {
-    
-    margin-top: -4%;
-    margin-left: -15%;
-    width: 600px;
-    height: 160px;
+
+  margin-top: -4%;
+  margin-left: -15%;
+  width: 600px;
+  height: 160px;
 }
 
 #back-container {
 
-    background-color: #008578;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 30px;
-    margin-top: 7vh;
-    border-radius: 20px;
-    text-align: center;
-} 
- 
+  background-color: #008578;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 7vh;
+  border-radius: 20px;
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr;
   grid-template-rows: repeat(8, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 10px;
-  }  
- .parent {
+}
+
+.parent {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr;
   grid-template-rows: repeat(8, 1fr);
@@ -60,11 +61,14 @@ body {
   transform: translate(150px);
 }
 
-.div1 {grid-area: 2 / 3 / 4 / 5;
-       margin-bottom: 10px;
+.div1 {
+  grid-area: 2 / 3 / 4 / 5;
+  margin-bottom: 10px;
 }
 
-.div2 {grid-area: 4 / 3 / 6 / 5;}
+.div2 {
+  grid-area: 4 / 3 / 6 / 5;
+}
 
 .shared-style {
   position: relative;
@@ -82,7 +86,9 @@ body {
   border-bottom: 4px solid #ffc222;
 }
 
-.input-container {width: 220px;}
+.input-container {
+  width: 220px;
+}
 
 .input-container input {
   width: 100%;
@@ -104,11 +110,12 @@ body {
   border-radius: 4px;
   margin-top: 8px;
   font-weight: bold;
+  cursor: pointer;
 }
 
-.bnt-add:hover {cursor: pointer;}
-
-h1 {margin-left: -20px;}
+h1 {
+  margin-left: -20px;
+}
 
 .div1 input,
 .div2 input {
@@ -128,18 +135,19 @@ h1 {margin-left: -20px;}
   left: 105px;
 }
 
- .edit-btn {
-    background-image: url("../img/pencil.svg");
-    width: 16px;
-    height: 16px;
- }
- .delete-btn {
-    background-image: url("../img/trash.svg");
-    width: 16px;
-    height: 16px;
- }
+.edit-btn {
+  background-image: url("../img/pencil.svg");
+  width: 16px;
+  height: 16px;
+}
 
- .button-container {
+.delete-btn {
+  background-image: url("../img/trash.svg");
+  width: 16px;
+  height: 16px;
+}
+
+.button-container {
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
@@ -165,7 +173,7 @@ h1 {margin-left: -20px;}
 }
 
 .element {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -214,7 +222,7 @@ h1 {margin-left: -20px;}
 }
 
 .popup-content {
-  background-color:#008578;
+  background-color: #008578;
   padding: 20px;
   border-radius: 5px;
 }
@@ -229,7 +237,7 @@ h1 {margin-left: -20px;}
 }
 
 .popup-content button {
-  background-color:#ffc222;
+  background-color: #ffc222;
   color: black;
   font-weight: bold;
   width: 100px;
@@ -248,4 +256,27 @@ h1 {margin-left: -20px;}
 
 .popup-content .popup-button-container button {
   margin-left: 10px;
+}
+
+.bnt-voltar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  height: 38px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ffc745;
+  color: black;
+  font-weight: bold;
+  transform: translate(355px, -75px);
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  transform: translate(-10px, -65px);
 }
