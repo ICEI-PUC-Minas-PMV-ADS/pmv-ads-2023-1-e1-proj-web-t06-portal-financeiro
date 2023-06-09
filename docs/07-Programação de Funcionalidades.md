@@ -2,7 +2,7 @@
 
 ##  Login 
 
-Tela que permite ao usuário está realizando o login ao site, disponibilizando também um botão para acessar a tela de cadastro e a tela recuperação de senha.
+Sua principal função é permitir que os usuários autentiquem suas identidades para obter acesso ao site. Através dessa página, os usuários podem inserir suas informações de login, como nome de usuário e senha, e o sistema verifica se essas informações são válidas para conceder o acesso. Disponibilizando também outros elementos na página, como botões para cadastrar um novo usuário e a opção para recuperação de senha.
 
 
 ![Tela de login](img/PaginaDeLogin.png)
@@ -74,7 +74,7 @@ function entrar() {
 
 ### Cadastro
 
-Tela que permite ao usuário realizar o cadastro através do preenchimento dos seguintes dados: nome, e-mail, telefone e senha. 
+A página de cadastro de usuário é uma funcionalidade que permite que novos usuários se registrem e criem uma conta para acessar e utilizar os recursos disponíveis no site. Essa página contém um formulário onde os usuários podem inserir informações pessoais, como nome, endereço de e-mail, senha, entre outros dados relevantes para o site. Essas informações são então enviadas para o servidor, onde são processadas e armazenadas em um banco de dados.
 
 ![Tela de cadastro](img/TeladeCadastro.png)
 
