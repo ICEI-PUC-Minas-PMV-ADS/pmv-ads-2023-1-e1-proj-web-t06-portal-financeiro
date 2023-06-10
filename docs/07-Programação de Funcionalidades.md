@@ -81,11 +81,13 @@ A página de cadastro de usuário é uma funcionalidade que permite que novos us
 
 ### Instruções de Acesso
 
-- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/Site/cadastro.html
+- Abra o navegador da web de sua preferência (Google Chrome, Mozilla Firefox, Safari, etc.) em seu dispositivo.
+
+- Na barra de endereço do navegador, informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/Site/cadastro.html
 
 - Digite as credenciais pedidas para realizar seu cadastro ( Nome, Email, Telefone, Senha e a confirmação de Senha).
 
-- Clique em cadastrar para que você seja redirecionado para a pagina de login.
+- Após preencher todas as informações necessárias, clique em cadastrar para que você seja redirecionado para a pagina de login.
 
 ### Requisitos Atendidos
 
