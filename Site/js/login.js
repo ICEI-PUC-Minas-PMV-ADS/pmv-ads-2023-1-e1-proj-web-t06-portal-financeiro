@@ -23,7 +23,7 @@ function toggleMostrarSenha() {
     var senha = document.getElementById("senha").value;
   
     // Recupera os dados do LocalStorage com base no endereço de e-mail
-    var dadosString = localStorage.getItem(email);
+    var dadosString = localStorage.getItem('usuario');
   
     // Verifica se os dados foram encontrados
     if (dadosString) {
@@ -34,7 +34,7 @@ function toggleMostrarSenha() {
       if (senha === dados.senha) {
         alert("Login realizado com sucesso!");
 
-        window.location.href = "MeusGastos.html"
+        window.location.href = "./menu.html" 
       } else {
         alert("Senha incorreta. Tente novamente.");
       }

@@ -97,7 +97,7 @@ function cadastrar() {
   var dadosString = JSON.stringify(dados);
 
   // Armazena os dados no LocalStorage
-  localStorage.setItem(email, dadosString);
+  localStorage.setItem('usuario', dadosString);
 
   alert("Dados salvos com sucesso!");
 

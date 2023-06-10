@@ -11,44 +11,73 @@
     
 </head>
 <body>
+    
     <div id="back-container">
         <header>
             <div class="divisoria-hidden"></div>
             <div class="container-log">
-                <img class="logo" id="logo" src="img/logobolsofeliz.svg" alt="Logo">
+                <img class="logo" id="logo" src="img/logobolsofeliz.svg" alt="Desenho de uma carteira com moeda e segurando um papel no estilo cartoon, escrito bolso feliz e abaixo escrito: seu site de educação financeira">
             </div>
             <div class="divisoria-hidden"></div>
             <nav class="menu">
-                <a><strong>Início</strong></a>
-                <a><strong>Relatório</strong></a>
-                <a><strong>Categoria</strong></a>
+                
+                <a href="./menu.html"><strong>Relatório</strong></a>
+                <a href="./categorias.html"><strong>Categorias</strong></a>
+                <a href="./login.html"><strong>Sair</strong></a>
+
             </nav>
             <div class="divisoria-hidden"></div>
         </header>
+
+        <!-- MEXER -->
         <main>
+            
+            <h2>Cadastro de Gastos</h2>
+            <div class="formulario">
+                <form id="gastos-form">
+                <div class="labels">
+                <label class="categoria"  for="selecao-categoria">Categoria</label>
+                <label class="descricao" for="entrada-descricao">Descrição</label>
+                <label class="data" for="entrada-data">Data</label>
+                <label class="valor" for="entrada-valor">Valor</label>
+                </div>
+                
+            
+                <select  id="selecao-categoria" required></select>
+
+                
+
+                <input  type="text" id="entrada-descricao" required>
+                
+                
+
+                <input type="date" id="entrada-data" required>
+                
+
+
+                <input type="number" id="entrada-valor" step="0.01" required>
+                
+                <button id="adicionar" type="submit">Adicionar</button>
+                </form>
+            </div>
+                
+
             <section>
-                <table class="table" id="table">
-                    <thead class="table-thead">
+                <table id="gastos-table">
+                    <thead>
                         <tr>
-                            <th>Data</th>
+                            <th>Categoria</th>    
                             <th>Descrição</th>
-                            <th>Categoria</th>
+                            <th>Data</th>
                             <th>Valor</th>
                             <th>Ações</th>
                         </tr>
                     </thead>
-                    <tbody id="table" class="table-texto">
-                        <td class="actions">
-                            <button class="edit-button" onclick="editRow(this)">
-                              <img src="img/pencil.svg" alt="Editar">
-                            </button>
-                            <button class="delete-button" onclick="deleteRow(this)">
-                              <img src="img/trash.svg" alt="Excluir">
-                            </button>
-                          </td>                            
+                    <tbody >
+                                                
                     </tbody>
                 </table>
-                <button id="adicionar">Adicionar</button>
+                
             </section>
             <section>
 

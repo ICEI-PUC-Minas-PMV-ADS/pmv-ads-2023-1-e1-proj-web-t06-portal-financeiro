@@ -1,0 +1,115 @@
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #ffc745;
+    border: none;
+}
+
+#logo {
+    
+    margin-top: -8%;
+    margin-left: -15%;
+    width: 600px;
+    height: 150px;
+}
+
+#back-container {
+
+    background-color: #008578;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.divisoria {
+    border-top: 1px solid #ffc745;
+    margin: 20px 0;
+
+}
+
+.divisoria-hidden {
+    border-top: 0px;
+    margin: 20px 0;
+
+}
+
+body {
+   
+    font-size: 100%;
+    background-color: paleturquoise;
+    background-image: url('../img/FundoVerde.svg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 45px;
+    font-weight: 400;
+    font-size: large;
+    line-height: 48px;
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+
+
+header {
+    margin: auto;
+    padding: auto;
+    font-family: Helvetica;
+    color: #ffc745;
+    border: none;
+    
+}
+
+
+a:hover {
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 8px 10px; 
+    border-radius: 5px;
+    transition: border-color 2.0s, font-size 0.02s;
+    line-height: 1; 
+}
+
+
+button {
+
+    margin: 20px 20px;
+    padding: 10px 20px;
+    background-color: #ffc745;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*verificar dps  */
+#chartContainer {
+    color: rgb(228, 228, 228);
+  }
+
+  #chartContainer canvas {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #chartContainer .chartjs-text-color {
+    color: rgb(0, 0, 0) !important;
+  }
+
+  #chartContainer .chartjs-grid-line {
+    stroke: rgb(0, 0, 0) !important;
+  }

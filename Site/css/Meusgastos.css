@@ -100,7 +100,7 @@ header {
 }
 
 table {
-    margin: 5% 0;
+    margin: 10% auto; /* alterado: lucy */
     border-collapse: collapse;
     background-color: #008578;
     box-shadow: 0 0 20px rgb(255, 255, 255);
@@ -152,13 +152,16 @@ table tbody button {
 
 button#adicionar {
     display: block;
-    margin: 20px auto;
+    margin: -15px auto 20px;
     padding: 10px 20px;
     background-color: #ffc745;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    float: right;
+    text-align: right;
+    margin-right: 6%;
 }
 
 button#adicionar:hover {
@@ -169,4 +172,74 @@ button#adicionar:hover {
 footer {
     text-align: center;
     margin-top: 50px;
+}
+
+
+
+
+/* Navv */
+
+a:hover {
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 8px 10px; 
+    border-radius: 5px;
+    transition: border-color 2.0s, font-size 0.01s;
+    line-height: 1; 
+}
+
+
+.formulario input,
+.formulario select {
+    margin-top: 1px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    margin-bottom: 40px;
+
+
+}
+
+.labels{
+    margin-top: 15px ;
+    font-size: 15px;
+}
+
+
+.labels label {
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+#entrada-valor {
+    width: 15%;
+}
+
+#selecao-categoria{
+    width: 20%;
+}
+
+.categoria {
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+.categoria {
+    margin-right: 60px !important;
+    margin-left: 5px !important;
+
+}
+
+.descricao {
+    margin-left: 10px !important;
+    margin-right: 60px !important;
+}
+
+.data {
+    margin-left: 30px !important;
+}
+
+.valor {
+    margin-left:  60px !important;
 }

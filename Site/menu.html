@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meus Gastos">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="./js/menu.js"></script>
+    <link rel="shortcut icon" href="img/logobolsofeliz.svg" type="image/x-icon">
+    
+</head>
+<body>
+    
+    <div id="back-container">
+        <header>
+            <div class="divisoria-hidden"></div>
+            <div class="container-log">
+                <img class="logo" id="logo" src="img/logobolsofeliz.svg" alt="Desenho de uma carteira com moeda e segurando um papel no estilo cartoon, escrito bolso feliz e abaixo escrito: seu site de educação financeira">
+            </div>
+            <div class="divisoria-hidden"></div>
+            <nav class="menu">
+                
+                <a href="./MeusGastos.html"><strong>Meus gastos</strong></a>
+                <a href="./categorias.html"><strong>Categorias</strong></a>
+                <a href="./login.html"><strong>Sair</strong></a>
+
+            </nav>
+            <div class="divisoria-hidden"></div>
+        </header>
+        <div>
+            <h2 id="saudacao"></h2>
+            
+            
+        </div>
+        <button id="btnGastoAnual" onclick="renderizarGastoAnual()">Gasto Anual</button>
+        <button id="btnGastoPorCategoria" onclick="renderizarGastoPorCategoria()">Gasto por Categoria</button>
+        <div id="chartContainer"></div>
+        <br>
+    
+    <footer>
+        <p>Desenvolvido por Bolso Feliz</p>
+    </footer>
+
+
+    
+
+</body>
+</html>
