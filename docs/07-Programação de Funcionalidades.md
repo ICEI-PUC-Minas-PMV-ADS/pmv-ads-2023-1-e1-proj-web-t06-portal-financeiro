@@ -133,7 +133,7 @@ function entrar() {
 
 <br>
 
-### Cadastro
+## Cadastro
 
 <br>
 
