@@ -16,6 +16,11 @@ body {
   background-position-y: -200px;
 }
 
+html, body {
+  transform: scale(0.83);
+  transform-origin:top center;
+}
+
 .divisoria-hidden {
   border-top: 0px;
   margin: 20px 0;
@@ -276,9 +281,4 @@ footer {
   position: relative;
   text-align: center;
   transform: translate(-10px, -65px);
-}
-
-html, body {
-  transform: scale(0.85);
-  transform-origin:center;
 }
