@@ -1,4 +1,5 @@
 # Programação de Funcionalidades
+O documento de programação de funcionalidades descreve as características principais de cada página do sistema. Em cada seção, haverá uma imagem representativa da página e serão fornecidas instruções de acesso, requisitos atendidos, artefatos relacionados à funcionalidade e estruturas de dados utilizadas.
 
 <br>
 
