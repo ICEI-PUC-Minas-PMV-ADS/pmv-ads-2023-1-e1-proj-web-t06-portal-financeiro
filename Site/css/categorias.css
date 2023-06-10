@@ -1,5 +1,4 @@
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +9,6 @@
 }
 
 body {
-
   font-size: 100%;
   background-color: paleturquoise;
   background-image: url('../img/FundoVerde.svg');
@@ -25,7 +23,6 @@ body {
 }
 
 #logo {
-
   margin-top: -4%;
   margin-left: -15%;
   width: 600px;
@@ -33,7 +30,6 @@ body {
 }
 
 #back-container {
-
   background-color: #008578;
   width: 900px;
   margin-left: auto;
@@ -280,4 +276,9 @@ footer {
   position: relative;
   text-align: center;
   transform: translate(-10px, -65px);
+}
+
+html, body {
+  transform: scale(0.85);
+  transform-origin:center;
 }
