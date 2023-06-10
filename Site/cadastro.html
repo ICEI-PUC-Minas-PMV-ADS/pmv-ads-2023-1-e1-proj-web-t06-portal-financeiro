@@ -18,27 +18,27 @@
      <form action="">
 
         
-        <label for="nome" id="LabelNome" >Nome Completo</label>
-        <input type="text"name="nome" id="nome" required>
+        <label for="nome" id="LabelNome" >Nome </label>
+        <input type="text"name="nome" id="nome" placeholder="Digite seu nome completo" autocomplete="off" required onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">
 
 
-        <label for="email" id="LabelEmail">E-MAIL</label>
-        <input type="email" id="email" placeholder="Digite um E-mail Válido" autocomplete="off" required >
+        <label for="email" id="LabelEmail">E-mail</label>
+        <input type="email" id="email" placeholder="Digite um E-mail Válido" autocomplete="off" required onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">
 
 
         <label for="celular" id="LabelCelular">Celular</label>
-        <input type="tel" id="celular" placeholder="Apenas Números"autocomplete="off" required>
+        <input type="tel" id="celular" placeholder="Apenas Números"autocomplete="off" required onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">
 
 
         <label for="senha"id="LabelSenha">Senha</label>
-        <input type="password" name="password" id="senha" placeholder="Cadastre sua senha"autocomplete="off" required>
+        <input type="password" name="password" id="senha" placeholder="Cadastre sua senha"autocomplete="off" required onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">
 
 
         <span class="mostrar-senha"><i id="mostrarSenhaIcon" class="bi bi-eye-fill"></i></span>
 
 
         <label for="confirmSenha" id="LabelConfirmSenha">Digite Novamente</label>
-        <input type="password" name="password" id="confirmSenha" placeholder="Repita sua senha"autocomplete="off"required>                                                
+        <input type="password" name="password" id="confirmSenha" placeholder="Repita sua senha"autocomplete="off"required onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">                                                
 
         <span class="senhaConfirm"><i id="mostrarConfirmSenhaIcon" class="bi bi-eye-fill"></i></span>
 
