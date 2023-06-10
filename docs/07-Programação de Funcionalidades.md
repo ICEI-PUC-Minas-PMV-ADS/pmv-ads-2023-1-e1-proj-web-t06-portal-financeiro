@@ -296,7 +296,8 @@ function popup() {
   popup.classList.toggle("active");
 }
 
-//Recarrega os dados das categorias, ela limpa o conteúdo do element-container e para cada elemento no array ela cria um novo elemento//
+//Recarrega os dados das categorias, ela limpa o conteúdo do element-container,//
+//e para cada categoria armazenada no array ela cria um novo elemento//
 function load() {
   elementContainer.innerHTML = "";
   dadoscategoria.forEach(categoria => {
