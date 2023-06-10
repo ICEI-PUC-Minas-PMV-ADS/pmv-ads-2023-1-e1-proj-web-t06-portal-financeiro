@@ -1,18 +1,73 @@
 # Programação de Funcionalidades
 
+<br>
+
+##  Página Inicial
+<br>
+A página inicial é o ponto de partida para explorar o que oferecemos. Nela, você encontrará uma breve descrição do nosso site e seus principais recursos. Nosso objetivo é proporcionar uma experiência incrível aos usuários, com facilidade de uso, informações relevantes e soluções eficazes para suas necessidades. Você será convidado a explorar o site e descobrir o que nos torna únicos, com um botão destacado para iniciar essa jornada. 
+
+
+![Tela de apresentacao](img/paginaHome.png)
+
+
+### Instruções de acesso
+
+- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/Site/Apresentacao.html
+
+- Na página inicial, clique no botão "CONHECER" para explorar o que o site tem a oferecer.
+
+<br>
+
+### Requisitos Atendidos
+
+- |RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final.
+
+- |RNF-004| O sistema deve ser responsivo para proporcionar a melhor experiência ao usuário em qualquer dispositivo.
+
+- |RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
+
+<br>
+
+### Artefatos da funcionalidade
+
+- Apresentacao.html
+- Aprentacao.css
+- Apresentacao.js
+
+<br>
+
+### Estrutura de dados:
+
+```
+ // Função que irá redirecionar o usuário ao clicar no botão "CONHECER"
+
+ function irparalogin() {
+    window.location.href = "../Site/login.html";
+  }
+```
+<br>
+
 ##  Login 
+
+<br>
 
 Sua principal função é permitir que os usuários autentiquem suas identidades para obter acesso ao site. Através dessa página, os usuários podem inserir suas informações de login, como nome de usuário e senha, e o sistema verifica se essas informações são válidas para conceder o acesso. Disponibilizando também outros elementos na página, como botões para cadastrar um novo usuário e a opção para recuperação de senha.
 
 
-![Tela de login](img/PaginaDeLogin.png)
+![Tela de login](img/paginaLogin.png)
 
 
 ### Instruções de acesso
 
 - Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/Site/login.html
 
+- Se preferir, acesse a página inicial do site e clique no botão "CONHECER" para ser redirecionado para a página de login. 
+
 - O usuário deve preencher os campos fornecidos na tela com e-mail e senha já cadastrados e clicar em entrar.
+
+- Caso ainda não tenha uma conta, clique em "REGISTRAR" na página de login para ser redirecionado a página de cadastro. 
+
+<br>
 
 ### Requisitos Atendidos
 
@@ -24,11 +79,15 @@ Sua principal função é permitir que os usuários autentiquem suas identidades
 
 - |RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final.
 
+<br>
+
 ### Artefatos da funcionalidade
 
 - login.html
 - login.css
 - login.js
+
+<br>
 
 ### Estrutura de dados:
 
@@ -71,12 +130,15 @@ function entrar() {
 
 ```
 
+<br>
 
 ### Cadastro
 
+<br>
+
 A página de cadastro de usuário é uma funcionalidade que permite que novos usuários se registrem e criem uma conta para acessar e utilizar os recursos disponíveis no site. Essa página contém um formulário onde os usuários podem inserir informações pessoais, como nome, endereço de e-mail, senha, entre outros dados relevantes para o site. Essas informações são então enviadas para o servidor, onde são processadas e armazenadas em um banco de dados.
 
-![Tela de cadastro](img/TeladeCadastro.png)
+![Tela de cadastro](img/paginaCadastro.png)
 
 
 ### Instruções de Acesso
@@ -85,9 +147,13 @@ A página de cadastro de usuário é uma funcionalidade que permite que novos us
 
 - Na barra de endereço do navegador, informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t06-portal-financeiro/Site/cadastro.html
 
+- Caso você não queira acessar diretamente pelo URL, você pode ser redirecionado para a página de cadastro através da página de login. 
+
 - Digite as credenciais pedidas para realizar seu cadastro ( Nome, Email, Telefone, Senha e a confirmação de Senha).
 
 - Após preencher todas as informações necessárias, clique em cadastrar para que você seja redirecionado para a pagina de login.
+
+<br>
 
 ### Requisitos Atendidos
 
@@ -97,11 +163,15 @@ A página de cadastro de usuário é uma funcionalidade que permite que novos us
 
 - |RNF-001| O sistema deve ser fácil de usar e ter uma interface amigável para o usuário final.
 
+<br>
+
 ### Artefatos da Funcionalidade
 
 - cadastro.html
 - cadastro.css
 - cadastro. js
+
+<br>
 
 ### Estrutura de Dados
 
@@ -183,7 +253,7 @@ function voltar(){
 
 ```
 
-
+<br>
 
 ##  Categorias 
 
