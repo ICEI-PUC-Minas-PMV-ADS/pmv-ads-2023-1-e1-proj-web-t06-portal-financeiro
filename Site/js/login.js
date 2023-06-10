@@ -45,7 +45,15 @@ function toggleMostrarSenha() {
     }
   }
   
-
+  function limparPlaceholder(element) {
+    element.setAttribute('data-placeholder', element.placeholder);
+    element.placeholder = '';
+  }
+  
+  function restaurarPlaceholder(element) {
+    element.placeholder = element.getAttribute('data-placeholder');
+  }
+  
 
 
   

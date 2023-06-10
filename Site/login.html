@@ -19,11 +19,13 @@
 
         
         <label for="email" id="LabelEmail">E-mail</label>
-        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="on" >
+        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="on" 
+        onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)">
 
        
         <label for="senha" id="LabelSenha">Senha</label>
-        <input type="password" name="password" id="senha" placeholder="Digite a sua senha" >
+        <input type="password" name="password" id="senha" placeholder="Digite a sua senha"
+        onfocus="limparPlaceholder(this)" onblur="restaurarPlaceholder(this)" >
         
         <span class="mostrar-senha"> <i id="mostrarSenhaIcon" class="bi bi-eye-fill"></i> </span>
 
