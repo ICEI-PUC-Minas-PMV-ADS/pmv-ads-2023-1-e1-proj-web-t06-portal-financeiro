@@ -71,8 +71,8 @@ function cadastrar() {
   }
 
   // Verifica se o campo de celular contém apenas números
-  if (!/^\d{8}$/.test(celular)) {
-    alert("O campo de celular deve conter de 8 a 9 digitos.");
+  if (!/^\d{8,11}$/.test(celular)) {
+    alert("O campo de celular deve conter de 8 a 11 digitos.");
   return;
 
   }
