@@ -8,15 +8,24 @@
     color: #ffc745;
     border: none;
   }
-  
+
   body {
+
+
+    background-image: url('../img/FundoVerde.jpg') ;
+    background-size: cover;
+
+}
+
+
+  /*body {
   
     font-size: 100%;
     background-color: paleturquoise;
     background-image: url('../img/FundoVerde.svg');
     background-size: cover;
     background-position-y: -200px;
-  }
+  }*/
   
   .divisoria-hidden {
     border-top: 0px;
@@ -26,16 +35,16 @@
   
   #logo {
   
-    margin-top: -4%;
-    margin-left: -15%;
-    width: 600px;
-    height: 160px;
+    margin-top: 50px;
+    margin-left: 30rem;
+    width: 400px;
+    height: 150px;
   }
   
   #back-container {
   
     background-color: #008578;
-    width: auto;
+    width: 70rem;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
@@ -46,21 +55,29 @@
 
 #Quadrotexto{
     border: 2px solid #0a0a0a;
-    width: 700px;
-    height: 600px;
+    width: 500px;
+    height: 420px;
     border-radius: 20px;
-    margin-top: -24%;
-    margin-left: 2%;
+    margin-top: -13rem;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    
 }
 
 #BV{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 #pr01{
     
     text-align:center;
+    margin-top: 20px;
+    font-size: 20px;
+
+   
+
 
 }
 
@@ -69,7 +86,7 @@
     border-radius: 15px;
     background-color: #ffc745;
     margin-left: 45%;
-    margin-top: 2%;
+    margin-top: 10px;
     width: 220px;
     height: 50px;
     color: black;
@@ -79,8 +96,8 @@
 
 div.quadrado {
     border: 3px solid black;
-    width: 1500px;
-    height: 700px;
+    width: none;
+    height: none;
     border-radius: 10px;
     background-color: #008578;
     margin: auto;
