@@ -1,7 +1,10 @@
 
  const categorias = JSON.parse(localStorage.getItem('categorias')) || [];
  const gastos = JSON.parse(localStorage.getItem('gastos')) || [];
+ let gastoAnualAberto = false;
+ let gastoPorCategoriaAberto = false;
 
+ 
  function calcularValorTotalGastosPorMes() {
    const valorTotalGastosPorMes = Array(12).fill(0);
 
@@ -122,7 +125,28 @@
    });
  }
 
+ function toggleGastoAnual() {
+  gastoAnualAberto = !gastoAnualAberto; // Inverte o estado atual
+  if (gastoAnualAberto) {
+    renderizarGastoAnual();
+  } else {
+    fecharGrafico();
+  }
+}
 
+function toggleGastoPorCategoria() {
+  gastoPorCategoriaAberto = !gastoPorCategoriaAberto; // Inverte o estado atual
+  if (gastoPorCategoriaAberto) {
+    renderizarGastoPorCategoria();
+  } else {
+    fecharGrafico();
+  }
+}
+
+function fecharGrafico() {
+  const chartContainer = document.getElementById('chartContainer');
+  chartContainer.innerHTML = ''; // Limpa o conteúdo do container do gráfico
+}
 
 
 
@@ -154,3 +178,5 @@ exibirTextoGradualmente(`Olá ${nomeUsuario}, o seu relatório está pronto!`, s
 function irMeusGastos() {
   window.location.href = "../Site/MeusGastos.html";
 }
+
+
