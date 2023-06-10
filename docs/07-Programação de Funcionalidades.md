@@ -218,16 +218,20 @@ A página de categorias permite ao usuário adicionar, editar ou excluir categor
 ### Estrutura de dados:
 
 ```
+
+//Configurações das principais variáveis e do array para armazenar os dados//
 var editando = "";
 var elementContainer = document.getElementById('element-container');
 var dadoscategoria = JSON.parse(localStorage.getItem('categorias')) || [];
 var btnAdd = document.querySelector('.bnt-add');
 load();
 
+//Salva os dados das categorias no localStorage//
 function save() {
   localStorage.setItem('categorias', JSON.stringify(dadoscategoria));
 }
 
+//Cria uma nova categoria//
 function addcategoria() {
   var nome = document.getElementById('textInput').value;
   var limite = document.getElementById('NumberInput').value;
@@ -245,6 +249,7 @@ function addcategoria() {
 }
 btnAdd.addEventListener('click', addcategoria);
 
+//Remove categorias duplicadas na tela//
 function limpar(nome) {
   dadoscategoria.forEach((categoria, index) => {
     if (categoria.nome.toLowerCase() === nome.toLowerCase()) {
@@ -255,6 +260,7 @@ function limpar(nome) {
   });
 }
 
+//Chama um pop-up onde o usuário consegue editar uma categoria já criada//
 function editar() {
   var nomenovo = document.getElementById('nomenovo').value;
   var valornovo = document.getElementById('valornovo').value;
@@ -276,6 +282,7 @@ function editar() {
   }
 }
 
+//Abre o pop-up da edição de categorias//
 function abrirpopup(categoria) {
   document.getElementById('nomenovo').value = categoria.nome;
   document.getElementById('valornovo').value = categoria.limite;
@@ -283,11 +290,13 @@ function abrirpopup(categoria) {
   popup.classList.toggle("active");
 }
 
+//Fecha o pop-up da edição de categorias//
 function popup() {
   var popup = document.getElementById("popup");
   popup.classList.toggle("active");
 }
 
+//Recarrega os dados das categorias, ela limpa o conteúdo do element-container e para cada elemento no array ela cria um novo elemento//
 function load() {
   elementContainer.innerHTML = "";
   dadoscategoria.forEach(categoria => {
@@ -297,6 +306,7 @@ function load() {
     textDiv.classList.add('element-text');
     textDiv.textContent = categoria.nome + ' Limite:R$' + categoria.limite;
 
+    //Configurações dos botões de excluir e editar as categorias//
     var buttonContainer = document.createElement('div');
     buttonContainer.classList.add('button-container');
 
@@ -326,12 +336,14 @@ function load() {
   });
 }
 
+//Verifica se usuário está tentando criar uma categoria vazia e impede//
 function validarCamposVazios(nome, limite) {
   var error = false;
   if (nome == "" || limite == "") { error = true }
   return error;
 };
 
+//Verifica se a categoria já existe, se existir ele impede a criação de duas categorias iguais//
 function validar(nome) {
   var error = false;
   dadoscategoria.forEach(function (element) {
@@ -342,10 +354,12 @@ function validar(nome) {
   return error;
 };
 
+//Faz toda categoria ter a primeira letra maiúscula//
 function PrimeiraLetraMaiusc(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+//Leva o usuário de volta para a página Meus Gastos//
 function voltarPagina() {
   window.location.href = "../Site/MeusGastos.html";
 }
