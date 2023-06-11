@@ -92,6 +92,7 @@ Público alvo | Juvenil
 ### Evidências:
 
  Foram feitos os documentos : Documentação de contexto (Introdução, Problemas, Objetios, Justificativa, Trabalhos relacionados e Público alvo ) e, Especificação do Projeto (Personas, História de usuários, Requisitos, Requisitos não funcionais, Restrições ), com o acompanhamento do professor.
+<br>
 
 ![Aulas-Online](img/aulas-online1.png)
 
@@ -126,19 +127,19 @@ Público alvo | Juvenil
 
 ![Kanban](img/Kanban1.png)
 
-
+<br>
 
 ![Gerenciamento do Projeto](img/gerenciamento-do-projeto.png)
 
-
+<br>
 
 ![Fluxo de Usuários](img/fluxo-de-usuario.png)
 
-
+<br>
 
 ![WireFrames](img/wireframe.png)
 
-
+<br>
 
 ![Ferramentas](img/relacao-de-ambiente-de-trabalho.png)
 
@@ -164,23 +165,21 @@ Foram planejados dois documentos:
 ### Evidências:
 
 
-
-
 ![Kanban etapa 3](img/Kanban-Etapa-3.png)
 
 
-
+<br>
 
 
 ![Login](img/login1.png)
 
 
-
+<br>
 
 
 ![Página de Login e códigos utilizados](img/login-site.png)
 
-
+<br>
 
 ![Página de cadastro e códigos utilizados](img/cadastro.png)
 
@@ -198,16 +197,66 @@ Programação de Funcionalidades| Plano de Testes de Software | Registro de Test
 
 ### Execução:
 
-- Foram executados a programação de funcionalidade, plano de teste de software e registro de testes de software, etapas cruciais para o sucesso do nosso projeto.
+Foram executados a programação de funcionalidade, plano de teste de software e registro de testes de software, etapas cruciais para o sucesso do nosso projeto.
 
-  A programação de funcionalidade foi realizada com o objetivo de planejar e organizar o desenvolvimento das diferentes características ou funcionalidades do nosso site. Isso envolveu a definição clara dos requisitos e a divisão das tarefas em etapas gerenciáveis. Essa abordagem estruturada permitiu que a equipe de desenvolvimento trabalhasse de forma eficiente, garantindo que as metas do projeto fossem atingidas dentro do prazo estabelecido.
+A programação de funcionalidade foi realizada com o objetivo de planejar e organizar o desenvolvimento das diferentes características ou funcionalidades do nosso site. Isso envolveu a definição clara dos requisitos e a divisão das tarefas em etapas gerenciáveis. Essa abordagem estruturada permitiu que a equipe de desenvolvimento trabalhasse de forma eficiente, garantindo que as metas do projeto fossem atingidas dentro do prazo estabelecido.
 
-  Em paralelo, o plano de teste de software foi elaborado, detalhando as estratégias e abordagens para verificar se o software desenvolvido atende aos requisitos e está livre de erros. Com esse planejamento cuidadoso, foi possível garantir que todas as funcionalidades fossem testadas antes da implantação, assegurando a qualidade geral do site. Durante a execução dos testes, foi realizado o registro de testes de software.
+Em paralelo, o plano de teste de software foi elaborado, detalhando as estratégias e abordagens para verificar se o software desenvolvido atende aos requisitos e está livre de erros. Com esse planejamento cuidadoso, foi possível garantir que todas as funcionalidades fossem testadas antes da implantação, assegurando a qualidade geral do site. Durante a execução dos testes, foi realizado o registro de testes de software.
 
-  Durante a execução dos testes, foi realizado o registro de testes de software. Cada teste executado, juntamente com seus resultados, foi documentado para referência futura e análise. Esse registro incluiu informações detalhadas sobre os cenários de teste, os dados de entrada utilizados, as saídas esperadas e quaisquer observações relevantes. Essa abordagem sistemática do registro de testes de software permitiu uma visão abrangente do status dos testes realizados, identificando áreas que requeriam atenção adicional e facilitando a identificação e correção de possíveis falhas ou bugs no software.
+Durante a execução dos testes, foi realizado o registro de testes de software. Cada teste executado, juntamente com seus resultados, foi documentado para referência futura e análise. Esse registro incluiu informações detalhadas sobre os cenários de teste, os dados de entrada utilizados, as saídas esperadas e quaisquer observações relevantes. Essa abordagem sistemática do registro de testes de software permitiu uma visão abrangente do status dos testes realizados, identificando áreas que requeriam atenção adicional e facilitando a identificação e correção de possíveis falhas ou bugs no software.
  
 
 ### Evidências:
+<br>
+
+- kanban
+<br>
+
+![kanbanEtapa4](img/kanbanEtapa4.png)
+<br>
+
+- Milestone:
+<br>
+
+![Milestone](img/Milestone.png)
+<br>
+
+- Cenário de Teste: Página Inicial - Redirecionamento para a página de Login
+<br>
+<div align="center">
+  <img src="img/cenario1.gif" style="width: 100%; max-width: 800px;">
+</div>
+<br>
+
+- Cenário de Teste: Cadastro de Novo Usuário
+<br>
+<div align="center">
+  <img src="img/login.gif" style="width: 100%; max-width: 800px;">
+</div>
+<br>
+
+- Cenário de Teste: Login de Usuário
+<br>
+<div align="center">
+  <img src="img/Login1.gif" style="width: 100%; max-width: 800px;">
+</div>
+<br>
+
+- Cenário de Teste: Adicionar Categoria
+<br>
+<div align="center">
+  <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
+</div>
+<br>
+
+- Cenário de Teste: Adicionar Gasto
+<br>
+<div align="center">
+  <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
+</div>
+<br>
+
+
 
 **●Etapa 5**
 
