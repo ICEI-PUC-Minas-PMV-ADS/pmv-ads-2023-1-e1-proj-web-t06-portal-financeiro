@@ -4,6 +4,18 @@ Abaixo estão os cenários de testes selecionados para avaliação do sistema Bo
  
  <br>
  
+ ## Cenário de Teste: Página Inicial - Redirecionamento para a página de Login
+
+- **Objetivo:** Verificar se o redirecionamento para a página de login ocorre corretamente ao clicar no botão "Conhecer" na página inicial.
+
+- **Descrição:** Testar o redirecionamento adequado para a página de login ao clicar no botão "Conhecer" na página inicial do sistema Bolso Feliz.
+
+- **Grupo de Usuários:** Usuários que desejam conhecer e utilizar o Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web.
+
+<br>
+
 ## Cenário de Teste: Login de Usuário
 
 - **Objetivo:** Verificar se o processo de login de usuário está funcionando corretamente, permitindo que os usuários acessem suas contas com credenciais válidas.
