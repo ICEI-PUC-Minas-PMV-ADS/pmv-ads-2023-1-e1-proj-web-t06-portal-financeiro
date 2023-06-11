@@ -72,7 +72,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 ## Cenário de Teste: Visualizar Relatório por Categoria
 
-- **Objetivo:** Verificar se o gráfico de gastos por categoria é atualizado corretamente ao selecionar uma categoria específica no botão "Gasto por Categoria".
+- **Objetivo:** Verificar se o relatório de gastos por categoria é atualizado corretamente ao clicar no botão "Gasto por Categoria" e se mostra a porcentagem de cada categoria.
 
 - **Descrição:** Testar a funcionalidade de geração do relatório anual ao clicar no botão "Gasto por Categoria" e verificar se as informações são atualizadas em tempo real, mostrando a porcentagem de gastos em relação ao limite estabelecido para a categoria selecionada.
 
