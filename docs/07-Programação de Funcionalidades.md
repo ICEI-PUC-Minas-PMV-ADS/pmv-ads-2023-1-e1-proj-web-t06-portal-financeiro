@@ -138,16 +138,16 @@ A página de cadastro de usuário é uma funcionalidade que permite que novos us
 
 ```
 [{
-  celular: String,
-  email: String,
-  nome: String,
-  senha: String
+  "celular": "String",
+  "email": "String",
+  "nome": "String",
+  "senha": "String"
   },
 {
-  celular: "1199999999",
-  email: lucy@mail.com,
-  nome: Lucy,
-  senha: 123A
+  "celular": "1199999999",
+  "email": "lucy@mail.com",
+  "nome": "Lucy",
+  "senha": "123A"
   }]
 ```
 
@@ -265,16 +265,16 @@ A página de cadastro de gastos permite ao usuário registrar suas despesas pess
 
 ```
 [{
-  categoria: String,
-  descricao: String,
-  data: String Date,
-  valor: Float
+  "categoria": "String",
+  "descricao": "String",
+  "data": "String Date",
+  "valor": Float
   },
 {
-  categoria: "Jogos",
-  descricao: "Minecraft",
-  data: "2023-06-10",
-  valor: 50.00
+  "categoria": "Jogos",
+  "descricao": "Minecraft",
+  "data": "2023-06-10",
+  'valor": 50.00
   
   }]
 
@@ -316,12 +316,12 @@ A página de categorias permite ao usuário adicionar, editar ou excluir categor
 
 ```
 [{
-  nome: String,
-  limite: Float
+  "nome": "String",
+  "limite": Float
   },
 {
- nome: Jogos,
- limite: 250.00
+ "nome": "Jogos",
+ "limite": 250.00
   }]
 
 ```
