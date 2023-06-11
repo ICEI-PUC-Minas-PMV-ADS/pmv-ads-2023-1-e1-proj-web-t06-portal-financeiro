@@ -64,15 +64,17 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 | E5- |Apresentação| |
 | E5- |Material de Apoio sobre a Apresentação de um Produto| Título do Projeto, Identidade Visual (Marca, Design), Conjunto de Slides (Estrutura)|
 
-● Em andamento: Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
+- Em andamento: Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
 
-● Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
+- Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
 
-● Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
+- Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
 
-**● Etapa 1**
+## Etapa 1
 
-**Planejamento:** Foram planejados dois documentos:
+### Planejamento:
+
+ Foram planejados dois documentos:
 |Documentação de contexto:|  Especificação do Projeto:|
 |-----------|---------------------|
 |Introdução | Personas
@@ -82,16 +84,22 @@ Justificativa | Requisitos não funcionais
 Trabalhos relacionados| Restrições
 Público alvo | Juvenil
 
-**Execução:** Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas.
+### Execução:
+
+ Foram realizadas as tarefas da primeira etapa com reuiniões feitas no teams entre os integrantes do grupo e com o auxilio do professor Marcos Andre Silveira Kutova nas aulas-online feitas toda terça-feira as 19:00 horas.
 
 
-**Evidências:** Foram feitos os documentos : Documentação de contexto (Introdução, Problemas, Objetios, Justificativa, Trabalhos relacionados e Público alvo ) e, Especificação do Projeto (Personas, História de usuários, Requisitos, Requisitos não funcionais, Restrições ), com o acompanhamento do professor.
+### Evidências:
+
+ Foram feitos os documentos : Documentação de contexto (Introdução, Problemas, Objetios, Justificativa, Trabalhos relacionados e Público alvo ) e, Especificação do Projeto (Personas, História de usuários, Requisitos, Requisitos não funcionais, Restrições ), com o acompanhamento do professor.
 
 ![Aulas-Online](img/aulas-online1.png)
 
-**● Etapa 2**
+## Etapa 2
 
-**Planejamento:** Foram planejados dois documentos:
+### Planejamento:
+
+ Foram planejados dois documentos:
 |Metodologia:| Projeto de interface:|
 |-----------|---------------------|
 |Relação de Ambientes de Trabalho|Fluxo do usuário|
@@ -100,69 +108,74 @@ Público alvo | Juvenil
 |ferramentas| |
 
 
-**Execução:**
-● Foram criadas as Issues e o Project adicionando suas tarefas a serem executas;
+### Execução:
 
-● Foram feitas as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design);
+- Foram criadas as Issues e o Project adicionando suas tarefas a serem executas;
 
-● A criação do Fluxo de Usuários e WireFrames foram feitas com a colaboração dos integrantes do grupo em uma reunião utilizando a plataforma FIGMA.
+- Foram feitas as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design);
 
-● Designamos quais ferramentas serão utilizadas ao decorrer do projeto para sua execução com a possibilidade de adiconar mais ferramentas ou atualizá-las.
+- A criação do Fluxo de Usuários e WireFrames foram feitas com a colaboração dos integrantes do grupo em uma reunião utilizando a plataforma FIGMA.
 
-**Evidências:** Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
+- Designamos quais ferramentas serão utilizadas ao decorrer do projeto para sua execução com a possibilidade de adiconar mais ferramentas ou atualizá-las.
 
-● Kanban:
+### Evidências:
+
+ Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
+
+
 
 ![Kanban](img/Kanban1.png)
 
-● Gerenciamento do Projeto:
+
 
 ![Gerenciamento do Projeto](img/gerenciamento-do-projeto.png)
 
-● Fluxo de Usuário:
+
 
 ![Fluxo de Usuários](img/fluxo-de-usuario.png)
 
-● WireFrames:
+
 
 ![WireFrames](img/wireframe.png)
 
-● Ferramentas:
+
 
 ![Ferramentas](img/relacao-de-ambiente-de-trabalho.png)
 
 
-**● Etapa 3**
+## Etapa 3
 
-**Planejamento:**Foram planejados dois documentos:
+### Planejamento:
+
+Foram planejados dois documentos:
 
 |Modelo padrão do Site:| Programação de Funcionalidades:| Metodologia |
 |-----------|---------------------|------------|
 
-**Execução:** 
+### Execução: 
 
-● Foram adicionadas novas Issues ao projeto para essa terceira etapa.
+- Foram adicionadas novas Issues ao projeto para essa terceira etapa.
 
-● Realizamos algumas reuniões entre os integrantes do grupo no Teams e entre conversas diárias pelo WhatsApp decidindo como seria o modelo padrão de nosso site, o ícone que iriamos utilizar e a logo de nossas páginas.
+- Realizamos algumas reuniões entre os integrantes do grupo no Teams e entre conversas diárias pelo WhatsApp decidindo como seria o modelo padrão de nosso site, o ícone que iriamos utilizar e a logo de nossas páginas.
 
-● Resolvemos entre os integrantes do grupo em dividir as páginas do site entre os membros e com essa divisão cada membro seria responsável por uma página. Sendo elas: (Login, Cadastro, Cadastro de Gastos, Gastos e Relatório de Gastos).
+- Resolvemos entre os integrantes do grupo em dividir as páginas do site entre os membros e com essa divisão cada membro seria responsável por uma página. Sendo elas: (Login, Cadastro, Cadastro de Gastos, Gastos e Relatório de Gastos).
 
 
-**Evidências:**
+### Evidências:
 
-Criação de novas Issues:
+
 
 
 ![Kanban etapa 3](img/Kanban-Etapa-3.png)
 
 
-Modelo padrão do site com ícone e logo:
+
 
 
 ![Login](img/login1.png)
 
 
-Algumas páginas de nosso projeto que já estão sendo feitas:
+
 
 
 ![Página de Login e códigos utilizados](img/login-site.png)
@@ -171,13 +184,30 @@ Algumas páginas de nosso projeto que já estão sendo feitas:
 
 ![Página de cadastro e códigos utilizados](img/cadastro.png)
 
-**●Etapa 4**
 
-**Planejamento:**
+## Etapa 4
 
-**Execução:**
+### Planejamento:
 
-**Evidências:**
+Foram planejados três documentos:
+
+Programação de Funcionalidades| Plano de Testes de Software | Registro de Testes de Software|
+|-----------|---------------------|------------|
+|-----------| Ferramentas de Testes |----------|
+
+
+### Execução:
+
+- Foram executados a programação de funcionalidade, plano de teste de software e registro de testes de software, etapas cruciais para o sucesso do nosso projeto.
+
+  A programação de funcionalidade foi realizada com o objetivo de planejar e organizar o desenvolvimento das diferentes características ou funcionalidades do nosso site. Isso envolveu a definição clara dos requisitos e a divisão das tarefas em etapas gerenciáveis. Essa abordagem estruturada permitiu que a equipe de desenvolvimento trabalhasse de forma eficiente, garantindo que as metas do projeto fossem atingidas dentro do prazo estabelecido.
+
+  Em paralelo, o plano de teste de software foi elaborado, detalhando as estratégias e abordagens para verificar se o software desenvolvido atende aos requisitos e está livre de erros. Com esse planejamento cuidadoso, foi possível garantir que todas as funcionalidades fossem testadas antes da implantação, assegurando a qualidade geral do site. Durante a execução dos testes, foi realizado o registro de testes de software.
+
+  Durante a execução dos testes, foi realizado o registro de testes de software. Cada teste executado, juntamente com seus resultados, foi documentado para referência futura e análise. Esse registro incluiu informações detalhadas sobre os cenários de teste, os dados de entrada utilizados, as saídas esperadas e quaisquer observações relevantes. Essa abordagem sistemática do registro de testes de software permitiu uma visão abrangente do status dos testes realizados, identificando áreas que requeriam atenção adicional e facilitando a identificação e correção de possíveis falhas ou bugs no software.
+ 
+
+### Evidências:
 
 **●Etapa 5**
 
