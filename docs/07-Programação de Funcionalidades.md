@@ -273,7 +273,7 @@ A página de cadastro de gastos permite ao usuário registrar suas despesas pess
 {
   categoria: "Jogos",
   descricao: "Minecraft",
-  data: "AAAA-MM-DD",
+  data: "2023-06-10",
   valor: 50.00
   
   }]
