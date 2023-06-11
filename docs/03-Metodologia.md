@@ -164,25 +164,33 @@ Foram planejados dois documentos:
 
 ### Evidências:
 
+- **Kanban etapa 3**
+<br>
 
 ![Kanban etapa 3](img/Kanban-Etapa-3.png)
 
 
 <br>
 
+- **Login**
+<br>
 
 ![Login](img/login1.png)
 
-
 <br>
 
+- **Página de Login e códigos utilizados**
+<br>
 
 ![Página de Login e códigos utilizados](img/login-site.png)
 
 <br>
 
-![Página de cadastro e códigos utilizados](img/cadastro.png)
+- **Página de cadastro e códigos utilizados**
+<br>
 
+![Página de cadastro e códigos utilizados](img/cadastro.png)
+<br>
 
 ## Etapa 4
 
@@ -192,7 +200,7 @@ Foram planejados três documentos:
 
 Programação de Funcionalidades| Plano de Testes de Software | Registro de Testes de Software|
 |-----------|---------------------|------------|
-|-----------| Ferramentas de Testes |----------|
+| | Ferramentas de Testes | |
 
 
 ### Execução:
@@ -209,52 +217,68 @@ Durante a execução dos testes, foi realizado o registro de testes de software.
 ### Evidências:
 <br>
 
-- kanban
+- **kanban**
 <br>
 
 ![kanbanEtapa4](img/kanbanEtapa4.png)
 <br>
 
-- Milestone:
+- **Milestone:**
 <br>
 
 ![Milestone](img/Milestone.png)
 <br>
 
-- Cenário de Teste: Página Inicial - Redirecionamento para a página de Login
+- **Cenário de Teste: Página Inicial - Redirecionamento para a página de Login**
 <br>
 <div align="center">
   <img src="img/cenario1.gif" style="width: 100%; max-width: 800px;">
 </div>
 <br>
 
-- Cenário de Teste: Cadastro de Novo Usuário
+- **Cenário de Teste: Cadastro de Novo Usuário**
 <br>
 <div align="center">
   <img src="img/login.gif" style="width: 100%; max-width: 800px;">
 </div>
 <br>
 
-- Cenário de Teste: Login de Usuário
+- **Cenário de Teste: Login de Usuário**
 <br>
 <div align="center">
   <img src="img/Login1.gif" style="width: 100%; max-width: 800px;">
 </div>
 <br>
 
-- Cenário de Teste: Adicionar Categoria
+- **Cenário de Teste: Adicionar Categoria**
 <br>
 <div align="center">
   <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
 </div>
 <br>
 
-- Cenário de Teste: Adicionar Gasto
+- **Cenário de Teste: Adicionar Gasto**
 <br>
 <div align="center">
   <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
 </div>
 <br>
+
+- **Cenário de Teste: Visualizar Relatório Anual**
+<br>
+<div align="center">
+  <img src="img/ChartV1.gif" style="width: 70%; max-width: 800px;">
+</div>
+<br>
+
+- **Cenário de Teste: Visualizar Relatório por Categoria**
+<br>
+<div align="center">
+  <img src="img/ChartV2.gif" style="width: 70%; max-width: 800px;">
+</div>
+<br>
+
+
 
 
 
