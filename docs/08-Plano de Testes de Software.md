@@ -6,14 +6,56 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
-## Ferramentas de Testes (Opcional)
+## Cenário de Teste: Login de Usuário
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+- **Objetivo:** Verificar se o processo de login de usuário está funcionando corretamente, permitindo que os usuários acessem suas contas com credenciais válidas.
+
+- **Descrição:** Testar o fluxo de autenticação de usuário, inserindo informações de login corretas e verificando se o acesso é concedido ao sistema.
+
+- **Grupo de Usuários:** Usuários registrados no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
+
+<br>
+
+## Cenário de Teste: Cadastro de Novo Usuário
+
+
+- **Objetivo:** Verificar se o processo de cadastro de novo usuário está funcionando adequadamente, permitindo que novos usuários se registrem fornecendo as informações necessárias.
+
+- **Descrição:** Testar o fluxo de registro de novo usuário, preenchendo os campos obrigatórios do formulário de cadastro e verificando se o usuário é cadastrado com sucesso.
+
+- **Grupo de Usuários:** Novos usuários interessados em criar uma conta no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
+
+<br>
+
+## Cenário de Teste: Adicionar Categoria
+
+- **Objetivo:** Verificar se é possível adicionar uma nova categoria de gasto ao sistema.
+
+- **Descrição:** Testar a funcionalidade de adicionar uma categoria, preenchendo o formulário com os dados da nova categoria (nome e limite) e verificando se ela é cadastrada corretamente no sistema.
+
+- **Grupo de Usuários:** Usuários registrados no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
+
+<br>
+
+## Cenário de Teste: Adicionar Gasto
+
+
+- **Objetivo:** Verificar se é possível adicionar um novo gasto ao sistema.
+
+- **Descrição:** Testar a funcionalidade de adicionar um gasto, preenchendo o formulário com os detalhes do gasto (categoria, descrição, data, valor) e verificando se ele é registrado corretamente no sistema.
+
+- **Grupo de Usuários:** Usuários registrados no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
+
+<br>
+
+## Cenário de Teste: Visualizar Relatório Anual
+
+## Cenário de Teste: Visualizar Relatório por Categoria
