@@ -6,6 +6,8 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
+ <br>
+ 
 ## Cenário de Teste: Login de Usuário
 
 - **Objetivo:** Verificar se o processo de login de usuário está funcionando corretamente, permitindo que os usuários acessem suas contas com credenciais válidas.
@@ -58,4 +60,22 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 ## Cenário de Teste: Visualizar Relatório Anual
 
+- **Objetivo:** Verificar se o relatório anual é atualizado corretamente ao clicar no botão "Gasto Anual" e se mostra a soma dos valores gastos em cada mês.
+
+- **Descrição:** Testar a funcionalidade de geração do relatório anual ao clicar no botão "Gasto Anual" e verificar se as informações são atualizadas em tempo real, exibindo a soma dos valores gastos em cada mês do ano corrente.
+
+- **Grupo de Usuários:** Usuários registrados no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
+
+<br>
+
 ## Cenário de Teste: Visualizar Relatório por Categoria
+
+- **Objetivo:** Verificar se o gráfico de gastos por categoria é atualizado corretamente ao selecionar uma categoria específica no botão "Gasto por Categoria".
+
+- **Descrição:** Testar a funcionalidade de geração do relatório anual ao clicar no botão "Gasto por Categoria" e verificar se as informações são atualizadas em tempo real, mostrando a porcentagem de gastos em relação ao limite estabelecido para a categoria selecionada.
+
+- **Grupo de Usuários:** Usuários registrados no Bolso Feliz.
+
+- **Ferramentas Utilizadas:** Navegador web, localStorage.
