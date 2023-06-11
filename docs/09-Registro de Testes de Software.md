@@ -145,12 +145,55 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 **Evidência:**
 <div align="center">
-  <img src="img/Categorias.gif" style="width: 100%; max-width: 800px;">
+  <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
 </div>
 
 <br>
 
+## Cenário de Teste: Adicionar Gasto
 
+**Objetivo:** Verificar se a funcionalidade de adicionar gasto está funcionando corretamente no sistema Bolso Feliz. O objetivo é inserir informações válidas de compra, incluindo a categoria previamente cadastrada, descrição, data e valor. Será verificado se o valor da compra não ultrapassa o limite estabelecido na categoria. Além disso, serão testadas as funcionalidades de edição e exclusão do gasto adicionado.
+
+<br>
+
+**Descrição:** O teste foi realizado para validar a funcionalidade de adicionar gasto no sistema Bolso Feliz. Inicialmente, foi escolhida uma categoria previamente cadastrada na página de cadastro de categorias. Em seguida, foram inseridas informações válidas de descrição, data e valor da compra. Durante o teste, foi verificado se o valor da compra não ultrapassou o limite estabelecido na categoria selecionada. Após a adição do gasto, foram testadas as funcionalidades de edição e exclusão, para garantir que os gastos adicionados possam ser modificados ou removidos corretamente.
+
+<br>
+
+**Passos do Teste:**
+- Acessar a página de cadastro de gastos do sistema Bolso Feliz.
+- Verificar se a lista de gastos existentes é exibida corretamente.
+- Escolher a categoria previamente cadastrada na página de cadastro de categorias.
+- Inserir uma descrição válida no campo "Descrição".
+- Inserir uma data válida no campo "Data".
+- Inserir um valor válido no campo "Valor".
+- Clicar no botão de adicionar gasto para salvar a nova compra.
+- Verificar se o valor da compra não ultrapassa o limite estabelecido na categoria selecionada.
+- Verificar se o gasto foi adicionado corretamente à tabela de gastos existentes.
+- Verificar se as alterações realizadas no gasto foram salvas corretamente.
+- Verificar se o gasto foi removido com sucesso da lista de gastos existentes.
+
+<br>
+
+ **Resultados:**
+- No teste realizado, a funcionalidade de adicionar gasto funcionou corretamente.
+- As informações de compra, incluindo categoria, descrição, data e valor, foram inseridas corretamente.
+- O sistema verificou corretamente se o valor da compra não ultrapassou o limite estabelecido na categoria selecionada.
+- O gasto adicionado foi exibido corretamente na tabela de gastos existentes.
+- A funcionalidade de edição permitiu alterar a descrição ou o valor do gasto corretamente.
+- As alterações realizadas no gasto foram salvas corretamente no sistema.
+- A funcionalidade de exclusão permitiu remover o gasto adicionado com sucesso da lista.
+
+
+
+<br>
+
+**Evidência:**
+<div align="center">
+  <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
+</div>
+
+<br>
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
