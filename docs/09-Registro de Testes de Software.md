@@ -1,8 +1,9 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Abaixo, você encontrará os registros dos testes realizados no sistema Bolso Feliz, juntamente com informações sobre os objetivos, descrições, passos executados, resultados obtidos e evidências. Para uma melhor visualização, incluímos gifs interativos que permitem acompanhar de forma mais dinâmica o processo de teste.
+Através desses registros, podemos analisar detalhadamente cada etapa dos testes e compartilhar as evidências de forma clara e interativa.
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+Equipe de Teste: Lucy Suxo e Gleyston Guimarães.
 
 ## Cenário de Teste: Página Inicial - Redirecionamento para a página de Login
 
@@ -190,13 +191,89 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 **Evidência:**
 <div align="center">
-  <img src="img/Categorias.gif" style="width: 70%; max-width: 800px;">
+  <img src="img/Gastos.gif" alt="gif de gastos" style="width: 70%; max-width: 800px;">
 </div>
 
 <br>
+
+## Cenário de Teste: Visualizar Relatório Anual
+
+
+**Objetivo:** Verificar se a funcionalidade de visualizar o relatório anual está funcionando corretamente no sistema Bolso Feliz. O objetivo é acessar o relatório anual de gastos, que exibe um gráfico com a soma dos gastos de cada mês ao longo do ano. Será testado o comportamento do botão "Gasto Anual" para exibir e ocultar o gráfico.
+
+<br>
+
+**Descrição:** O teste foi realizado para validar a funcionalidade de visualizar o relatório anual no sistema Bolso Feliz. Ao clicar no botão "Gasto Anual", o gráfico com a soma dos gastos mensais é exibido. Ao clicar novamente no botão, o gráfico deve ser ocultado. Durante o teste, foi verificado se o gráfico exibido apresenta corretamente a soma dos gastos de cada mês, representando visualmente o relatório anual de gastos.
+
+<br>
+
+**Passos do Teste:**
+- Acessar a página de relatórios do sistema Bolso Feliz.
+- Verificar se o botão "Gasto Anual" está visível na página.
+- Clicar no botão "Gasto Anual" para exibir o gráfico de relatório anual.
+- Verificar se o gráfico é exibido corretamente, representando a soma dos gastos de cada mês.
+- Clicar novamente no botão "Gasto Anual" para ocultar o gráfico.
+- Verificar se o gráfico é ocultado corretamente.
+
+
+<br>
+
+ **Resultados:**
+- No teste realizado, a funcionalidade de visualizar o relatório anual funcionou corretamente.
+- O botão "Gasto Anual" estava visível na página e funcionou corretamente ao ser clicado.
+- O gráfico de relatório anual foi exibido corretamente, representando a soma dos gastos de cada mês.
+- Ao clicar novamente no botão "Gasto Anual", o gráfico foi ocultado corretamente.
+
+
+
+<br>
+
+**Evidência:**
+<div align="center">
+  <img src="img/ChartV1.gif" style="width: 70%; max-width: 800px;">
+</div>
+
+<br>
+
+## Cenário de Teste: Visualizar Relatório por Categoria
+
+
+**Objetivo:** Verificar se a funcionalidade de visualizar o relatório por categoria está funcionando corretamente no sistema Bolso Feliz. O objetivo é acessar o relatório por categoria de gastos, que exibe um gráfico de colunas com o nome de cada categoria e a porcentagem gasta em relação ao limite estabelecido. Será testado o comportamento do botão "Gasto por Categoria" para exibir e ocultar o gráfico.
+
+<br>
+
+**Descrição:** O teste foi realizado para validar a funcionalidade de visualizar o relatório por categoria no sistema Bolso Feliz. Ao clicar no botão "Gasto por Categoria", o gráfico com a representação das categorias e a porcentagem gasta em relação ao limite é exibido. Ao clicar novamente no botão, o gráfico deve ser ocultado. Durante o teste, foi verificado se o gráfico exibido apresenta corretamente as categorias, a porcentagem gasta e se o comportamento do botão está adequado.
+
+<br>
+
+**Passos do Teste:**
+- Acessar a página de relatórios do sistema Bolso Feliz.
+- Verificar se o botão "Gasto por Categoria" está visível na página.
+- Clicar no botão "Gasto por Categoria" para exibir o gráfico de relatório por categoria.
+- Verificar se o gráfico é exibido corretamente, mostrando as categorias e a porcentagem gasta em relação ao limite.
+- Clicar novamente no botão "Gasto por Categoria" para ocultar o gráfico.
+- Verificar se as informações do relatório são guardadas e não são perdidas ao ocultar o gráfico.
+
+
+<br>
+
+ **Resultados:**
+- No teste realizado, a funcionalidade de visualizar o relatório por categoria funcionou corretamente.
+- O botão "Gasto por Categoria" estava visível na página e funcionou corretamente ao ser clicado.
+- O gráfico de relatório por categoria foi exibido corretamente, mostrando as categorias e a porcentagem gasta em relação ao limite.
+- Ao clicar novamente no botão "Gasto por Categoria", o gráfico foi ocultado corretamente, mas as informações do relatório continuavam armazenadas.
+
+
+<br>
+
+**Evidência:**
+<div align="center">
+  <img src="img/ChartV2.gif" style="width: 70%; max-width: 800px;">
+</div>
+
+<br>
+
+
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Avaliando os resultados dos testes, fica evidente a importância de uma abordagem iterativa e centrada no usuário para o aprimoramento contínuo da solução Bolso Feliz. O grupo reconhece que a escolha da fonte amarela foi uma falha identificada e comprometeu a experiência do usuário. No entanto, a equipe está determinada a corrigir esse problema e implementar melhorias significativas na interface do sistema.
