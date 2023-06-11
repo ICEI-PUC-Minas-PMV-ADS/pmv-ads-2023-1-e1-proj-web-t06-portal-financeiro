@@ -5,10 +5,8 @@ const entradaData = document.getElementById('entrada-data');
 const entradaValor = document.getElementById('entrada-valor');
 const corpoTabela = document.querySelector('#gastos-table tbody');
 
-
 let categorias = JSON.parse(localStorage.getItem('categorias')) || [];
 let gastos = JSON.parse(localStorage.getItem('gastos')) || [];
-
 
 function preencherSelecaoCategoria() {
   selecaoCategoria.innerHTML = '';
@@ -19,7 +17,6 @@ function preencherSelecaoCategoria() {
     selecaoCategoria.appendChild(option);
   });
 }
-
 
 function renderizarGastos() {
   corpoTabela.innerHTML = '';
@@ -41,7 +38,6 @@ function renderizarGastos() {
       </td>
     `;
 
-
     const editButton = row.querySelector('.edit-button');
     editButton.addEventListener('click', () => {
       const index = parseInt(editButton.getAttribute('data-index'));
@@ -53,14 +49,12 @@ function renderizarGastos() {
 
       const novaDescricao = prompt('Digite a nova descrição:', gasto.descricao);
       const novoValor = parseFloat(prompt('Digite o novo valor:', gasto.valor));
-      
 
       if (novaDescricao !== null && novoValor !== null) {
         editarGasto(index, gasto.categoria, novaDescricao, gasto.data, novoValor);
       }
     });
 
-    
     const deleteButton = row.querySelector('.delete-button');
     deleteButton.addEventListener('click', () => {
       const index = parseInt(deleteButton.getAttribute('data-index'));
@@ -71,14 +65,12 @@ function renderizarGastos() {
   });
 }
 
-
-
 function adicionarGasto(categoria, descricao, data, valor) {
   const categoriaSelecionada = categorias.find(cat => cat.nome === categoria);
-  const valorTotalCategoria = obterValorTotalCategoria(categoria);
+  const valorTotalCategoria = obterValorTotalCategoriaPorMes(categoria, data);
 
   if (valorTotalCategoria + valor > categoriaSelecionada.limite) {
-    alert('O valor ultrapassa o limite da categoria!');
+    alert('O valor ultrapassa o limite da categoria para o mês selecionado!');
     return;
   }
 
@@ -89,13 +81,12 @@ function adicionarGasto(categoria, descricao, data, valor) {
   limparFormulario();
 }
 
-
 function editarGasto(index, categoria, descricao, data, valor) {
   const categoriaSelecionada = categorias.find(cat => cat.nome === categoria);
-  const valorTotalCategoria = obterValorTotalCategoria(categoria) - gastos[index].valor;
+  const valorTotalCategoria = obterValorTotalCategoriaPorMes(categoria, data) - gastos[index].valor;
 
   if (valorTotalCategoria + valor > categoriaSelecionada.limite) {
-    alert('O valor ultrapassa o limite da categoria!');
+    alert('O valor ultrapassa o limite da categoria para o mês selecionado!');
     return;
   }
 
@@ -108,9 +99,8 @@ function editarGasto(index, categoria, descricao, data, valor) {
   limparFormulario();
 }
 
-
 function excluirGasto(index) {
-  const confirmarExclusao = confirm('Deseja realmente excluir o gasto?'); /* p0de alterar se quiser:D */
+  const confirmarExclusao = confirm('Deseja realmente excluir o gasto?');
   if (confirmarExclusao) {
     gastos.splice(index, 1);
     salvarGastos();
@@ -125,13 +115,17 @@ function limparFormulario() {
   entradaValor.value = '';
 }
 
-function obterValorTotalCategoria(categoria) {
+function obterValorTotalCategoriaPorMes(categoria, mes) {
   return gastos.reduce((total, gasto) => {
-    if (gasto.categoria === categoria) {
+    if (gasto.categoria === categoria && obterMes(gasto.data) === obterMes(mes)) {
       return total + gasto.valor;
     }
     return total;
   }, 0);
+}
+
+function obterMes(data) {
+  return data.split('-')[1];
 }
 
 function salvarGastos() {
@@ -165,7 +159,6 @@ form.addEventListener('submit', event => {
   }
 });
 
-
 corpoTabela.addEventListener('click', event => {
   const target = event.target;
   if (target.classList.contains('edit-button')) {
@@ -188,8 +181,5 @@ corpoTabela.addEventListener('click', event => {
   }
 });
 
-
 preencherSelecaoCategoria();
-
-
 renderizarGastos();
