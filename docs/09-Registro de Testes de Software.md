@@ -145,7 +145,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 **Evidência:**
 <div align="center">
-  <img src="img/Logi" style="width: 100%; max-width: 800px;">
+  <img src="img/Categorias.gif" style="width: 100%; max-width: 800px;">
 </div>
 
 <br>
