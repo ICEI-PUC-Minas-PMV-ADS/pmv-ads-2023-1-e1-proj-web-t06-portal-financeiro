@@ -8,7 +8,7 @@ O documento de programação de funcionalidades descreve as características pri
 A página inicial é o ponto de partida para explorar o que oferecemos. Nela, você encontrará uma breve descrição do nosso site e seus principais recursos. Nosso objetivo é proporcionar uma experiência incrível aos usuários, com facilidade de uso, informações relevantes e soluções eficazes para suas necessidades. Você será convidado a explorar o site e descobrir o que nos torna únicos, com um botão destacado para iniciar essa jornada. 
 
 
-![Tela de apresentacao](img/paginaHome.png)
+![Tela de apresentacao](img/HomePage.png)
 
 
 ### Instruções de acesso
