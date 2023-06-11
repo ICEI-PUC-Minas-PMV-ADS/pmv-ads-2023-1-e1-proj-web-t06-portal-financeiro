@@ -30,7 +30,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 **Evidência:**
 <div align="center">
-  <img src="img/cenario1.gif" alt="Logo Bolso Feliz" style="width: 100%; max-width: 800px;">
+  <img src="img/cenario1.gif" style="width: 100%; max-width: 800px;">
 </div>
 
 <br>
@@ -64,7 +64,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 **Evidência:**
 <div align="center">
-  <img src="img/login.gif" alt="Logo Bolso Feliz" style="width: 100%; max-width: 800px;">
+  <img src="img/login.gif" style="width: 100%; max-width: 800px;">
 </div>
 
 <br>
@@ -78,6 +78,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 <br>
 
 **Descrição:** O teste foi realizado para validar se o processo de login de usuário no sistema Bolso Feliz está operando corretamente. Foram inseridas informações de login corretas e verificou-se se o acesso foi concedido ao sistema.
+
 <br>
 
 **Passos do Teste:**
@@ -92,16 +93,63 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 - No teste realizado, o processo de login de usuário funcionou corretamente.
 - As informações de e-mail e senha foram inseridas corretamente.
 - Após o login, o acesso ao sistema foi concedido.
+- Quando credenciais inválidas foram fornecidas, uma notificação de credenciais inválidas foi exibida corretamente.
 
 
 <br>
 
 **Evidência:**
 <div align="center">
-  <img src="img/login1.gif" alt="Logo Bolso Feliz" style="width: 100%; max-width: 800px;">
+  <img src="img/Login1.gif" style="width: 100%; max-width: 800px;">
 </div>
 
 <br>
+
+## Cenário de Teste: Adicionar Categoria
+
+
+**Objetivo:** Verificar se a funcionalidade de adicionar categoria está funcionando corretamente, permitindo que os usuários do sistema Bolso Feliz adicionem novas categorias para organizar seus gastos.
+
+<br>
+
+**Descrição:** O teste foi realizado para validar a funcionalidade de adicionar categoria no sistema Bolso Feliz. Foram inseridas informações de categoria válidas, incluindo o nome da categoria e o limite de gastos. Em seguida, verificou-se se a nova categoria foi adicionada com sucesso ao sistema. Também foi verificado se é possível editar o nome ou o limite da categoria, e se é possível deletar categorias existentes. Após a adição das categorias, foi testado o botão de voltar, que redireciona para a página de cadastro de gastos.
+
+<br>
+
+**Passos do Teste:**
+- Acessar a página de gerenciamento de categorias do sistema Bolso Feliz.
+- Verificar se a lista de categorias existentes é exibida corretamente.
+- Inserir um nome válido no campo "Nome da Categoria".
+- Inserir um limite de gastos válido no campo "Limite de Gasto".
+- Clicar no botão de adicionar categoria para salvar a nova categoria.
+- Verificar se a nova categoria foi adicionada à lista de categorias existentes.
+- Testar a funcionalidade de edição, alterando o nome ou o limite da categoria.
+- Verificar se as alterações realizadas na categoria foram salvas corretamente.
+- Testar a funcionalidade de deleção, removendo uma categoria existente.
+- Clicar no botão de voltar para retornar à página de cadastro de gastos.
+- Verificar se o redirecionamento para a página de cadastro de gastos ocorre corretamente.
+
+<br>
+
+ **Resultados:**
+- No teste realizado, a funcionalidade de adicionar categoria funcionou corretamente.
+- As informações de categoria, incluindo nome e limite de gastos, foram inseridas corretamente.
+- Todas as categorias adicionadas foram salvas com sucesso no sistema.
+- A lista de categorias existentes foi atualizada corretamente após a adição das novas categorias.
+- A funcionalidade de edição permitiu alterar o nome e o limite da categoria corretamente.
+- A funcionalidade de deleção permitiu remover categorias existentes com sucesso.
+- O botão de voltar redirecionou corretamente para a página de cadastro de gastos.
+
+
+<br>
+
+**Evidência:**
+<div align="center">
+  <img src="img/Logi" style="width: 100%; max-width: 800px;">
+</div>
+
+<br>
+
 
 ## Avaliação
 
