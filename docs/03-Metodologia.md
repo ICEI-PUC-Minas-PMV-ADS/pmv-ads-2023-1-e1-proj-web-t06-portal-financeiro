@@ -277,7 +277,7 @@ Durante a execução dos testes, foi realizado o registro de testes de software.
   <img src="img/ChartV2.gif" style="width: 70%; max-width: 800px;">
 </div>
 <br>
-
+<br>
 
 
 
