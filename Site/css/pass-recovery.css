@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 40px 50px;
-    margin-top: 20vh;
+    margin-top: 10vh;
     border-radius: 20px;
     text-align: center;
     font-size: 16px;
@@ -23,8 +23,8 @@
     font-size: 17px;
 }
 
-#enviar {
-    margin-top: -20px;
+#Enviar {
+    margin-top: 2px;
     
 }
 

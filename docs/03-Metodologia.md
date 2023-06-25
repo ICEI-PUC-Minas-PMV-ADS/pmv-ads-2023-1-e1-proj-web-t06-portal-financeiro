@@ -282,13 +282,38 @@ Durante a execução dos testes, foi realizado o registro de testes de software.
 
 
 
-**●Etapa 5**
+## Etapa 5 
 
-**Planejamento:**
+### Planejamento: 
 
-**Execução:**
+Foi planejado um unico documento:
 
-**Evidências:**
+|Apresentação do Projeto|
+|-----------|
+|Slide e Video|
+
+### Execução:
+
+A apresentação do nosso projeto sobre controle financeiro foi feita de maneira eficaz e cativante, utilizando um slide completo e um vídeo de 3 minutos que abordaram todos os aspectos principais do projeto. O slide foi cuidadosamente elaborado, com gráficos claros e informações objetivas, destacando as principais estratégias e ferramentas propostas para o controle financeiro. Além disso, o vídeo proporciona uma visão geral abrangente do projeto, com uma narração clara e exemplos práticos para ilustrar como ele pode ser aplicado.
+
+### Evidências:
+
+**kanban**
+<br>
+
+![kanbanEtapa5](img/Kanban-Etapa5.png)
+<br>
+
+**Slide**
+<br>
+
+![Slide](img/SlidePortalFinanceiro.png)
+
+**Video**
+<br>
+
+![Video](img/Video.png)
+<br>
 
 ### Ferramentas
 
